@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,7 +21,7 @@ Text HLabel 2200 3100 0    50   Input ~ 0
 Text HLabel 2200 5100 0    50   Input ~ 0
 5V_OUTPUT
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE45734
 P 9100 1000
 F 0 "J?" H 9128 976 50  0000 L CNN
@@ -32,7 +32,7 @@ F 3 "~" H 9100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE45799
 P 9100 1350
 F 0 "J?" H 9128 1326 50  0000 L CNN
@@ -43,7 +43,7 @@ F 3 "~" H 9100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE457E2
 P 9100 1700
 F 0 "J?" H 9128 1676 50  0000 L CNN
@@ -54,7 +54,7 @@ F 3 "~" H 9100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE45815
 P 9100 2050
 F 0 "J?" H 9127 2026 50  0000 L CNN
@@ -67,7 +67,7 @@ $EndComp
 Text Notes 9500 2000 0    118  ~ 24
 24V OUTPUTS
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE45CB1
 P 9050 3000
 F 0 "J?" H 9078 2976 50  0000 L CNN
@@ -78,7 +78,7 @@ F 3 "~" H 9050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE45D08
 P 9050 3400
 F 0 "J?" H 9078 3376 50  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "~" H 9050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE4632E
 P 9050 3800
 F 0 "J?" H 9078 3776 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 9050 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE4637B
 P 9050 4200
 F 0 "J?" H 9078 4176 50  0000 L CNN
@@ -111,7 +111,7 @@ F 3 "~" H 9050 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE4657D
 P 9100 2400
 F 0 "J?" H 9128 2376 50  0000 L CNN
@@ -122,11 +122,11 @@ F 3 "~" H 9100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE467B2
 P 9050 4650
 F 0 "J?" H 9077 4626 50  0000 L CNN
-F 1 "SPARE" H 9077 4535 50  0000 L CNN
+F 1 "SPARE_12V" H 9077 4535 50  0000 L CNN
 F 2 "" H 9050 4650 50  0001 C CNN
 F 3 "~" H 9050 4650 50  0001 C CNN
 	1    9050 4650
@@ -135,7 +135,7 @@ $EndComp
 Text Notes 9450 4050 0    118  ~ 24
 12V OUTPUTS
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE46BA5
 P 9050 5400
 F 0 "J?" H 9078 5376 50  0000 L CNN
@@ -146,22 +146,22 @@ F 3 "~" H 9050 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE46C14
 P 9050 5750
 F 0 "J?" H 9077 5726 50  0000 L CNN
-F 1 "SPARE" H 9077 5635 50  0000 L CNN
+F 1 "SPARE_5V" H 9077 5635 50  0000 L CNN
 F 2 "" H 9050 5750 50  0001 C CNN
 F 3 "~" H 9050 5750 50  0001 C CNN
 	1    9050 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5DE46C84
 P 9050 6100
 F 0 "J?" H 9077 6076 50  0000 L CNN
-F 1 "SPARE" H 9077 5985 50  0000 L CNN
+F 1 "SPARE_5V" H 9077 5985 50  0000 L CNN
 F 2 "" H 9050 6100 50  0001 C CNN
 F 3 "~" H 9050 6100 50  0001 C CNN
 	1    9050 6100
@@ -170,7 +170,7 @@ $EndComp
 Text Notes 9550 6000 0    118  ~ 24
 5V OUTPUTS
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4BE12
 P 8800 1100
 F 0 "#PWR?" H 8800 850 50  0001 C CNN
@@ -183,7 +183,7 @@ $EndComp
 Wire Wire Line
 	8800 1100 8900 1100
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4C39E
 P 8800 1450
 F 0 "#PWR?" H 8800 1200 50  0001 C CNN
@@ -196,7 +196,7 @@ $EndComp
 Wire Wire Line
 	8800 1450 8900 1450
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4C58E
 P 8800 1800
 F 0 "#PWR?" H 8800 1550 50  0001 C CNN
@@ -209,7 +209,7 @@ $EndComp
 Wire Wire Line
 	8800 1800 8900 1800
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4C80E
 P 8800 2150
 F 0 "#PWR?" H 8800 1900 50  0001 C CNN
@@ -222,7 +222,7 @@ $EndComp
 Wire Wire Line
 	8800 2150 8900 2150
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4CCB1
 P 8800 2500
 F 0 "#PWR?" H 8800 2250 50  0001 C CNN
@@ -235,7 +235,7 @@ $EndComp
 Wire Wire Line
 	8800 2500 8900 2500
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4DFEB
 P 8550 1000
 F 0 "F?" V 8353 1000 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "~" H 8550 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4E09E
 P 8550 1350
 F 0 "F?" V 8353 1350 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "~" H 8550 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4E0DA
 P 8550 1700
 F 0 "F?" V 8353 1700 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "~" H 8550 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4E114
 P 8550 2050
 F 0 "F?" V 8353 2050 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "~" H 8550 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4E150
 P 8550 2400
 F 0 "F?" V 8353 2400 50  0000 C CNN
@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2400 8900 2400
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4F477
 P 8750 3500
 F 0 "#PWR?" H 8750 3250 50  0001 C CNN
@@ -313,7 +313,7 @@ $EndComp
 Wire Wire Line
 	8750 3500 8850 3500
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4F47E
 P 8500 3400
 F 0 "F?" V 8303 3400 50  0000 C CNN
@@ -326,7 +326,7 @@ $EndComp
 Wire Wire Line
 	8650 3400 8850 3400
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4F800
 P 8750 3100
 F 0 "#PWR?" H 8750 2850 50  0001 C CNN
@@ -339,7 +339,7 @@ $EndComp
 Wire Wire Line
 	8750 3100 8850 3100
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4F807
 P 8500 3000
 F 0 "F?" V 8303 3000 50  0000 C CNN
@@ -352,7 +352,7 @@ $EndComp
 Wire Wire Line
 	8650 3000 8850 3000
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE4FF36
 P 8750 3900
 F 0 "#PWR?" H 8750 3650 50  0001 C CNN
@@ -365,7 +365,7 @@ $EndComp
 Wire Wire Line
 	8750 3900 8850 3900
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE4FF3D
 P 8500 3800
 F 0 "F?" V 8303 3800 50  0000 C CNN
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	8650 3800 8850 3800
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE509B3
 P 8750 4300
 F 0 "#PWR?" H 8750 4050 50  0001 C CNN
@@ -391,7 +391,7 @@ $EndComp
 Wire Wire Line
 	8750 4300 8850 4300
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE509BA
 P 8500 4200
 F 0 "F?" V 8303 4200 50  0000 C CNN
@@ -404,7 +404,7 @@ $EndComp
 Wire Wire Line
 	8650 4200 8850 4200
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE5147C
 P 8750 4750
 F 0 "#PWR?" H 8750 4500 50  0001 C CNN
@@ -417,7 +417,7 @@ $EndComp
 Wire Wire Line
 	8750 4750 8850 4750
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE51483
 P 8500 4650
 F 0 "F?" V 8303 4650 50  0000 C CNN
@@ -430,7 +430,7 @@ $EndComp
 Wire Wire Line
 	8650 4650 8850 4650
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE53CBD
 P 8750 5500
 F 0 "#PWR?" H 8750 5250 50  0001 C CNN
@@ -443,7 +443,7 @@ $EndComp
 Wire Wire Line
 	8750 5500 8850 5500
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE53CC4
 P 8500 5400
 F 0 "F?" V 8303 5400 50  0000 C CNN
@@ -456,7 +456,7 @@ $EndComp
 Wire Wire Line
 	8650 5400 8850 5400
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE546BD
 P 8750 5850
 F 0 "#PWR?" H 8750 5600 50  0001 C CNN
@@ -469,7 +469,7 @@ $EndComp
 Wire Wire Line
 	8750 5850 8850 5850
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE546C4
 P 8500 5750
 F 0 "F?" V 8303 5750 50  0000 C CNN
@@ -482,7 +482,7 @@ $EndComp
 Wire Wire Line
 	8650 5750 8850 5750
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5DE54C2C
 P 8750 6200
 F 0 "#PWR?" H 8750 5950 50  0001 C CNN
@@ -495,7 +495,7 @@ $EndComp
 Wire Wire Line
 	8750 6200 8850 6200
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5DE54C33
 P 8500 6100
 F 0 "F?" V 8303 6100 50  0000 C CNN

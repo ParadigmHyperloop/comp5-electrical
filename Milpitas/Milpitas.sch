@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,6 +48,9 @@ S 7550 2350 1800 1100
 U 5D5053DA
 F0 "powerOutput" 50
 F1 "powerOutput.sch" 50
+F2 "24V_OUTPUT" I L 7550 2550 50 
+F3 "12V_OUTPUT" I L 7550 2650 50 
+F4 "5V_OUTPUT" I L 7550 2750 50 
 $EndSheet
 Text Notes 7800 3000 0    118  ~ 24
 OUTPUT STAGE\n
@@ -70,7 +73,7 @@ Wire Notes Line
 Text Notes 6100 2050 0    50   ~ 0
 ISOLATION BARRIER
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5DD759BA
 P 3150 1650
 F 0 "#PWR?" H 3150 1500 50  0001 C CNN
@@ -81,7 +84,7 @@ F 3 "" H 3150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5DD75A22
 P 3500 1500
 F 0 "#PWR?" H 3500 1250 50  0001 C CNN
@@ -105,4 +108,10 @@ Wire Notes Line
 	6000 500  6000 3050
 Wire Notes Line
 	3600 3950 500  3950
+Wire Wire Line
+	6850 2550 7550 2550
+Wire Wire Line
+	6850 2650 7550 2650
+Wire Wire Line
+	6850 2750 7550 2750
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -70,7 +70,7 @@ Wire Notes Line
 Text Notes 6100 2050 0    50   ~ 0
 ISOLATION BARRIER
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5DD759BA
 P 3150 1650
 F 0 "#PWR?" H 3150 1500 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 3150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5DD75A22
 P 3500 1500
 F 0 "#PWR?" H 3500 1250 50  0001 C CNN

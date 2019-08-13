@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Female J?
+L Milpitas-rescue:Conn_01x02_Female-Connector J?
 U 1 1 5D4B3FD9
 P 650 1150
 F 0 "J?" H 544 825 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "~" H 650 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Milpitas-rescue:Fuse-Device F?
 U 1 1 5D4B40BA
 P 1450 1050
 F 0 "F?" V 1253 1050 50  0000 C CNN
@@ -41,7 +41,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1150 950  1150
 $Comp
-L Device:Q_NMOS_DGS Q?
+L Milpitas-rescue:Q_NMOS_DGS-Device Q?
 U 1 1 5D4B4A31
 P 1750 1850
 F 0 "Q?" V 2000 1850 50  0000 C CNN
@@ -52,7 +52,7 @@ F 3 "~" H 1750 1850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4B4C3C
 P 2250 1250
 F 0 "R?" H 2320 1296 50  0000 L CNN
@@ -63,7 +63,7 @@ F 3 "~" H 2250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4B4C68
 P 2250 1650
 F 0 "R?" H 2320 1696 50  0000 L CNN
@@ -98,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1050 1600 1050
 $Comp
-L power:GNDPWR #PWR?
+L Milpitas-rescue:GNDPWR-power #PWR?
 U 1 1 5D4B5018
 P 950 2100
 F 0 "#PWR?" H 950 1900 50  0001 C CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 	2250 2100 2250 1950
 Connection ~ 2250 1950
 $Comp
-L Device:D_TVS D?
+L Milpitas-rescue:D_TVS-Device D?
 U 1 1 5D4B554D
 P 2650 1450
 F 0 "D?" V 2604 1529 50  0000 L CNN
@@ -132,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 1950 2250 1950
 $Comp
-L Device:D_Zener D?
+L Milpitas-rescue:D_Zener-Device D?
 U 1 1 5D4B5910
 P 3200 1350
 F 0 "D?" V 3154 1429 50  0000 L CNN
@@ -148,7 +148,7 @@ Wire Wire Line
 	3200 1050 3200 1200
 Connection ~ 2650 1050
 $Comp
-L Device:Q_SCR_AGK D?
+L Milpitas-rescue:Q_SCR_AGK-Device D?
 U 1 1 5D4B5D7C
 P 3850 1450
 F 0 "D?" H 3937 1496 50  0000 L CNN
@@ -165,7 +165,7 @@ Wire Wire Line
 	3850 1950 3500 1950
 Connection ~ 2650 1950
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4B60C8
 P 3200 1750
 F 0 "R?" H 3270 1796 50  0000 L CNN
@@ -183,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1600 3200 1550
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D4B65F6
 P 3500 1750
 F 0 "C?" H 3592 1796 50  0000 L CNN
@@ -213,7 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 1300 3850 1050
 $Comp
-L hypersymbols:BTS61363DAUMA1 U?
+L Milpitas-rescue:BTS61363DAUMA1-hypersymbols U?
 U 1 1 5D4B8808
 P 9600 1600
 F 0 "U?" H 9950 2000 50  0000 C CNN
@@ -226,7 +226,7 @@ $EndComp
 Wire Wire Line
 	9950 1700 10100 1700
 $Comp
-L hypersymbols:BTS61363DAUMA1 U?
+L Milpitas-rescue:BTS61363DAUMA1-hypersymbols U?
 U 1 1 5D4B984D
 P 9600 2900
 F 0 "U?" H 9900 3300 50  0000 C CNN
@@ -241,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3000 10100 3000
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4BCFCB
 P 7100 1300
 F 0 "R?" H 7170 1346 50  0000 L CNN
@@ -252,7 +252,7 @@ F 3 "~" H 7100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4BD013
 P 7100 1750
 F 0 "R?" H 7170 1796 50  0000 L CNN
@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 1550 9250 1550
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4C8CDD
 P 9100 3250
 F 0 "R?" H 9170 3296 50  0000 L CNN
@@ -289,7 +289,7 @@ Wire Wire Line
 	10100 1700 10100 1550
 Connection ~ 10100 1550
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4CEB84
 P 9100 2000
 F 0 "R?" H 9170 2046 50  0000 L CNN
@@ -300,7 +300,7 @@ F 3 "~" H 9100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hypersymbols:ACS711 U?
+L Milpitas-rescue:ACS711-hypersymbols U?
 U 1 1 5D4D1A09
 P 5400 1300
 F 0 "U?" H 5400 1815 50  0000 C CNN
@@ -317,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1050 4950 1050
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5D4D7A88
 P 4600 1350
 F 0 "#PWR?" H 4600 1200 50  0001 C CNN
@@ -330,7 +330,7 @@ $EndComp
 Wire Wire Line
 	4950 1350 4600 1350
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4D8CA4
 P 4600 1500
 F 0 "R?" H 4670 1546 50  0000 L CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1050 6350 1050
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4E59DD
 P 6350 1300
 F 0 "R?" H 6420 1346 50  0000 L CNN
@@ -373,7 +373,7 @@ $EndComp
 Wire Wire Line
 	6350 1150 6350 1050
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D4E7136
 P 6350 1750
 F 0 "R?" H 6420 1796 50  0000 L CNN
@@ -390,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 1900 7100 2150
 $Comp
-L hypersymbols:BTS61363DAUMA1 U?
+L Milpitas-rescue:BTS61363DAUMA1-hypersymbols U?
 U 1 1 5D4F2838
 P 9600 4400
 F 0 "U?" H 9950 4800 50  0000 C CNN
@@ -401,9 +401,11 @@ F 3 "" H 9600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4xxx:4011 U?
+L Milpitas-rescue:4011-4xxx U?
 U 1 1 5D4F3553
 P 8400 2150
+AR Path="/5D4F3553" Ref="U?"  Part="1" 
+AR Path="/5D5027B2/5D4F3553" Ref="U?"  Part="1" 
 F 0 "U?" H 8400 2475 50  0000 C CNN
 F 1 "4011" H 8400 2384 50  0000 C CNN
 F 2 "" H 8400 2150 50  0001 C CNN
@@ -437,7 +439,7 @@ Connection ~ 9100 1800
 Wire Wire Line
 	9100 1800 9100 1850
 $Comp
-L Connector:TestPoint TP?
+L Milpitas-rescue:TestPoint-Connector TP?
 U 1 1 5D5062A5
 P 9400 2100
 F 0 "TP?" V 9354 2288 50  0000 L CNN
@@ -450,7 +452,7 @@ $EndComp
 Wire Wire Line
 	9100 3450 9100 3400
 $Comp
-L Connector:TestPoint TP?
+L Milpitas-rescue:TestPoint-Connector TP?
 U 1 1 5D508FCA
 P 9400 3300
 F 0 "TP?" V 9354 3488 50  0000 L CNN
@@ -470,7 +472,7 @@ Connection ~ 9100 3100
 Wire Wire Line
 	9300 3300 9400 3300
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D50E983
 P 8750 4150
 F 0 "R?" H 8820 4196 50  0000 L CNN
@@ -485,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 4350 8750 4300
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D514975
 P 9100 4850
 F 0 "R?" H 9170 4896 50  0000 L CNN
@@ -498,7 +500,7 @@ $EndComp
 Wire Wire Line
 	9100 5050 9100 5000
 $Comp
-L Connector:TestPoint TP?
+L Milpitas-rescue:TestPoint-Connector TP?
 U 1 1 5D514983
 P 9450 4800
 F 0 "TP?" V 9404 4988 50  0000 L CNN
@@ -538,7 +540,7 @@ Wire Wire Line
 	10100 4350 10300 4350
 Connection ~ 5950 1050
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D56FE26
 P 4350 1550
 F 0 "C?" H 4150 1500 50  0000 L CNN
@@ -555,7 +557,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1650 4350 1900
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D578B27
 P 5850 1600
 F 0 "C?" H 5942 1646 50  0000 L CNN
@@ -604,7 +606,7 @@ Connection ~ 8900 2150
 Wire Wire Line
 	8900 2150 8900 2850
 $Comp
-L Switch:SW_SPST SW?
+L Milpitas-rescue:SW_SPST-Switch SW?
 U 1 1 5D52E393
 P 7450 1850
 F 0 "SW?" V 7700 2000 50  0000 R CNN
@@ -622,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2150 7450 2100
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D53A122
 P 7650 1850
 F 0 "C?" H 7742 1896 50  0000 L CNN
@@ -647,7 +649,7 @@ Wire Wire Line
 Text Notes 6800 2600 0    39   Italic 0
 Switch allows manual turn \noff of high power rail
 $Comp
-L Switch:SW_SPST SW?
+L Milpitas-rescue:SW_SPST-Switch SW?
 U 1 1 5D541D7C
 P 8400 4350
 F 0 "SW?" H 8650 4450 50  0000 R CNN
@@ -658,32 +660,16 @@ F 3 "" H 8400 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D541D8A
-P 8100 4550
-F 0 "C?" H 8192 4596 50  0000 L CNN
-F 1 "C_Small" H 8192 4505 50  0000 L CNN
-F 2 "" H 8100 4550 50  0001 C CNN
-F 3 "~" H 8100 4550 50  0001 C CNN
-	1    8100 4550
-	1    0    0    -1  
+P 8400 4550
+F 0 "C?" H 8492 4596 50  0000 L CNN
+F 1 "C_Small" H 8492 4505 50  0000 L CNN
+F 2 "" H 8400 4550 50  0001 C CNN
+F 3 "~" H 8400 4550 50  0001 C CNN
+	1    8400 4550
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7950 4750 7950 4700
-Wire Wire Line
-	7950 4350 8100 4350
-Wire Wire Line
-	8100 4450 8100 4350
-Connection ~ 8100 4350
-Wire Wire Line
-	8100 4350 8200 4350
-Wire Wire Line
-	8100 4650 8100 4700
-Wire Wire Line
-	8100 4700 7950 4700
-Connection ~ 7950 4700
-Wire Wire Line
-	7950 4700 7950 4350
 Wire Wire Line
 	8600 4350 8750 4350
 Connection ~ 8750 4350
@@ -702,7 +688,7 @@ Wire Wire Line
 Text Label 6700 1500 2    50   ~ 0
 i_vsense
 $Comp
-L hypersymbols:XTR2005Z U?
+L Milpitas-rescue:XTR2005Z-hypersymbols U?
 U 1 1 5D582473
 P 1650 3350
 F 0 "U?" H 1650 3675 50  0000 C CNN
@@ -719,7 +705,7 @@ Wire Wire Line
 Text Label 850  3250 0    50   ~ 0
 PROT_BATT
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D587597
 P 1050 3450
 F 0 "C?" H 1142 3496 50  0000 L CNN
@@ -742,7 +728,7 @@ Wire Wire Line
 	1650 3600 1650 3700
 Connection ~ 1650 3700
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D59E20A
 P 2150 3450
 F 0 "C?" H 2242 3496 50  0000 L CNN
@@ -760,7 +746,7 @@ Connection ~ 2150 3250
 Wire Wire Line
 	1650 3700 2150 3700
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5D5B7D97
 P 2800 3100
 F 0 "#PWR?" H 2800 2950 50  0001 C CNN
@@ -777,7 +763,7 @@ Wire Wire Line
 Connection ~ 8750 3800
 Connection ~ 8750 2500
 $Comp
-L Analog_ADC:ADS1015IDGS U?
+L Milpitas-rescue:ADS1015IDGS-Analog_ADC U?
 U 1 1 5D600027
 P 3200 5650
 F 0 "U?" H 3550 6250 50  0000 C CNN
@@ -788,7 +774,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 3150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5D6077C5
 P 2100 4700
 F 0 "#PWR?" H 2100 4550 50  0001 C CNN
@@ -799,7 +785,7 @@ F 3 "" H 2100 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB?
+L Milpitas-rescue:Ferrite_Bead-Device FB?
 U 1 1 5D6080DF
 P 2400 4900
 F 0 "FB?" V 2150 4950 50  0000 C CNN
@@ -814,7 +800,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4900 2250 4900
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D60DF91
 P 1750 5600
 F 0 "C?" H 1842 5646 50  0000 L CNN
@@ -840,7 +826,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5650 4000 5600
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D6374D7
 P 4000 5450
 F 0 "R?" H 3850 5500 50  0000 L CNN
@@ -851,7 +837,7 @@ F 3 "~" H 4000 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D6375F1
 P 4150 5450
 F 0 "R?" H 4220 5496 50  0000 L CNN
@@ -870,7 +856,7 @@ Connection ~ 4150 5750
 Wire Wire Line
 	3200 6150 3200 6050
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5D659204
 P 4000 5050
 F 0 "#PWR?" H 4000 4900 50  0001 C CNN
@@ -887,7 +873,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5450 1750 5500
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D6948AC
 P 1750 6250
 F 0 "C?" H 1842 6296 50  0000 L CNN
@@ -920,7 +906,7 @@ Wire Wire Line
 	2350 5650 2800 5650
 Connection ~ 1750 6100
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D6AD817
 P 2700 5050
 F 0 "C?" H 2792 5096 50  0000 L CNN
@@ -933,7 +919,7 @@ $EndComp
 Wire Wire Line
 	2700 5200 2700 5150
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D6CB142
 P 1500 5450
 F 0 "R?" V 1300 5350 50  0000 L CNN
@@ -944,7 +930,7 @@ F 3 "~" H 1500 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D6E48BB
 P 1500 6100
 F 0 "R?" V 1300 6000 50  0000 L CNN
@@ -968,7 +954,7 @@ i_vsense_filt
 Text Label 1850 5450 0    50   ~ 0
 i_csense_filt
 $Comp
-L hypersymbols:ISO1541 U?
+L Milpitas-rescue:ISO1541-hypersymbols U?
 U 1 1 5D774FA1
 P 5150 5750
 F 0 "U?" H 5150 6215 50  0000 C CNN
@@ -987,7 +973,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5850 4750 5850
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5D7902BB
 P 4650 5150
 F 0 "#PWR?" H 4650 5000 50  0001 C CNN
@@ -998,7 +984,7 @@ F 3 "" H 4650 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D7903F0
 P 4650 5350
 F 0 "C?" H 4742 5396 50  0000 L CNN
@@ -1019,7 +1005,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5250 4650 5150
 $Comp
-L Isolator:SFH617A-3X001 U?
+L Milpitas-rescue:SFH617A-3X001-Isolator U?
 U 1 1 5D7CBAAC
 P 5150 4300
 F 0 "U?" H 5150 4625 50  0000 C CNN
@@ -1029,86 +1015,35 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5150 4300 50  0001 L CNN
 	1    5150 4300
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 4200 4700 4200
-Wire Wire Line
-	4700 4200 4700 4050
-$Comp
-L power:+5VP #PWR?
-U 1 1 5D835492
-P 4700 3650
-F 0 "#PWR?" H 4700 3500 50  0001 C CNN
-F 1 "+5VP" H 4715 3823 50  0000 C CNN
-F 2 "" H 4700 3650 50  0001 C CNN
-F 3 "" H 4700 3650 50  0001 C CNN
-	1    4700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D835501
-P 4700 3900
-F 0 "R?" H 4770 3946 50  0000 L CNN
-F 1 "1k" H 4770 3855 50  0000 L CNN
-F 2 "" V 4630 3900 50  0001 C CNN
-F 3 "~" H 4700 3900 50  0001 C CNN
-	1    4700 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 4200 4250 4200
-Connection ~ 4700 4200
 Text Label 5300 3100 0    50   ~ 0
 HP_CTL_S
 Wire Wire Line
 	4850 4400 4700 4400
 Wire Wire Line
 	4700 4400 4700 4600
-Wire Wire Line
-	4700 3750 4700 3650
 Wire Notes Line
 	5150 3750 5150 6500
 Text Notes 4900 6650 0    50   ~ 0
 ISO BARRIER\n
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D8C1885
-P 5650 3900
-F 0 "R?" H 5720 3946 50  0000 L CNN
-F 1 "1k" H 5720 3855 50  0000 L CNN
-F 2 "" V 5580 3900 50  0001 C CNN
-F 3 "~" H 5650 3900 50  0001 C CNN
-	1    5650 3900
+P 5950 4400
+F 0 "R?" H 6020 4446 50  0000 L CNN
+F 1 "1k" H 6020 4355 50  0000 L CNN
+F 2 "" V 5880 4400 50  0001 C CNN
+F 3 "~" H 5950 4400 50  0001 C CNN
+	1    5950 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 4200 5650 4200
-Wire Wire Line
-	5650 4200 5650 4050
-Wire Wire Line
-	5650 4200 6000 4200
-Connection ~ 5650 4200
-Text HLabel 6000 4200 2    50   Input ~ 0
+Text HLabel 6150 4200 2    50   Input ~ 0
 HP_CTL
-Wire Wire Line
-	5650 3750 5650 3650
-$Comp
-L power:+5V #PWR?
-U 1 1 5D909281
-P 5650 3650
-F 0 "#PWR?" H 5650 3500 50  0001 C CNN
-F 1 "+5V" H 5665 3823 50  0000 C CNN
-F 2 "" H 5650 3650 50  0001 C CNN
-F 3 "" H 5650 3650 50  0001 C CNN
-	1    5650 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 4400 5650 4400
 Wire Wire Line
-	5650 4400 5650 4500
+	5650 4400 5650 4550
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92C044
 P 2250 2100
 F 0 "#PWR?" H 2250 1850 50  0001 C CNN
@@ -1119,7 +1054,7 @@ F 3 "" H 2250 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92C199
 P 4350 1900
 F 0 "#PWR?" H 4350 1650 50  0001 C CNN
@@ -1130,7 +1065,7 @@ F 3 "" H 4350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92C82F
 P 4950 1450
 F 0 "#PWR?" H 4950 1200 50  0001 C CNN
@@ -1141,7 +1076,7 @@ F 3 "" H 4950 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92C8A2
 P 5850 1800
 F 0 "#PWR?" H 5850 1550 50  0001 C CNN
@@ -1152,7 +1087,7 @@ F 3 "" H 5850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92CBDA
 P 4950 1900
 F 0 "#PWR?" H 4950 1650 50  0001 C CNN
@@ -1163,7 +1098,7 @@ F 3 "" H 4950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92D815
 P 6350 2150
 F 0 "#PWR?" H 6350 1900 50  0001 C CNN
@@ -1174,7 +1109,7 @@ F 3 "" H 6350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92DCA5
 P 7100 2150
 F 0 "#PWR?" H 7100 1900 50  0001 C CNN
@@ -1185,7 +1120,7 @@ F 3 "" H 7100 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D92DD18
 P 7450 2150
 F 0 "#PWR?" H 7450 1900 50  0001 C CNN
@@ -1196,7 +1131,7 @@ F 3 "" H 7450 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93995F
 P 9100 2200
 F 0 "#PWR?" H 9100 1950 50  0001 C CNN
@@ -1207,7 +1142,7 @@ F 3 "" H 9100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D939DB9
 P 9100 3450
 F 0 "#PWR?" H 9100 3200 50  0001 C CNN
@@ -1218,7 +1153,7 @@ F 3 "" H 9100 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93A10F
 P 9100 5050
 F 0 "#PWR?" H 9100 4800 50  0001 C CNN
@@ -1229,7 +1164,7 @@ F 3 "" H 9100 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93ADA2
 P 1750 5750
 F 0 "#PWR?" H 1750 5500 50  0001 C CNN
@@ -1240,7 +1175,7 @@ F 3 "" H 1750 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93B9E1
 P 4650 6000
 F 0 "#PWR?" H 4650 5750 50  0001 C CNN
@@ -1251,7 +1186,7 @@ F 3 "" H 4650 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93BA54
 P 3200 6150
 F 0 "#PWR?" H 3200 5900 50  0001 C CNN
@@ -1262,7 +1197,7 @@ F 3 "" H 3200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93BAC7
 P 1750 6400
 F 0 "#PWR?" H 1750 6150 50  0001 C CNN
@@ -1273,7 +1208,7 @@ F 3 "" H 1750 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93BC15
 P 2700 5200
 F 0 "#PWR?" H 2700 4950 50  0001 C CNN
@@ -1284,7 +1219,7 @@ F 3 "" H 2700 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93BFFD
 P 1650 3700
 F 0 "#PWR?" H 1650 3450 50  0001 C CNN
@@ -1295,7 +1230,7 @@ F 3 "" H 1650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D93C804
 P 4700 4600
 F 0 "#PWR?" H 4700 4350 50  0001 C CNN
@@ -1306,7 +1241,7 @@ F 3 "" H 4700 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5D952CC3
 P 7950 4750
 F 0 "#PWR?" H 7950 4500 50  0001 C CNN
@@ -1317,14 +1252,14 @@ F 3 "" H 7950 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5D955DDF
-P 5650 4500
-F 0 "#PWR?" H 5650 4250 50  0001 C CNN
-F 1 "GND" H 5655 4327 50  0000 C CNN
-F 2 "" H 5650 4500 50  0001 C CNN
-F 3 "" H 5650 4500 50  0001 C CNN
-	1    5650 4500
+P 5650 4650
+F 0 "#PWR?" H 5650 4400 50  0001 C CNN
+F 1 "GND" H 5655 4477 50  0000 C CNN
+F 2 "" H 5650 4650 50  0001 C CNN
+F 3 "" H 5650 4650 50  0001 C CNN
+	1    5650 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1332,7 +1267,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5550 5700 5450
 $Comp
-L Device:C_Small C?
+L Milpitas-rescue:C_Small-Device C?
 U 1 1 5D961266
 P 5700 5350
 F 0 "C?" H 5792 5396 50  0000 L CNN
@@ -1343,7 +1278,7 @@ F 3 "~" H 5700 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5D9617DB
 P 5700 6000
 F 0 "#PWR?" H 5700 5750 50  0001 C CNN
@@ -1358,7 +1293,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5850 5700 6000
 $Comp
-L power:+5V #PWR?
+L Milpitas-rescue:+5V-power #PWR?
 U 1 1 5D96CBC6
 P 5700 5150
 F 0 "#PWR?" H 5700 5000 50  0001 C CNN
@@ -1373,7 +1308,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5650 6100 5650
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D9A5AFE
 P 6100 5400
 F 0 "R?" H 6170 5446 50  0000 L CNN
@@ -1388,7 +1323,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5750 6300 5750
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5D9BC8D7
 P 6300 5400
 F 0 "R?" H 6370 5446 50  0000 L CNN
@@ -1401,7 +1336,7 @@ $EndComp
 Wire Wire Line
 	6300 5750 6300 5550
 $Comp
-L power:+5V #PWR?
+L Milpitas-rescue:+5V-power #PWR?
 U 1 1 5D9C80B2
 P 6200 5100
 F 0 "#PWR?" H 6200 4950 50  0001 C CNN
@@ -1449,7 +1384,7 @@ iso_addr_sel
 Wire Wire Line
 	3600 5850 4150 5850
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DD96FBD
 P 3900 6700
 F 0 "R?" H 3750 6750 50  0000 L CNN
@@ -1460,7 +1395,7 @@ F 3 "~" H 3900 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DD97137
 P 3900 7100
 F 0 "R?" H 3750 7150 50  0000 L CNN
@@ -1471,7 +1406,7 @@ F 3 "~" H 3900 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DD971B9
 P 4100 6700
 F 0 "R?" H 3950 6750 50  0000 L CNN
@@ -1482,7 +1417,7 @@ F 3 "~" H 4100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DD97241
 P 4300 6700
 F 0 "R?" H 4150 6750 50  0000 L CNN
@@ -1493,7 +1428,7 @@ F 3 "~" H 4300 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5DDB0FF2
 P 3900 7350
 F 0 "#PWR?" H 3900 7100 50  0001 C CNN
@@ -1506,7 +1441,7 @@ $EndComp
 Wire Wire Line
 	3900 7350 3900 7250
 $Comp
-L power:+5VP #PWR?
+L Milpitas-rescue:+5VP-power #PWR?
 U 1 1 5DDBD823
 P 3900 6450
 F 0 "#PWR?" H 3900 6300 50  0001 C CNN
@@ -1551,7 +1486,7 @@ Wire Wire Line
 Text Notes 4200 7400 0    50   Italic 0
 Population Options for I2C Address:\nGND:    1001 000\nVCC:    1001 001\nSDA:    1001 010\nSCL:    1001 011
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DE66553
 P 2650 3400
 F 0 "R?" H 2720 3446 50  0000 L CNN
@@ -1562,7 +1497,7 @@ F 3 "~" H 2650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Milpitas-rescue:LED-Device D?
 U 1 1 5DE666F0
 P 2650 3750
 F 0 "D?" V 2688 3633 50  0000 R CNN
@@ -1584,7 +1519,7 @@ Connection ~ 2650 3250
 Wire Wire Line
 	2650 3250 2800 3250
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5DEE75D3
 P 2650 3950
 F 0 "#PWR?" H 2650 3700 50  0001 C CNN
@@ -1595,7 +1530,7 @@ F 3 "" H 2650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Milpitas-rescue:R-Device R?
 U 1 1 5DEE8A62
 P 6800 1300
 F 0 "R?" H 6870 1346 50  0000 L CNN
@@ -1606,7 +1541,7 @@ F 3 "~" H 6800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Milpitas-rescue:LED-Device D?
 U 1 1 5DEE8A69
 P 6800 1800
 F 0 "D?" V 6838 1683 50  0000 R CNN
@@ -1621,7 +1556,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 2150 6800 1950
 $Comp
-L power:GNDS #PWR?
+L Milpitas-rescue:GNDS-power #PWR?
 U 1 1 5DEE8A72
 P 6800 2150
 F 0 "#PWR?" H 6800 1900 50  0001 C CNN
@@ -1647,4 +1582,33 @@ Wire Wire Line
 	7750 3100 4250 3100
 Wire Wire Line
 	4250 3100 4250 4200
+Wire Wire Line
+	4250 4200 4850 4200
+Wire Wire Line
+	5450 4200 5950 4200
+Wire Wire Line
+	5650 4550 5950 4550
+Connection ~ 5650 4550
+Wire Wire Line
+	5650 4550 5650 4650
+Wire Wire Line
+	5950 4250 5950 4200
+Connection ~ 5950 4200
+Wire Wire Line
+	5950 4200 6150 4200
+Wire Wire Line
+	7950 4350 7950 4750
+Wire Wire Line
+	7950 4350 8100 4350
+Wire Wire Line
+	8300 4550 8100 4550
+Wire Wire Line
+	8100 4550 8100 4350
+Connection ~ 8100 4350
+Wire Wire Line
+	8100 4350 8200 4350
+Wire Wire Line
+	8500 4550 8750 4550
+Wire Wire Line
+	8750 4550 8750 4350
 $EndSCHEMATC

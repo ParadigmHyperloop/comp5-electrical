@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:RJ45 J?
+L Milpitas-rescue:RJ45-Connector J?
 U 1 1 5E076C78
 P 3750 3600
 F 0 "J?" H 3420 3604 50  0000 R CNN
@@ -26,7 +26,7 @@ F 3 "~" V 3750 3625 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:RJ45 J?
+L Milpitas-rescue:RJ45-Connector J?
 U 1 1 5E076CC0
 P 5700 3600
 F 0 "J?" H 5370 3604 50  0000 R CNN
@@ -65,7 +65,7 @@ Connection ~ 5150 4000
 Wire Wire Line
 	5150 4000 5150 4300
 $Comp
-L power:GND #PWR?
+L Milpitas-rescue:GND-power #PWR?
 U 1 1 5E07711E
 P 5150 4300
 F 0 "#PWR?" H 5150 4050 50  0001 C CNN

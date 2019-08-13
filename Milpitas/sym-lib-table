@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name hypersymbols)(type Legacy)(uri /home/francis/Desktop/comp5-electrical-master/Hyperlibrary/hypersymbols.lib)(options "")(descr ""))
+  (lib (name Milpitas-rescue)(type Legacy)(uri ${KIPRJMOD}/Milpitas-rescue.lib)(options "")(descr ""))
 )
