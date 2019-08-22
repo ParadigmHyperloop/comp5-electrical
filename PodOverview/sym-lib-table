@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name PodVBoards)(type Legacy)(uri /Users/shane/Documents/PodOverview/PodVBoards.lib)(options "")(descr ""))
+  (lib (name PodVComponents)(type Legacy)(uri /Users/shane/Documents/PodOverview/PodVComponents.lib)(options "")(descr ""))
+  (lib (name PodOverview-rescue)(type Legacy)(uri ${KIPRJMOD}/PodOverview-rescue.lib)(options "")(descr ""))
+)

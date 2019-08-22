@@ -1,0 +1,664 @@
+EESchema Schematic File Version 4
+LIBS:PodOverview-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Pod Overview"
+Date "2019-08-18"
+Rev "1"
+Comp "Paradigm Hyperloop"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PodVBoards:ActuationNode A11
+U 1 1 5D5A290E
+P 3750 4300
+F 0 "A11" H 4250 3400 51  0000 C CNN
+F 1 "ActuationNode [Big Sur]" H 3800 4900 51  0000 C CNN
+F 2 "" H 3750 4500 40  0001 C CNN
+F 3 "" H 3750 4500 40  0001 C CNN
+	1    3750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVBoards:FlightComputer A6
+U 1 1 5D5A29AE
+P 3850 2700
+F 0 "A6" H 4300 2150 51  0000 C CNN
+F 1 "FlightComputer" H 3600 3050 51  0000 C CNN
+F 2 "" H 4450 1800 197 0001 C CNN
+F 3 "" H 4450 1800 197 0001 C CNN
+	1    3850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVBoards:LVDCNode A5
+U 1 1 5D5A2A62
+P 1850 2700
+F 0 "A5" H 2200 1850 51  0000 C CNN
+F 1 "LVDCNode [Milpitas]" H 1850 3250 51  0000 C CNN
+F 2 "" H 1750 2850 197 0001 C CNN
+F 3 "" H 1750 2850 197 0001 C CNN
+	1    1850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVBoards:SenseNode A12
+U 1 1 5D5A2C47
+P 3800 6550
+F 0 "A12" H 4200 5750 50  0000 C CNN
+F 1 "SenseNode" H 3600 7350 50  0000 C CNN
+F 2 "" H 3900 6900 50  0001 C CNN
+F 3 "" H 3900 6900 50  0001 C CNN
+	1    3800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:HVBattery BT1
+U 1 1 5D5A2D2C
+P 8750 2250
+F 0 "BT1" H 8950 1650 50  0000 C CNN
+F 1 "HVBattery" H 8550 2850 50  0000 C CNN
+F 2 "" H 8750 2250 50  0001 C CNN
+F 3 "" H 8750 2250 50  0001 C CNN
+	1    8750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:HVBMS A4
+U 1 1 5D5A2EB9
+P 10350 1800
+F 0 "A4" H 10600 1450 51  0000 C CNN
+F 1 "HVBMS [Master]" H 10300 2150 51  0000 C CNN
+F 2 "" H 10350 1800 197 0001 C CNN
+F 3 "" H 10350 1800 197 0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Inverter A10
+U 1 1 5D5A2F9F
+P 10500 4200
+F 0 "A10" H 10450 4100 50  0000 C CNN
+F 1 "Inverter" H 10200 4500 50  0000 C CNN
+F 2 "" H 10450 4200 50  0001 C CNN
+F 3 "" H 10450 4200 50  0001 C CNN
+	1    10500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:LVBattery BT2
+U 1 1 5D5A3421
+P 800 2400
+F 0 "BT2" H 900 2250 51  0000 C CNN
+F 1 "LVBattery" H 750 2550 51  0000 C CNN
+F 2 "" H 600 2400 197 0001 C CNN
+F 3 "" H 600 2400 197 0001 C CNN
+	1    800  2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Motor M1
+U 1 1 5D5A35A2
+P 7350 4400
+F 0 "M1" H 7500 4250 51  0000 C CNN
+F 1 "Motor" H 7250 4550 51  0000 C CNN
+F 2 "" H 7400 4300 197 0001 C CNN
+F 3 "" H 7400 4300 197 0001 C CNN
+	1    7350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Pump MP1
+U 1 1 5D5A37A8
+P 5550 3700
+F 0 "MP1" H 5728 3746 50  0000 L CNN
+F 1 "Pump" H 5728 3655 50  0000 L CNN
+F 2 "" H 5550 3700 197 0001 C CNN
+F 3 "" H 5550 3700 197 0001 C CNN
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Solenoid MP3
+U 1 1 5D5A38BD
+P 5550 4300
+F 0 "MP3" H 5728 4346 50  0000 L CNN
+F 1 "Solenoid" H 5728 4255 50  0000 L CNN
+F 2 "" H 5250 4300 50  0001 C CNN
+F 3 "" H 5250 4300 50  0001 C CNN
+	1    5550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Solenoid MP4
+U 1 1 5D5A3A93
+P 5550 4550
+F 0 "MP4" H 5728 4596 50  0000 L CNN
+F 1 "Solenoid" H 5728 4505 50  0000 L CNN
+F 2 "" H 5250 4550 50  0001 C CNN
+F 3 "" H 5250 4550 50  0001 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Radio A3
+U 1 1 5D5A3C3D
+P 1900 1450
+F 0 "A3" H 1750 1600 50  0000 L CNN
+F 1 "Radio" H 1750 1300 50  0000 L CNN
+F 2 "" H 1800 1450 197 0001 C CNN
+F 3 "" H 1800 1450 197 0001 C CNN
+	1    1900 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L PodVComponents:Switch A2
+U 1 1 5D5A43A7
+P 2950 1400
+F 0 "A2" V 2941 1072 51  0000 R CNN
+F 1 "Switch" V 3150 1550 51  0000 R CNN
+F 2 "" V 2800 1750 197 0001 C CNN
+F 3 "" V 2800 1750 197 0001 C CNN
+	1    2950 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PodVComponents:ThermistorModule A8
+U 1 1 5D5A45CC
+P 10350 3450
+F 0 "A8" H 10650 3100 51  0000 C CNN
+F 1 "ThermistorModule" H 10400 3700 51  0000 C CNN
+F 2 "" H 10350 3450 197 0001 C CNN
+F 3 "" H 10350 3450 197 0001 C CNN
+	1    10350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:HVBMS A7
+U 1 1 5D5A60A8
+P 10350 2700
+F 0 "A7" H 10600 2350 51  0000 C CNN
+F 1 "HVBMS [Slave]" H 10350 3050 51  0000 C CNN
+F 2 "" H 10350 2700 197 0001 C CNN
+F 3 "" H 10350 2700 197 0001 C CNN
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Pump MP2
+U 1 1 5D5B01E5
+P 5550 3950
+F 0 "MP2" H 5728 3996 50  0000 L CNN
+F 1 "Pump" H 5728 3905 50  0000 L CNN
+F 2 "" H 5550 3950 197 0001 C CNN
+F 3 "" H 5550 3950 197 0001 C CNN
+	1    5550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Solenoid MP5
+U 1 1 5D5B04AF
+P 5550 4800
+F 0 "MP5" H 5728 4846 50  0000 L CNN
+F 1 "Solenoid" H 5728 4755 50  0000 L CNN
+F 2 "" H 5250 4800 50  0001 C CNN
+F 3 "" H 5250 4800 50  0001 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Solenoid MP6
+U 1 1 5D5B0935
+P 5550 5050
+F 0 "MP6" H 5728 5096 50  0000 L CNN
+F 1 "Solenoid" H 5728 5005 50  0000 L CNN
+F 2 "" H 5250 5050 50  0001 C CNN
+F 3 "" H 5250 5050 50  0001 C CNN
+	1    5550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5900 3300 5900
+Wire Wire Line
+	4450 5050 4500 5050
+Wire Wire Line
+	3000 5500 4500 5500
+Wire Wire Line
+	2900 6000 3300 6000
+Wire Wire Line
+	1250 7450 4450 7450
+Wire Wire Line
+	4450 7450 4450 5900
+Wire Wire Line
+	4450 5900 4400 5900
+Wire Wire Line
+	1250 2500 1350 2500
+$Comp
+L PodVComponents:SpaceXArduino A1
+U 1 1 5D5DFB08
+P 4100 1300
+F 0 "A1" V 3800 950 51  0000 L CNN
+F 1 "SpaceXArduino" V 4400 1050 51  0000 L CNN
+F 2 "" H 4100 1300 197 0001 C CNN
+F 3 "" H 4100 1300 197 0001 C CNN
+	1    4100 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PodVComponents:ReflectSensor Z1
+U 1 1 5D5F48BD
+P 5350 2600
+F 0 "Z1" H 5650 2600 51  0000 L CNN
+F 1 "ReflectSensor" H 5150 2750 51  0000 L CNN
+F 2 "" H 5550 2500 197 0001 C CNN
+F 3 "" H 5550 2500 197 0001 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:ReflectSensor Z2
+U 1 1 5D5F4B5A
+P 5350 2900
+F 0 "Z2" H 5650 2900 51  0000 L CNN
+F 1 "ReflectSensor" H 5150 2750 51  0000 L CNN
+F 2 "" H 5550 2800 197 0001 C CNN
+F 3 "" H 5550 2800 197 0001 C CNN
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5050 4500 5500
+Wire Wire Line
+	4500 2800 5000 2800
+Wire Wire Line
+	5000 2800 5000 2900
+Wire Wire Line
+	5000 2900 5050 2900
+Wire Wire Line
+	4550 2500 4500 2500
+Wire Wire Line
+	4500 3100 4550 3100
+Wire Wire Line
+	4550 3100 4550 3450
+Wire Wire Line
+	4550 3450 3200 3450
+Wire Wire Line
+	2500 1450 2150 1450
+Wire Wire Line
+	2650 1650 2850 1650
+NoConn ~ 2400 3400
+Wire Wire Line
+	1100 2400 1350 2400
+Wire Wire Line
+	4450 3850 5150 3850
+Wire Wire Line
+	5150 3850 5150 3700
+Wire Wire Line
+	4450 4150 5200 4150
+Wire Wire Line
+	5200 4150 5200 4300
+Wire Wire Line
+	4450 4250 5150 4250
+Wire Wire Line
+	5150 4250 5150 4550
+Wire Wire Line
+	5100 4800 5100 4350
+Wire Wire Line
+	5100 4350 4450 4350
+Wire Wire Line
+	4450 4450 5050 4450
+Wire Wire Line
+	5050 4450 5050 5050
+Wire Notes Line
+	6150 5200 5300 5200
+Wire Notes Line
+	5300 3550 6150 3550
+Text Notes 5350 5300 0    51   ~ 0
+Electromechanical
+Wire Wire Line
+	3200 2500 3050 2500
+Wire Wire Line
+	4500 2700 5000 2700
+Wire Wire Line
+	5000 2700 5000 2600
+Wire Wire Line
+	5000 2600 5050 2600
+Text Notes 1750 7300 0    51   ~ 0
+Sensing
+Text GLabel 4450 4050 2    51   Input ~ 0
+INV_12V
+Text GLabel 2400 3300 2    51   Input ~ 0
+PROP_12V
+Text GLabel 4500 2900 2    51   Input ~ 0
+PROP_CAN
+Wire Wire Line
+	5150 3700 5350 3700
+Wire Wire Line
+	5200 4300 5350 4300
+Wire Wire Line
+	5150 4550 5350 4550
+Wire Wire Line
+	5100 4800 5350 4800
+Wire Wire Line
+	5050 5050 5350 5050
+Wire Notes Line
+	6150 3550 6150 5200
+Wire Notes Line
+	5300 3550 5300 5200
+NoConn ~ 4450 4650
+NoConn ~ 4450 4750
+NoConn ~ 4450 4850
+Text GLabel 4500 3000 2    51   Input ~ 0
+FC_INV_DIS
+NoConn ~ 4450 4550
+Text GLabel 4450 4950 2    51   Input ~ 0
+ACT_INV_DIS
+$Comp
+L PodVComponents:ExampleSensor Z3
+U 1 1 5D78E812
+P 1900 6300
+F 0 "Z3" H 1650 6300 51  0000 C CNN
+F 1 "ExampleSensor" H 1931 6435 51  0000 C CNN
+F 2 "" H 1750 6100 51  0001 C CNN
+F 3 "" H 1750 6100 51  0001 C CNN
+	1    1900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:ExampleSensor Z4
+U 1 1 5D78E97A
+P 1900 6700
+F 0 "Z4" H 1650 6700 51  0000 C CNN
+F 1 "ExampleSensor" H 1931 6835 51  0000 C CNN
+F 2 "" H 1750 6500 51  0001 C CNN
+F 3 "" H 1750 6500 51  0001 C CNN
+	1    1900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:ExampleSensor Z5
+U 1 1 5D78EC1B
+P 1900 7100
+F 0 "Z5" H 1650 7100 51  0000 C CNN
+F 1 "ExampleSensor" H 1931 7235 51  0000 C CNN
+F 2 "" H 1750 6900 51  0001 C CNN
+F 3 "" H 1750 6900 51  0001 C CNN
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3300 6200
+NoConn ~ 3300 6300
+NoConn ~ 3300 6400
+NoConn ~ 3300 6600
+NoConn ~ 3300 6700
+NoConn ~ 3300 6800
+NoConn ~ 3300 7000
+NoConn ~ 3300 7100
+NoConn ~ 3300 7200
+Wire Wire Line
+	1250 2500 1250 7450
+Wire Wire Line
+	3000 5500 3000 5900
+Wire Notes Line
+	1500 7200 2300 7200
+Wire Notes Line
+	2300 7200 2300 6000
+Wire Notes Line
+	2300 6000 1500 6000
+Wire Notes Line
+	1500 6000 1500 7200
+Wire Wire Line
+	3150 7100 3150 6900
+Wire Wire Line
+	3150 6900 3300 6900
+Wire Wire Line
+	3300 6500 3000 6500
+Wire Wire Line
+	3000 6500 3000 6700
+Wire Wire Line
+	3000 6700 2100 6700
+Wire Wire Line
+	2100 6300 2900 6300
+Wire Wire Line
+	2900 6300 2900 6100
+Wire Wire Line
+	2900 6100 3300 6100
+Wire Wire Line
+	3200 3450 3200 3850
+Wire Wire Line
+	4550 2500 4550 2100
+Wire Wire Line
+	4550 2100 4150 2100
+Wire Wire Line
+	4150 2100 4150 1650
+Wire Wire Line
+	4250 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2600
+Wire Wire Line
+	4500 2600 4650 2600
+Wire Wire Line
+	3950 2000 3150 2000
+Wire Wire Line
+	3150 1650 3150 2000
+Wire Wire Line
+	2400 2300 2500 2300
+Wire Wire Line
+	2500 1450 2500 2300
+Wire Wire Line
+	2950 1650 2950 2400
+Wire Wire Line
+	2400 2400 2950 2400
+Wire Wire Line
+	3050 1650 3050 2500
+Wire Wire Line
+	3000 2100 4050 2100
+Wire Wire Line
+	4050 2100 4050 1650
+Wire Wire Line
+	2400 2500 3000 2500
+Wire Wire Line
+	3000 2100 3000 2500
+Wire Wire Line
+	1350 2300 1350 1100
+Wire Wire Line
+	1350 1100 2650 1100
+Wire Wire Line
+	2650 1100 2650 1650
+Wire Wire Line
+	3950 1650 3950 2000
+Wire Wire Line
+	4250 1650 4250 2000
+Text Notes 2850 800  0    51   ~ 0
+LAN
+Wire Wire Line
+	2100 7100 3150 7100
+Wire Wire Line
+	3150 2800 3150 3950
+Wire Wire Line
+	3100 2900 3100 4050
+Wire Wire Line
+	3050 3000 3050 4150
+Wire Wire Line
+	3000 3100 3000 4250
+Wire Wire Line
+	2900 3200 2900 6000
+Wire Wire Line
+	3000 4250 3200 4250
+Wire Wire Line
+	3200 4150 3050 4150
+Wire Wire Line
+	3100 4050 3200 4050
+Wire Wire Line
+	3150 3950 3200 3950
+Wire Wire Line
+	2400 2700 3200 2700
+Wire Wire Line
+	2400 3200 2900 3200
+Wire Wire Line
+	2400 3100 3000 3100
+Wire Wire Line
+	3050 3000 2400 3000
+Wire Wire Line
+	2400 2900 3100 2900
+Wire Wire Line
+	2400 2800 3150 2800
+Wire Wire Line
+	2400 2600 3200 2600
+$Comp
+L PodVBoards:SplitterBoard A9
+U 1 1 5D607E9D
+P 8550 3950
+F 0 "A9" H 9100 3400 50  0000 C CNN
+F 1 "SplitterBoard" H 8150 4300 50  0000 C CNN
+F 2 "" H 8150 3850 50  0001 C CNN
+F 3 "" H 8150 3850 50  0001 C CNN
+	1    8550 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3750 0    51   Input ~ 0
+PROP_12V
+Text GLabel 7800 3850 0    51   Input ~ 0
+INV_12V
+Text GLabel 7800 3950 0    51   Input ~ 0
+FC_INV_DIS
+Text GLabel 7800 4050 0    51   Input ~ 0
+ACT_INV_DIS
+Text GLabel 7800 4150 0    51   Input ~ 0
+PROP_CAN
+Wire Wire Line
+	9950 2700 9900 2700
+Wire Wire Line
+	9900 2700 9900 2100
+Wire Wire Line
+	9900 2100 9150 2100
+Wire Wire Line
+	9150 2200 9800 2200
+Wire Wire Line
+	9800 2200 9800 2800
+Wire Wire Line
+	9800 2800 9950 2800
+Wire Wire Line
+	9950 2900 9700 2900
+Wire Wire Line
+	9700 2300 9150 2300
+Wire Wire Line
+	9700 2300 9700 2900
+Wire Wire Line
+	9150 2400 9550 2400
+Wire Wire Line
+	9550 2400 9550 1600
+Wire Wire Line
+	9750 3850 9300 3850
+Wire Wire Line
+	9650 3750 9300 3750
+Wire Wire Line
+	9550 1600 9950 1600
+Wire Wire Line
+	9950 1700 9650 1700
+Wire Wire Line
+	9150 2000 9950 2000
+Wire Wire Line
+	9150 1900 9950 1900
+Wire Wire Line
+	9150 1800 9950 1800
+Wire Wire Line
+	9750 2600 9950 2600
+Text Notes 8700 5450 0    51   ~ 0
+Propulsion Unit\n
+$Comp
+L PodVComponents:Contactor K1
+U 1 1 5D5D41DF
+P 10350 4850
+F 0 "K1" H 10300 5000 51  0000 L CNN
+F 1 "Contactor" H 10100 5300 51  0000 L CNN
+F 2 "" H 10350 4850 51  0001 C CNN
+F 3 "" H 10350 4850 51  0001 C CNN
+	1    10350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PodVComponents:Contactor K2
+U 1 1 5D5D8086
+P 10350 5250
+F 0 "K2" H 10300 5400 51  0000 L CNN
+F 1 "Contactor" H 10100 5700 51  0000 L CNN
+F 2 "" H 10350 5250 51  0001 C CNN
+F 3 "" H 10350 5250 51  0001 C CNN
+	1    10350 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9950 2500
+Wire Wire Line
+	7700 4400 7750 4400
+Wire Wire Line
+	7750 4400 7750 4250
+Wire Wire Line
+	7750 4250 7800 4250
+Wire Wire Line
+	9750 2600 9750 3850
+Wire Wire Line
+	9650 1700 9650 3750
+Wire Wire Line
+	9300 4050 9950 4050
+Wire Wire Line
+	9950 4150 9300 4150
+Wire Wire Line
+	9950 3350 9850 3350
+Wire Wire Line
+	9850 3350 9850 3950
+Wire Wire Line
+	9850 3950 9300 3950
+Wire Wire Line
+	9950 3650 9250 3650
+Wire Wire Line
+	9250 3650 9250 2700
+Wire Wire Line
+	9250 2700 9150 2700
+Wire Wire Line
+	9150 2600 9350 2600
+Wire Wire Line
+	9350 2600 9350 3550
+Wire Wire Line
+	9350 3550 9950 3550
+Wire Wire Line
+	9950 3450 9450 3450
+Wire Wire Line
+	9450 3450 9450 2500
+Wire Wire Line
+	9450 2500 9150 2500
+Wire Wire Line
+	9300 4250 9600 4250
+Wire Wire Line
+	9600 4250 9600 4550
+Wire Wire Line
+	9300 4350 9500 4350
+Wire Wire Line
+	9500 4350 9500 4950
+Wire Wire Line
+	9600 4550 10050 4550
+Wire Wire Line
+	9500 4950 10050 4950
+Wire Notes Line
+	7100 1350 7100 5300
+Wire Notes Line
+	7100 1350 10850 1350
+Wire Notes Line
+	10850 1350 10850 5300
+Wire Notes Line
+	7100 5300 10850 5300
+Wire Notes Line
+	1150 850  4700 850 
+Wire Notes Line
+	1150 1700 1150 850 
+Wire Notes Line
+	4700 850  4700 1700
+Wire Wire Line
+	4450 3950 5350 3950
+$EndSCHEMATC
