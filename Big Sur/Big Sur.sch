@@ -31,11 +31,11 @@ Connectors\n (sheet 3)
 $Sheet
 S 1950 4100 1500 1000
 U 5D7D29A6
-F0 "PumpDrivers" 50
-F1 "PumpDrivers.sch" 50
+F0 "PumpAndInverterDrivers" 50
+F1 "PumpInverterDrivers.sch" 50
 $EndSheet
-Text Notes 2200 4750 0    98   ~ 0
-Pump Drivers\n  (sheet 4)
+Text Notes 2100 4800 0    98   ~ 0
+   Pump and\nInverter Drivers\n   (sheet 4)
 Text Notes 2100 2100 0    98   ~ 0
 Solenoid Drivers\n   (sheet 2)
 $Sheet

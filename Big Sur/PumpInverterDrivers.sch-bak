@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+LIBS:Big Sur-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "Big Sur Actuation Board"
+Date ""
+Rev "A"
+Comp "Paradigm Hyperloop"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Jasper Rubin"
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5D7D3E10
+P 2400 2500
+F 0 "Q1" H 2606 2546 50  0000 L CNN
+F 1 "TSM900N10" H 2606 2455 50  0000 L CNN
+F 2 "" H 2600 2600 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 2400 2500 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 2400 2500 50  0001 C CNN "Digikey"
+	1    2400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2700 2500 2950
+$Comp
+L power:GND #PWR041
+U 1 1 5D7D4C28
+P 2500 2950
+F 0 "#PWR041" H 2500 2700 50  0001 C CNN
+F 1 "GND" H 2505 2777 50  0000 C CNN
+F 2 "" H 2500 2950 50  0001 C CNN
+F 3 "" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2300 2500 2200
+Wire Wire Line
+	2500 2200 2650 2200
+Text GLabel 2650 2200 2    50   BiDi ~ 0
+PUMP_LS_CHANNEL_1
+Connection ~ 2500 2200
+Wire Wire Line
+	2200 2500 2000 2500
+Wire Wire Line
+	2000 2500 2000 2550
+Connection ~ 2000 2500
+Wire Wire Line
+	2000 2500 1700 2500
+$Comp
+L Device:R_US R11
+U 1 1 5D7D75FE
+P 2000 2700
+F 0 "R11" H 2068 2746 50  0000 L CNN
+F 1 "100K" H 2068 2655 50  0000 L CNN
+F 2 "" V 2040 2690 50  0001 C CNN
+F 3 "~" H 2000 2700 50  0001 C CNN
+	1    2000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5D7D85EE
+P 2000 2950
+F 0 "#PWR040" H 2000 2700 50  0001 C CNN
+F 1 "GND" H 2005 2777 50  0000 C CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2950 2000 2850
+Wire Wire Line
+	2500 2150 2500 2200
+$Comp
+L power:+24V #PWR039
+U 1 1 5D6DC51E
+P 2500 1750
+F 0 "#PWR039" H 2500 1600 50  0001 C CNN
+F 1 "+24V" H 2515 1923 50  0000 C CNN
+F 2 "" H 2500 1750 50  0001 C CNN
+F 3 "" H 2500 1750 50  0001 C CNN
+	1    2500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 5D6DD7E1
+P 2500 2000
+F 0 "D3" V 2454 2079 50  0000 L CNN
+F 1 "NTS12120EMFST1G" V 2545 2079 50  0000 L CNN
+F 2 "" H 2500 2000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 2500 2000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 2500 2000 50  0001 C CNN "Digikey"
+	1    2500 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1750 2500 1850
+Text GLabel 1700 2500 0    50   BiDi ~ 0
+PUMP_INPUT_1
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5D85B099
+P 2400 4300
+F 0 "Q2" H 2606 4346 50  0000 L CNN
+F 1 "TSM900N10" H 2606 4255 50  0000 L CNN
+F 2 "" H 2600 4400 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 2400 4300 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 2400 4300 50  0001 C CNN "Digikey"
+	1    2400 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2500 4750
+$Comp
+L power:GND #PWR044
+U 1 1 5D85B0A4
+P 2500 4750
+F 0 "#PWR044" H 2500 4500 50  0001 C CNN
+F 1 "GND" H 2505 4577 50  0000 C CNN
+F 2 "" H 2500 4750 50  0001 C CNN
+F 3 "" H 2500 4750 50  0001 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4100 2500 4000
+Wire Wire Line
+	2500 4000 2650 4000
+Text GLabel 2650 4000 2    50   BiDi ~ 0
+PUMP_LS_CHANNEL_2
+Connection ~ 2500 4000
+Wire Wire Line
+	2200 4300 2000 4300
+Wire Wire Line
+	2000 4300 2000 4350
+Connection ~ 2000 4300
+Wire Wire Line
+	2000 4300 1700 4300
+$Comp
+L Device:R_US R12
+U 1 1 5D85B0B6
+P 2000 4500
+F 0 "R12" H 2068 4546 50  0000 L CNN
+F 1 "100K" H 2068 4455 50  0000 L CNN
+F 2 "" V 2040 4490 50  0001 C CNN
+F 3 "~" H 2000 4500 50  0001 C CNN
+	1    2000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 5D85B0C0
+P 2000 4750
+F 0 "#PWR043" H 2000 4500 50  0001 C CNN
+F 1 "GND" H 2005 4577 50  0000 C CNN
+F 2 "" H 2000 4750 50  0001 C CNN
+F 3 "" H 2000 4750 50  0001 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4750 2000 4650
+Wire Wire Line
+	2500 3950 2500 4000
+$Comp
+L power:+24V #PWR042
+U 1 1 5D85B0CC
+P 2500 3550
+F 0 "#PWR042" H 2500 3400 50  0001 C CNN
+F 1 "+24V" H 2515 3723 50  0000 C CNN
+F 2 "" H 2500 3550 50  0001 C CNN
+F 3 "" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 5D85B0D7
+P 2500 3800
+F 0 "D4" V 2454 3879 50  0000 L CNN
+F 1 "NTS12120EMFST1G" V 2545 3879 50  0000 L CNN
+F 2 "" H 2500 3800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 2500 3800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 2500 3800 50  0001 C CNN "Digikey"
+	1    2500 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3550 2500 3650
+Text GLabel 1700 4300 0    50   BiDi ~ 0
+PUMP_INPUT_2
+Text Notes 1700 1200 0    118  ~ 0
+Pump Drivers
+Text Notes 4650 1200 0    118  ~ 0
+Inverter Drivers
+$EndSCHEMATC
