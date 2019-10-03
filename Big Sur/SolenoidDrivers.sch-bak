@@ -10,8 +10,8 @@ Date ""
 Rev "A"
 Comp "Paradigm Hyperloop"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "x"
+Comment3 "x"
 Comment4 "Jasper Rubin"
 $EndDescr
 Wire Wire Line
@@ -391,8 +391,6 @@ F 5 "https://www.digikey.ca/product-detail/en/kemet/T491C105K050AT/399-3730-1-ND
 $EndComp
 Text Notes 6800 3100 2    50   ~ 0
 DUTY CYCLE CAN CONTROLLED THROUGH\nRESISTOR OR THROUGH PWM BY MCU.\nSOLDER BLOB THIS JUMPER AND DNI THE\nDUTY_CYCLE_ADJ RESISTOR IF USING MCU.
-Text Notes 2900 1300 0    50   ~ 0
-SOLENOIDS ARE ONLY SUPPOSED TO TAKE\n1A. THE DRV103H CAN DO UP TO 3A, WE\nCOULD SWITCH TO DRV103U WHICH CAN\nDO 1.5A. THEY COST THE SAME THOUGH\nSO MAY AS WELL USE THIS ONE I THINK.
 Text GLabel 3550 1500 0    50   BiDi ~ 0
 DRV103_INPUT_1
 Wire Wire Line
@@ -930,13 +928,13 @@ Wire Wire Line
 Wire Wire Line
 	900  6150 1300 6150
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5DF31422
 P 2900 6000
-AR Path="/5D6EB2B2/5DF31422" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF31422" Ref="C10"  Part="1" 
 AR Path="/5D71C3EA/5DF31422" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF31422" Ref="C?"  Part="1" 
-F 0 "C?" H 3015 6046 50  0000 L CNN
+F 0 "C10" H 3015 6046 50  0000 L CNN
 F 1 "10uF" H 3015 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2900 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 2900 6000 50  0001 C CNN
@@ -948,13 +946,13 @@ $EndComp
 Connection ~ 2900 5850
 Connection ~ 2900 6150
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5DF31BB3
 P 2500 6000
-AR Path="/5D6EB2B2/5DF31BB3" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF31BB3" Ref="C9"  Part="1" 
 AR Path="/5D71C3EA/5DF31BB3" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF31BB3" Ref="C?"  Part="1" 
-F 0 "C?" H 2615 6046 50  0000 L CNN
+F 0 "C9" H 2615 6046 50  0000 L CNN
 F 1 "10uF" H 2615 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2500 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 2500 6000 50  0001 C CNN
@@ -970,13 +968,13 @@ Connection ~ 2500 6150
 Wire Wire Line
 	2500 6150 2900 6150
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5DF3211E
 P 2100 6000
-AR Path="/5D6EB2B2/5DF3211E" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF3211E" Ref="C8"  Part="1" 
 AR Path="/5D71C3EA/5DF3211E" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF3211E" Ref="C?"  Part="1" 
-F 0 "C?" H 2215 6046 50  0000 L CNN
+F 0 "C8" H 2215 6046 50  0000 L CNN
 F 1 "10uF" H 2215 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2100 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 2100 6000 50  0001 C CNN
@@ -992,13 +990,13 @@ Connection ~ 2100 6150
 Wire Wire Line
 	2100 6150 2500 6150
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5DF32832
 P 1700 6000
-AR Path="/5D6EB2B2/5DF32832" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF32832" Ref="C7"  Part="1" 
 AR Path="/5D71C3EA/5DF32832" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF32832" Ref="C?"  Part="1" 
-F 0 "C?" H 1815 6046 50  0000 L CNN
+F 0 "C7" H 1815 6046 50  0000 L CNN
 F 1 "10uF" H 1815 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1700 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 1700 6000 50  0001 C CNN
@@ -1014,13 +1012,13 @@ Connection ~ 1700 6150
 Wire Wire Line
 	1700 6150 2100 6150
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5DF32CBC
 P 1300 6000
-AR Path="/5D6EB2B2/5DF32CBC" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF32CBC" Ref="C6"  Part="1" 
 AR Path="/5D71C3EA/5DF32CBC" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF32CBC" Ref="C?"  Part="1" 
-F 0 "C?" H 1415 6046 50  0000 L CNN
+F 0 "C6" H 1415 6046 50  0000 L CNN
 F 1 "10uF" H 1415 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1300 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 1300 6000 50  0001 C CNN
@@ -1036,13 +1034,13 @@ Connection ~ 1300 6150
 Wire Wire Line
 	1300 6150 1700 6150
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5DF33146
 P 900 6000
-AR Path="/5D6EB2B2/5DF33146" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF33146" Ref="C5"  Part="1" 
 AR Path="/5D71C3EA/5DF33146" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF33146" Ref="C?"  Part="1" 
-F 0 "C?" H 1015 6046 50  0000 L CNN
+F 0 "C5" H 1015 6046 50  0000 L CNN
 F 1 "10uF" H 1015 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 900 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 900 6000 50  0001 C CNN
@@ -1057,29 +1055,29 @@ Wire Wire Line
 Wire Wire Line
 	2900 6150 3300 6150
 $Comp
-L Device:C C?
+L Device:C C15
 U 1 1 5DF36911
 P 4900 6000
-AR Path="/5D6EB2B2/5DF36911" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF36911" Ref="C15"  Part="1" 
 AR Path="/5D71C3EA/5DF36911" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF36911" Ref="C?"  Part="1" 
-F 0 "C?" H 5015 6046 50  0000 L CNN
-F 1 "10uF" H 5015 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4900 6000 50  0001 C CNN
-F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 4900 6000 50  0001 C CNN
-F 4 "UMK325BJ106KMHP" H 4900 6000 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/taiyo-yuden/UMK325BJ106KMHP/587-5961-1-ND/7675081" H 4900 6000 50  0001 C CNN "Digikey"
+F 0 "C15" H 5015 6046 50  0000 L CNN
+F 1 "0.1uF" H 5015 5955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 6000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4900 6000 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4900 6000 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4900 6000 50  0001 C CNN "Digikey"
 	1    4900 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C14
 U 1 1 5DF3691D
 P 4500 6000
-AR Path="/5D6EB2B2/5DF3691D" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF3691D" Ref="C14"  Part="1" 
 AR Path="/5D71C3EA/5DF3691D" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF3691D" Ref="C?"  Part="1" 
-F 0 "C?" H 4615 6046 50  0000 L CNN
+F 0 "C14" H 4615 6046 50  0000 L CNN
 F 1 "10uF" H 4615 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4500 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 4500 6000 50  0001 C CNN
@@ -1089,13 +1087,13 @@ F 5 "https://www.digikey.ca/product-detail/en/taiyo-yuden/UMK325BJ106KMHP/587-59
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C13
 U 1 1 5DF36929
 P 4100 6000
-AR Path="/5D6EB2B2/5DF36929" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF36929" Ref="C13"  Part="1" 
 AR Path="/5D71C3EA/5DF36929" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF36929" Ref="C?"  Part="1" 
-F 0 "C?" H 4215 6046 50  0000 L CNN
+F 0 "C13" H 4215 6046 50  0000 L CNN
 F 1 "10uF" H 4215 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4100 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 4100 6000 50  0001 C CNN
@@ -1105,13 +1103,13 @@ F 5 "https://www.digikey.ca/product-detail/en/taiyo-yuden/UMK325BJ106KMHP/587-59
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C12
 U 1 1 5DF36935
 P 3700 6000
-AR Path="/5D6EB2B2/5DF36935" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF36935" Ref="C12"  Part="1" 
 AR Path="/5D71C3EA/5DF36935" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF36935" Ref="C?"  Part="1" 
-F 0 "C?" H 3815 6046 50  0000 L CNN
+F 0 "C12" H 3815 6046 50  0000 L CNN
 F 1 "10uF" H 3815 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3700 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 3700 6000 50  0001 C CNN
@@ -1121,13 +1119,13 @@ F 5 "https://www.digikey.ca/product-detail/en/taiyo-yuden/UMK325BJ106KMHP/587-59
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 1 5DF36941
 P 3300 6000
-AR Path="/5D6EB2B2/5DF36941" Ref="C?"  Part="1" 
+AR Path="/5D6EB2B2/5DF36941" Ref="C11"  Part="1" 
 AR Path="/5D71C3EA/5DF36941" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF36941" Ref="C?"  Part="1" 
-F 0 "C?" H 3415 6046 50  0000 L CNN
+F 0 "C11" H 3415 6046 50  0000 L CNN
 F 1 "10uF" H 3415 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3300 6000 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 3300 6000 50  0001 C CNN

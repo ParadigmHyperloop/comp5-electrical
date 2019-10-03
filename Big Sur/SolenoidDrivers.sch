@@ -10,8 +10,8 @@ Date ""
 Rev "A"
 Comp "Paradigm Hyperloop"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "x"
+Comment3 "x"
 Comment4 "Jasper Rubin"
 $EndDescr
 Wire Wire Line
@@ -391,8 +391,6 @@ F 5 "https://www.digikey.ca/product-detail/en/kemet/T491C105K050AT/399-3730-1-ND
 $EndComp
 Text Notes 6800 3100 2    50   ~ 0
 DUTY CYCLE CAN CONTROLLED THROUGH\nRESISTOR OR THROUGH PWM BY MCU.\nSOLDER BLOB THIS JUMPER AND DNI THE\nDUTY_CYCLE_ADJ RESISTOR IF USING MCU.
-Text Notes 2900 1300 0    50   ~ 0
-SOLENOIDS ARE ONLY SUPPOSED TO TAKE\n1A. THE DRV103H CAN DO UP TO 3A, WE\nCOULD SWITCH TO DRV103U WHICH CAN\nDO 1.5A. THEY COST THE SAME THOUGH\nSO MAY AS WELL USE THIS ONE I THINK.
 Text GLabel 3550 1500 0    50   BiDi ~ 0
 DRV103_INPUT_1
 Wire Wire Line
@@ -1064,11 +1062,11 @@ AR Path="/5D6EB2B2/5DF36911" Ref="C15"  Part="1"
 AR Path="/5D71C3EA/5DF36911" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DF36911" Ref="C?"  Part="1" 
 F 0 "C15" H 5015 6046 50  0000 L CNN
-F 1 "10uF" H 5015 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4900 6000 50  0001 C CNN
-F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=UMK325BJ106KMHP%20&u=M" H 4900 6000 50  0001 C CNN
-F 4 "UMK325BJ106KMHP" H 4900 6000 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/taiyo-yuden/UMK325BJ106KMHP/587-5961-1-ND/7675081" H 4900 6000 50  0001 C CNN "Digikey"
+F 1 "0.1uF" H 5015 5955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 6000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4900 6000 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4900 6000 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4900 6000 50  0001 C CNN "Digikey"
 	1    4900 6000
 	1    0    0    -1  
 $EndComp

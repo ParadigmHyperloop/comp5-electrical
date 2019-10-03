@@ -10,8 +10,8 @@ Date ""
 Rev "A"
 Comp "Paradigm Hyperloop"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "x"
+Comment3 "x"
 Comment4 "Jasper Rubin"
 $EndDescr
 $Comp
@@ -571,6 +571,4 @@ Text GLabel 8750 3450 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CURRENT_SENSE_1
 Text GLabel 8750 3550 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CURRENT_SENSE_2
-Text Notes 8650 3950 2    50   ~ 0
-JUST PLUGGED CURRENT SENSE\nINTO 6 RANDOM ADC PINS… I SHOULD\nCHECK WITH SHANE PROBABLY.
 $EndSCHEMATC

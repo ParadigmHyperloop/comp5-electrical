@@ -10,8 +10,8 @@ Date ""
 Rev "A"
 Comp "Paradigm Hyperloop"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "x"
+Comment3 "x"
 Comment4 "Jasper Rubin"
 $EndDescr
 $Comp
@@ -58,17 +58,6 @@ F 1 "GND" H 4305 1277 50  0000 C CNN
 F 2 "" H 4300 1450 50  0001 C CNN
 F 3 "" H 4300 1450 50  0001 C CNN
 	1    4300 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5DA3FF5C
-P 4300 1250
-F 0 "C16" H 4415 1296 50  0000 L CNN
-F 1 "0.1uF" H 4415 1205 50  0000 L CNN
-F 2 "" H 4338 1100 50  0001 C CNN
-F 3 "~" H 4300 1250 50  0001 C CNN
-	1    4300 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -123,43 +112,6 @@ F 3 "" H 2450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR055
-U 1 1 5DC16BCA
-P 4300 2450
-F 0 "#PWR055" H 4300 2300 50  0001 C CNN
-F 1 "+3.3V" H 4315 2623 50  0000 C CNN
-F 2 "" H 4300 2450 50  0001 C CNN
-F 3 "" H 4300 2450 50  0001 C CNN
-	1    4300 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR057
-U 1 1 5DC16BD4
-P 4300 2850
-F 0 "#PWR057" H 4300 2600 50  0001 C CNN
-F 1 "GND" H 4305 2677 50  0000 C CNN
-F 2 "" H 4300 2850 50  0001 C CNN
-F 3 "" H 4300 2850 50  0001 C CNN
-	1    4300 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5DC16BDE
-P 4300 2650
-F 0 "C18" H 4415 2696 50  0000 L CNN
-F 1 "0.1uF" H 4415 2605 50  0000 L CNN
-F 2 "" H 4338 2500 50  0001 C CNN
-F 3 "~" H 4300 2650 50  0001 C CNN
-	1    4300 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2450 4300 2500
-Wire Wire Line
-	4300 2800 4300 2850
-$Comp
 L BigSurLib:ACS70331EOLCTR U6
 U 1 1 5DC16BEA
 P 2450 2650
@@ -206,43 +158,6 @@ F 3 "" H 2450 4500 50  0001 C CNN
 	1    2450 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR062
-U 1 1 5DC1B973
-P 4300 3850
-F 0 "#PWR062" H 4300 3700 50  0001 C CNN
-F 1 "+3.3V" H 4315 4023 50  0000 C CNN
-F 2 "" H 4300 3850 50  0001 C CNN
-F 3 "" H 4300 3850 50  0001 C CNN
-	1    4300 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR063
-U 1 1 5DC1B97D
-P 4300 4250
-F 0 "#PWR063" H 4300 4000 50  0001 C CNN
-F 1 "GND" H 4305 4077 50  0000 C CNN
-F 2 "" H 4300 4250 50  0001 C CNN
-F 3 "" H 4300 4250 50  0001 C CNN
-	1    4300 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 5DC1B987
-P 4300 4050
-F 0 "C20" H 4415 4096 50  0000 L CNN
-F 1 "0.1uF" H 4415 4005 50  0000 L CNN
-F 2 "" H 4338 3900 50  0001 C CNN
-F 3 "~" H 4300 4050 50  0001 C CNN
-	1    4300 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 3850 4300 3900
-Wire Wire Line
-	4300 4200 4300 4250
 $Comp
 L BigSurLib:ACS70331EOLCTR U8
 U 1 1 5DC1B993
@@ -291,43 +206,6 @@ F 3 "" H 2450 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR066
-U 1 1 5DC1B9BE
-P 4300 5250
-F 0 "#PWR066" H 4300 5100 50  0001 C CNN
-F 1 "+3.3V" H 4315 5423 50  0000 C CNN
-F 2 "" H 4300 5250 50  0001 C CNN
-F 3 "" H 4300 5250 50  0001 C CNN
-	1    4300 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR067
-U 1 1 5DC1B9C8
-P 4300 5650
-F 0 "#PWR067" H 4300 5400 50  0001 C CNN
-F 1 "GND" H 4305 5477 50  0000 C CNN
-F 2 "" H 4300 5650 50  0001 C CNN
-F 3 "" H 4300 5650 50  0001 C CNN
-	1    4300 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5DC1B9D2
-P 4300 5450
-F 0 "C21" H 4415 5496 50  0000 L CNN
-F 1 "0.1uF" H 4415 5405 50  0000 L CNN
-F 2 "" H 4338 5300 50  0001 C CNN
-F 3 "~" H 4300 5450 50  0001 C CNN
-	1    4300 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 5250 4300 5300
-Wire Wire Line
-	4300 5600 4300 5650
-$Comp
 L BigSurLib:ACS70331EOLCTR U9
 U 1 1 5DC1B9DE
 P 2450 5450
@@ -375,43 +253,6 @@ F 3 "" H 7500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR056
-U 1 1 5DC2E30B
-P 10000 2550
-F 0 "#PWR056" H 10000 2400 50  0001 C CNN
-F 1 "+3.3V" H 10015 2723 50  0000 C CNN
-F 2 "" H 10000 2550 50  0001 C CNN
-F 3 "" H 10000 2550 50  0001 C CNN
-	1    10000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR058
-U 1 1 5DC2E315
-P 10000 2950
-F 0 "#PWR058" H 10000 2700 50  0001 C CNN
-F 1 "GND" H 10005 2777 50  0000 C CNN
-F 2 "" H 10000 2950 50  0001 C CNN
-F 3 "" H 10000 2950 50  0001 C CNN
-	1    10000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C19
-U 1 1 5DC2E31F
-P 10000 2750
-F 0 "C19" H 10115 2796 50  0000 L CNN
-F 1 "0.1uF" H 10115 2705 50  0000 L CNN
-F 2 "" H 10038 2600 50  0001 C CNN
-F 3 "~" H 10000 2750 50  0001 C CNN
-	1    10000 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 2550 10000 2600
-Wire Wire Line
-	10000 2900 10000 2950
-$Comp
 L BigSurLib:ACS70331EOLCTR U5
 U 1 1 5DC2E32B
 P 7500 1300
@@ -458,43 +299,6 @@ F 3 "" H 7500 3200 50  0001 C CNN
 	1    7500 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR048
-U 1 1 5DC2E356
-P 10000 1100
-F 0 "#PWR048" H 10000 950 50  0001 C CNN
-F 1 "+3.3V" H 10015 1273 50  0000 C CNN
-F 2 "" H 10000 1100 50  0001 C CNN
-F 3 "" H 10000 1100 50  0001 C CNN
-	1    10000 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR050
-U 1 1 5DC2E360
-P 10000 1500
-F 0 "#PWR050" H 10000 1250 50  0001 C CNN
-F 1 "GND" H 10005 1327 50  0000 C CNN
-F 2 "" H 10000 1500 50  0001 C CNN
-F 3 "" H 10000 1500 50  0001 C CNN
-	1    10000 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 5DC2E36A
-P 10000 1300
-F 0 "C17" H 10115 1346 50  0000 L CNN
-F 1 "0.1uF" H 10115 1255 50  0000 L CNN
-F 2 "" H 10038 1150 50  0001 C CNN
-F 3 "~" H 10000 1300 50  0001 C CNN
-	1    10000 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 1100 10000 1150
-Wire Wire Line
-	10000 1450 10000 1500
 $Comp
 L BigSurLib:ACS70331EOLCTR U7
 U 1 1 5DC2E376
@@ -548,4 +352,230 @@ Wire Wire Line
 NoConn ~ 8000 2950
 Text GLabel 6950 2900 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CHANNEL_2_SENSE
+$Comp
+L Device:C C?
+U 1 1 5D99FB16
+P 4300 1250
+AR Path="/5D6EB2B2/5D99FB16" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D99FB16" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D99FB16" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 1296 50  0000 L CNN
+F 1 "0.1uF" H 4415 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 1250 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4300 1250 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4300 1250 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4300 1250 50  0001 C CNN "Digikey"
+	1    4300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9B00B3
+P 4300 2450
+F 0 "#PWR?" H 4300 2300 50  0001 C CNN
+F 1 "+3.3V" H 4315 2623 50  0000 C CNN
+F 2 "" H 4300 2450 50  0001 C CNN
+F 3 "" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9B00B9
+P 4300 2850
+F 0 "#PWR?" H 4300 2600 50  0001 C CNN
+F 1 "GND" H 4305 2677 50  0000 C CNN
+F 2 "" H 4300 2850 50  0001 C CNN
+F 3 "" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2450 4300 2500
+Wire Wire Line
+	4300 2800 4300 2850
+$Comp
+L Device:C C?
+U 1 1 5D9B00C3
+P 4300 2650
+AR Path="/5D6EB2B2/5D9B00C3" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D9B00C3" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D9B00C3" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 2696 50  0000 L CNN
+F 1 "0.1uF" H 4415 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 2650 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4300 2650 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4300 2650 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4300 2650 50  0001 C CNN "Digikey"
+	1    4300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9B13C2
+P 4300 3850
+F 0 "#PWR?" H 4300 3700 50  0001 C CNN
+F 1 "+3.3V" H 4315 4023 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9B13C8
+P 4300 4250
+F 0 "#PWR?" H 4300 4000 50  0001 C CNN
+F 1 "GND" H 4305 4077 50  0000 C CNN
+F 2 "" H 4300 4250 50  0001 C CNN
+F 3 "" H 4300 4250 50  0001 C CNN
+	1    4300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4300 3900
+Wire Wire Line
+	4300 4200 4300 4250
+$Comp
+L Device:C C?
+U 1 1 5D9B13D2
+P 4300 4050
+AR Path="/5D6EB2B2/5D9B13D2" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D9B13D2" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D9B13D2" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 4096 50  0000 L CNN
+F 1 "0.1uF" H 4415 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4300 4050 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4300 4050 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4300 4050 50  0001 C CNN "Digikey"
+	1    4300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9B2921
+P 4300 5250
+F 0 "#PWR?" H 4300 5100 50  0001 C CNN
+F 1 "+3.3V" H 4315 5423 50  0000 C CNN
+F 2 "" H 4300 5250 50  0001 C CNN
+F 3 "" H 4300 5250 50  0001 C CNN
+	1    4300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9B2927
+P 4300 5650
+F 0 "#PWR?" H 4300 5400 50  0001 C CNN
+F 1 "GND" H 4305 5477 50  0000 C CNN
+F 2 "" H 4300 5650 50  0001 C CNN
+F 3 "" H 4300 5650 50  0001 C CNN
+	1    4300 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5250 4300 5300
+Wire Wire Line
+	4300 5600 4300 5650
+$Comp
+L Device:C C?
+U 1 1 5D9B2931
+P 4300 5450
+AR Path="/5D6EB2B2/5D9B2931" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D9B2931" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D9B2931" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 5496 50  0000 L CNN
+F 1 "0.1uF" H 4415 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 5450 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 4300 5450 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 4300 5450 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 4300 5450 50  0001 C CNN "Digikey"
+	1    4300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9BC089
+P 9950 1100
+F 0 "#PWR?" H 9950 950 50  0001 C CNN
+F 1 "+3.3V" H 9965 1273 50  0000 C CNN
+F 2 "" H 9950 1100 50  0001 C CNN
+F 3 "" H 9950 1100 50  0001 C CNN
+	1    9950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9BC093
+P 9950 1500
+F 0 "#PWR?" H 9950 1250 50  0001 C CNN
+F 1 "GND" H 9955 1327 50  0000 C CNN
+F 2 "" H 9950 1500 50  0001 C CNN
+F 3 "" H 9950 1500 50  0001 C CNN
+	1    9950 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1100 9950 1150
+Wire Wire Line
+	9950 1450 9950 1500
+$Comp
+L Device:C C?
+U 1 1 5D9BC0A1
+P 9950 1300
+AR Path="/5D6EB2B2/5D9BC0A1" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D9BC0A1" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D9BC0A1" Ref="C?"  Part="1" 
+F 0 "C?" H 10065 1346 50  0000 L CNN
+F 1 "0.1uF" H 10065 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 1300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 9950 1300 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 9950 1300 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 9950 1300 50  0001 C CNN "Digikey"
+	1    9950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9BC0AB
+P 9950 2550
+F 0 "#PWR?" H 9950 2400 50  0001 C CNN
+F 1 "+3.3V" H 9965 2723 50  0000 C CNN
+F 2 "" H 9950 2550 50  0001 C CNN
+F 3 "" H 9950 2550 50  0001 C CNN
+	1    9950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9BC0B5
+P 9950 2950
+F 0 "#PWR?" H 9950 2700 50  0001 C CNN
+F 1 "GND" H 9955 2777 50  0000 C CNN
+F 2 "" H 9950 2950 50  0001 C CNN
+F 3 "" H 9950 2950 50  0001 C CNN
+	1    9950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2550 9950 2600
+Wire Wire Line
+	9950 2900 9950 2950
+$Comp
+L Device:C C?
+U 1 1 5D9BC0C3
+P 9950 2750
+AR Path="/5D6EB2B2/5D9BC0C3" Ref="C?"  Part="1" 
+AR Path="/5D71C3EA/5D9BC0C3" Ref="C?"  Part="1" 
+AR Path="/5D765C4F/5D9BC0C3" Ref="C?"  Part="1" 
+F 0 "C?" H 10065 2796 50  0000 L CNN
+F 1 "0.1uF" H 10065 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 2750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 9950 2750 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 9950 2750 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 9950 2750 50  0001 C CNN "Digikey"
+	1    9950 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
