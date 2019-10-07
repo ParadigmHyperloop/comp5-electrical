@@ -2779,19 +2779,19 @@ Text Label 6110 4080 0    50   ~ 0
 PB0
 Wire Wire Line
 	6320 4080 6110 4080
-Text Label 6110 4480 0    50   ~ 0
+Text Label 6110 4180 0    50   ~ 0
 PB1
 Wire Wire Line
 	6320 4180 6110 4180
-Text Label 6110 4380 0    50   ~ 0
+Text Label 6110 4280 0    50   ~ 0
 PB2
 Wire Wire Line
 	6320 4280 6110 4280
-Text Label 6110 4280 0    50   ~ 0
+Text Label 6110 4380 0    50   ~ 0
 PB10
 Wire Wire Line
 	6320 4380 6110 4380
-Text Label 6110 4180 0    50   ~ 0
+Text Label 6110 4480 0    50   ~ 0
 PB11
 Wire Wire Line
 	6320 4480 6110 4480

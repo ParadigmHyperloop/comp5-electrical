@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# GeneralMCU-rescue_+3V3-power
+# +3V3-power
 #
-DEF GeneralMCU-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF +3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "GeneralMCU-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_+5V-u104_KICAD_pwr
+# +5V-u104_KICAD_pwr
 #
-DEF GeneralMCU-rescue_+5V-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
+DEF +5V-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 10 H I C CNN
-F1 "GeneralMCU-rescue_+5V-u104_KICAD_pwr" 0 140 40 H V C CNN
+F1 "+5V-u104_KICAD_pwr" 0 140 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 L 10 10 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_+V-u104_KICAD_pwr
+# +V-u104_KICAD_pwr
 #
-DEF GeneralMCU-rescue_+V-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
+DEF +V-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 10 H I C CNN
-F1 "GeneralMCU-rescue_+V-u104_KICAD_pwr" 0 175 40 H V C CNN
+F1 "+V-u104_KICAD_pwr" 0 175 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -48,11 +48,11 @@ X +V 1 0 0 0 L 10 10 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_AZ1117-3.3-Regulator_Linear
+# AZ1117-3.3-Regulator_Linear
 #
-DEF GeneralMCU-rescue_AZ1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AZ1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "GeneralMCU-rescue_AZ1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AZ1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -70,11 +70,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Buzzer-Device
+# Buzzer-Device
 #
-DEF GeneralMCU-rescue_Buzzer-Device BZ 0 1 Y N 1 F N
+DEF Buzzer-Device BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "GeneralMCU-rescue_Buzzer-Device" 150 -50 50 H V L CNN
+F1 "Buzzer-Device" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -90,11 +90,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_CHASSIS-u104_KICAD_pwr
+# CHASSIS-u104_KICAD_pwr
 #
-DEF GeneralMCU-rescue_CHASSIS-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
+DEF CHASSIS-u104_KICAD_pwr #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 10 H I C CNN
-F1 "GeneralMCU-rescue_CHASSIS-u104_KICAD_pwr" 0 -130 50 H V C CNN
+F1 "CHASSIS-u104_KICAD_pwr" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H V C CNN
 F3 "" 0 -50 50 H V C CNN
 DRAW
@@ -109,11 +109,11 @@ X CHASSIS 1 0 0 0 R 10 10 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF GeneralMCU-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "GeneralMCU-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -127,11 +127,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF GeneralMCU-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "GeneralMCU-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -146,11 +146,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Conn_01x04-Connector_Generic
+# Conn_01x04-Connector_Generic
 #
-DEF GeneralMCU-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "GeneralMCU-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -169,11 +169,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Conn_02x21_Counter_Clockwise-Connector_Generic
+# Conn_02x21_Counter_Clockwise-Connector_Generic
 #
-DEF GeneralMCU-rescue_Conn_02x21_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x21_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 1100 50 H V C CNN
-F1 "GeneralMCU-rescue_Conn_02x21_Counter_Clockwise-Connector_Generic" 50 -1100 50 H V C CNN
+F1 "Conn_02x21_Counter_Clockwise-Connector_Generic" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -268,11 +268,11 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Conn_ARM_JTAG_SWD_10-Connector
+# Conn_ARM_JTAG_SWD_10-Connector
 #
-DEF GeneralMCU-rescue_Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
+DEF Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "GeneralMCU-rescue_Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
+F1 "Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
 F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -303,11 +303,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Crystal_Small-Device
+# Crystal_Small-Device
 #
-DEF GeneralMCU-rescue_Crystal_Small-Device Y 0 40 N N 1 F N
+DEF Crystal_Small-Device Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "GeneralMCU-rescue_Crystal_Small-Device" 0 -100 50 H V C CNN
+F1 "Crystal_Small-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -322,11 +322,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_DS18B20U-Sensor_Temperature
+# DS18B20U-Sensor_Temperature
 #
-DEF GeneralMCU-rescue_DS18B20U-Sensor_Temperature U 0 40 Y Y 1 F N
+DEF DS18B20U-Sensor_Temperature U 0 40 Y Y 1 F N
 F0 "U" -150 250 50 H V C CNN
-F1 "GeneralMCU-rescue_DS18B20U-Sensor_Temperature" 250 250 50 H V C CNN
+F1 "DS18B20U-Sensor_Temperature" 250 250 50 H V C CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" -950 -250 50 H I C CNN
 F3 "" -150 250 50 H I C CNN
 $FPLIST
@@ -355,11 +355,11 @@ X VDD 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_D_Schottky_Small_ALT-Device
+# D_Schottky_Small_ALT-Device
 #
-DEF GeneralMCU-rescue_D_Schottky_Small_ALT-Device D 0 10 N N 1 F N
+DEF D_Schottky_Small_ALT-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "GeneralMCU-rescue_D_Schottky_Small_ALT-Device" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small_ALT-Device" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -379,11 +379,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_D_TVS-Device
+# D_TVS-Device
 #
-DEF GeneralMCU-rescue_D_TVS-Device D 0 40 N N 1 F N
+DEF D_TVS-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "GeneralMCU-rescue_D_TVS-Device" 0 -100 50 H V C CNN
+F1 "D_TVS-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -402,11 +402,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_D_TVS_x2_AAC-Device
+# D_TVS_x2_AAC-Device
 #
-DEF GeneralMCU-rescue_D_TVS_x2_AAC-Device D 0 40 Y N 1 F N
+DEF D_TVS_x2_AAC-Device D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "GeneralMCU-rescue_D_TVS_x2_AAC-Device" 0 100 50 H V C CNN
+F1 "D_TVS_x2_AAC-Device" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -422,11 +422,11 @@ X common 3 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Ferrite_Bead_Small-Device
+# Ferrite_Bead_Small-Device
 #
-DEF GeneralMCU-rescue_Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "GeneralMCU-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -443,11 +443,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Fuse_Small-Device
+# Fuse_Small-Device
 #
-DEF GeneralMCU-rescue_Fuse_Small-Device F 0 10 N N 1 F N
+DEF Fuse_Small-Device F 0 10 N N 1 F N
 F0 "F" 0 -60 50 H V C CNN
-F1 "GeneralMCU-rescue_Fuse_Small-Device" 0 60 50 H V C CNN
+F1 "Fuse_Small-Device" 0 60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -461,11 +461,11 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_GND-power
+# GND-power
 #
-DEF GeneralMCU-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GeneralMCU-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -474,11 +474,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Jumper_NC_Small-Device
+# Jumper_NC_Small-Device
 #
-DEF GeneralMCU-rescue_Jumper_NC_Small-Device JP 0 30 N N 1 F N
+DEF Jumper_NC_Small-Device JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "GeneralMCU-rescue_Jumper_NC_Small-Device" 10 -60 50 H V C CNN
+F1 "Jumper_NC_Small-Device" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -490,11 +490,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_LED-Device
+# LED-Device
 #
-DEF GeneralMCU-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "GeneralMCU-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -513,11 +513,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_MountingHole_Pad-Mechanical
+# MountingHole_Pad-Mechanical
 #
-DEF GeneralMCU-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+DEF MountingHole_Pad-Mechanical H 0 40 N N 1 F N
 F0 "H" 0 250 50 H V C CNN
-F1 "GeneralMCU-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F1 "MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -529,11 +529,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_Q_NMOS_GSD-Device
+# Q_NMOS_GSD-Device
 #
-DEF GeneralMCU-rescue_Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "GeneralMCU-rescue_Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -561,11 +561,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_R_Small_US-Device
+# R_Small_US-Device
 #
-DEF GeneralMCU-rescue_R_Small_US-Device R 0 10 N N 1 F N
+DEF R_Small_US-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "GeneralMCU-rescue_R_Small_US-Device" 30 -40 50 H V L CNN
+F1 "R_Small_US-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -579,11 +579,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_SN65HVD230-Interface_CAN_LIN
+# SN65HVD230-Interface_CAN_LIN
 #
-DEF GeneralMCU-rescue_SN65HVD230-Interface_CAN_LIN U 0 40 Y Y 1 F N
+DEF SN65HVD230-Interface_CAN_LIN U 0 40 Y Y 1 F N
 F0 "U" -100 400 50 H V R CNN
-F1 "GeneralMCU-rescue_SN65HVD230-Interface_CAN_LIN" -100 300 50 H V R CNN
+F1 "SN65HVD230-Interface_CAN_LIN" -100 300 50 H V R CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CNN
 F3 "" -100 400 50 H I C CNN
 $FPLIST
@@ -602,11 +602,11 @@ X Rs 8 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_STM32F303R6Tx-MCU_ST_STM32F3
+# STM32F303R6Tx-MCU_ST_STM32F3
 #
-DEF GeneralMCU-rescue_STM32F303R6Tx-MCU_ST_STM32F3 U 0 20 Y Y 1 F N
+DEF STM32F303R6Tx-MCU_ST_STM32F3 U 0 20 Y Y 1 F N
 F0 "U" -600 1750 50 H V L CNN
-F1 "GeneralMCU-rescue_STM32F303R6Tx-MCU_ST_STM32F3" 400 1750 50 H V L CNN
+F1 "STM32F303R6Tx-MCU_ST_STM32F3" 400 1750 50 H V L CNN
 F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" -600 -1700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -681,11 +681,11 @@ X PC1 9 -700 -200 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF GeneralMCU-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "GeneralMCU-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -698,11 +698,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_TestPoint-Connector
+# TestPoint-Connector
 #
-DEF GeneralMCU-rescue_TestPoint-Connector TP 0 30 N N 1 F N
+DEF TestPoint-Connector TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "GeneralMCU-rescue_TestPoint-Connector" 0 200 50 H V C CNN
+F1 "TestPoint-Connector" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -715,11 +715,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF GeneralMCU-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "GeneralMCU-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -750,11 +750,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_VBUS-power
+# VBUS-power
 #
-DEF GeneralMCU-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+DEF VBUS-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "GeneralMCU-rescue_VBUS-power" 0 150 50 H V C CNN
+F1 "VBUS-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -765,11 +765,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_V_REG-u104_KICAD_dcdc
+# V_REG-u104_KICAD_dcdc
 #
-DEF GeneralMCU-rescue_V_REG-u104_KICAD_dcdc U 0 30 Y Y 1 F N
+DEF V_REG-u104_KICAD_dcdc U 0 30 Y Y 1 F N
 F0 "U" 150 -196 60 H V C CNN
-F1 "GeneralMCU-rescue_V_REG-u104_KICAD_dcdc" 0 200 60 H V C CNN
+F1 "V_REG-u104_KICAD_dcdc" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -780,11 +780,11 @@ X VO 3 400 50 200 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# GeneralMCU-rescue_WS2812-LED
+# WS2812-LED
 #
-DEF GeneralMCU-rescue_WS2812-LED D 0 10 Y Y 1 F N
+DEF WS2812-LED D 0 10 Y Y 1 F N
 F0 "D" 200 225 50 H V R BNN
-F1 "GeneralMCU-rescue_WS2812-LED" 50 -225 50 H V L TNN
+F1 "WS2812-LED" 50 -225 50 H V L TNN
 F2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" 50 -300 50 H I L TNN
 F3 "" 100 -375 50 H I L TNN
 $FPLIST
