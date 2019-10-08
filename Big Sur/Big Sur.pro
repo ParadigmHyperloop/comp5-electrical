@@ -1,4 +1,4 @@
-update=8/31/2019 12:15:07
+update=Saturday, October 05, 2019 at 12:27:34 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=PARADIGM_TEMPLATE.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=./PDFs
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
