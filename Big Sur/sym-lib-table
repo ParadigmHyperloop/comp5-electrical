@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name BigSurLib)(type Legacy)(uri ${KIPRJMOD}/BigSurLib.lib)(options "")(descr ""))
-)

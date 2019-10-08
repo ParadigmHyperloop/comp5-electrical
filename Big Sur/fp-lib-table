@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Big Sur")(type KiCad)(uri "${KIPRJMOD}/Big Sur.pretty")(options "")(descr ""))
-)
