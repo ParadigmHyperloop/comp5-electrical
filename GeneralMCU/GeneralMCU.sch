@@ -1553,7 +1553,7 @@ F 3 "~" H 6130 5920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 480  3290 0    39   ~ 0
-*Vin = 9 - 32V\n\n
+*Vin = 9 - 30V\n\n
 Wire Wire Line
 	1530 2970 1530 2890
 $Comp
@@ -1583,7 +1583,7 @@ L GeneralMCU-rescue:Fuse_Small-Device F1
 U 1 1 5DC147F6
 P 1770 2970
 F 0 "F1" H 1690 3040 50  0000 C CNN
-F 1 "32VDC 1A PTC" H 1780 2910 28  0000 C CNN
+F 1 "3VDC 1A PTC" H 1780 2910 28  0000 C CNN
 F 2 "Diodes_SMD:D_1206" H 1770 2970 50  0001 C CNN
 F 3 "~" H 1770 2970 50  0001 C CNN
 	1    1770 2970
@@ -2985,6 +2985,94 @@ F 1 "CHASSIS" H 6300 5050 39  0000 C CNN
 F 2 "" H 6320 5130 50  0000 C CNN
 F 3 "" H 6320 5130 50  0000 C CNN
 	1    6320 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock1
+U 1 1 5DAB9BAE
+P 11960 7730
+F 0 "snblock1" H 11960 8005 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11960 7505 50  0001 C CNN
+F 2 "µ104KiCAD:SN_BLOCK" H 11960 7730 50  0001 C CNN
+F 3 "~" H 11960 7730 50  0001 C CNN
+	1    11960 7730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock2
+U 1 1 5DABADF3
+P 11970 7300
+F 0 "snblock2" H 11970 7575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11970 7075 50  0001 C CNN
+F 2 "µ104KiCAD:SN_BLOCK" H 11970 7300 50  0001 C CNN
+F 3 "~" H 11970 7300 50  0001 C CNN
+	1    11970 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock3
+U 1 1 5DAEEBEF
+P 11960 6850
+F 0 "snblock3" H 11960 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11960 6625 50  0001 C CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 11960 6850 50  0001 C CNN
+F 3 "~" H 11960 6850 50  0001 C CNN
+	1    11960 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock4
+U 1 1 5DAF1C52
+P 11970 6400
+F 0 "snblock4" H 11970 6675 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11970 6175 50  0001 C CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 11970 6400 50  0001 C CNN
+F 3 "~" H 11970 6400 50  0001 C CNN
+	1    11970 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock8
+U 1 1 5DAF1E56
+P 12500 6410
+F 0 "snblock8" H 12500 6685 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12500 6185 50  0001 C CNN
+F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 12500 6410 50  0001 C CNN
+F 3 "~" H 12500 6410 50  0001 C CNN
+	1    12500 6410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock6
+U 1 1 5DAF2182
+P 12480 6880
+F 0 "snblock6" H 12480 7155 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12480 6655 50  0001 C CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 12480 6880 50  0001 C CNN
+F 3 "~" H 12480 6880 50  0001 C CNN
+	1    12480 6880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock7
+U 1 1 5DAF2490
+P 12480 7310
+F 0 "snblock7" H 12480 7585 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12480 7085 50  0001 C CNN
+F 2 "Symbol:ESD-Logo_6.6x6mm_SilkScreen" H 12480 7310 50  0001 C CNN
+F 3 "~" H 12480 7310 50  0001 C CNN
+	1    12480 7310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock5
+U 1 1 5DAF2789
+P 12470 7730
+F 0 "snblock5" H 12470 8005 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12470 7505 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 12470 7730 50  0001 C CNN
+F 3 "~" H 12470 7730 50  0001 C CNN
+	1    12470 7730
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
