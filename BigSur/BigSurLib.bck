@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACS70331EOLCTR
+F https://www.allegromicro.com/~/media/Files/Datasheets/ACS70331-Datasheet.ashx
+$ENDCMP
+#
 $CMP DRV103H
 D PWM LOW-SIDE DRIVER (1.5A and 3A)
 F https://www.ti.com/lit/ds/symlink/drv103.pdf
@@ -8,6 +12,11 @@ $ENDCMP
 $CMP DRV8806
 D DRV8806 Quad Serial Interface Low-Side Driver IC
 F http://www.ti.com/lit/ds/symlink/drv8806.pdf
+$ENDCMP
+#
+$CMP G5LE-1A-VDDC12
+D Relay, SPST-NO, 10A, 12V coil, 
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJ_OJE_series_relay_data_sheet_E&DocType=DS&DocLang=English
 $ENDCMP
 #
 #End Doc Library

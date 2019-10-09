@@ -14,4 +14,9 @@ D DRV8806 Quad Serial Interface Low-Side Driver IC
 F http://www.ti.com/lit/ds/symlink/drv8806.pdf
 $ENDCMP
 #
+$CMP G5LE-1A-VDDC12
+D Relay, SPST-NO, 10A, 12V coil, 
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5le.pdf
+$ENDCMP
+#
 #End Doc Library

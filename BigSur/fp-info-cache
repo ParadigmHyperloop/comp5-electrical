@@ -1,4 +1,4 @@
-16206152475712363
+16209295356837073
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -272,28 +272,35 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Big Sur
+BigSur
 Allegro_SOIC_6.2x5.0mm_P1.27mm
 
 
 0
 8
 6
-Big Sur
+BigSur
 KEMET_CAP_SMD_T491C105K050AT
 
 
 0
 2
 2
-Big Sur
+BigSur
+OMRON_RELAY_G5LE-1A-VDDC12
+
+
+0
+0
+0
+BigSur
 ONSemi_SMD_Schottky_NRVTSA4100E
 
 
 0
 2
 2
-Big Sur
+BigSur
 ONSemi_SMD_Schottky_NTS12120EMFS
 
 
@@ -45296,6 +45303,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GeneralMCU_Example
+SMD42-FTP
+
+
+0
+42
+42
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
