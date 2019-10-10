@@ -872,7 +872,7 @@ U 1 1 5DA6A1B1
 P 9950 5200
 F 0 "SB1" V 9950 5400 50  0000 R CNN
 F 1 "Jumper_NC_Small" V 9850 5900 50  0000 R CNN
-F 2 "" H 9950 5200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9950 5200 50  0001 C CNN
 F 3 "~" H 9950 5200 50  0001 C CNN
 	1    9950 5200
 	0    -1   -1   0   
