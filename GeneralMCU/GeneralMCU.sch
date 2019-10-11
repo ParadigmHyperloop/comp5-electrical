@@ -3021,17 +3021,6 @@ F 3 "~" H 11960 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small snblock4
-U 1 1 5DAF1C52
-P 11970 6400
-F 0 "snblock4" H 11970 6675 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 11970 6175 50  0001 C CNN
-F 2 "µ104KiCAD:Paradigm_Logo_Very_Small" H 11970 6400 50  0001 C CNN
-F 3 "~" H 11970 6400 50  0001 C CNN
-	1    11970 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Graphic:Logo_Open_Hardware_Small snblock8
 U 1 1 5DAF1E56
 P 12500 6410
@@ -3070,7 +3059,7 @@ U 1 1 5DAF2789
 P 12470 7730
 F 0 "snblock5" H 12470 8005 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12470 7505 50  0001 C CNN
-F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 12470 7730 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_8mm_SilkScreen" H 12470 7730 50  0001 C CNN
 F 3 "~" H 12470 7730 50  0001 C CNN
 	1    12470 7730
 	1    0    0    -1  
