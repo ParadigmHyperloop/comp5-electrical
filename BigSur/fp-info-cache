@@ -1,4 +1,4 @@
-16209295358080073
+16212438098174073
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -287,6 +287,13 @@ KEMET_CAP_SMD_T491C105K050AT
 2
 2
 BigSur
+Keystone_TP_SMD_5015
+
+
+0
+0
+0
+BigSur
 OMRON_RELAY_G5LE-1A-VDDC12
 
 
@@ -307,6 +314,13 @@ ONSemi_SMD_Schottky_NTS12120EMFS
 0
 9
 3
+BigSur
+VISHAY_CAP_SMD_293D106X9050E2TE3
+
+
+0
+2
+2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
