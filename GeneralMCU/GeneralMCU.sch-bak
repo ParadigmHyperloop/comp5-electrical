@@ -1440,7 +1440,7 @@ Wire Notes Line
 Text Notes 3390 1150 0    39   ~ 0
 *Place Close to Conn\n\n
 Text Notes 11810 820  0    79   ~ 0
-Drop In PCB Spec:\n1) CAN - Place TVS diode and bus filter caps close to CAN connector\n\n
+Drop In PCB Spec:\n1) CAN - Place TVS diode and bus filter caps close to CAN connector\n2) Provide power through J2 SMD pad within range from J5\n\n\n\nAssembly:\n1) Trim and file U4, and J6 THT flat on bottom off PCB\n2) Insert J3 jumper if powering over USB\n3) Solder jumper JP1 and JP2 for CAN terminations\n
 Text Notes 1400 2240 0    39   ~ 0
 *Under normal operation \npop. 1kΩ instead of C18\n\n
 $Comp
@@ -2567,7 +2567,7 @@ F 3 "" H 8160 5080 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2960 4790 0    197  ~ 39
-PARADUINO
+GeneralMCU
 $Comp
 L GeneralMCU-rescue:+3V3-power #PWR0183
 U 1 1 5DC65403
@@ -2751,124 +2751,113 @@ Text Label 8340 3200 0    50   ~ 0
 PC0
 Wire Wire Line
 	8550 3200 8340 3200
-Text Label 6110 3480 0    50   ~ 0
+Text Label 5780 3290 0    50   ~ 0
 PA4
 Wire Wire Line
-	6110 3480 6320 3480
-Text Label 6110 3580 0    50   ~ 0
+	5780 3290 5990 3290
+Text Label 5780 3390 0    50   ~ 0
 PA5
 Wire Wire Line
-	6110 3580 6320 3580
-Text Label 6110 3680 0    50   ~ 0
+	5780 3390 5990 3390
+Text Label 5780 3490 0    50   ~ 0
 PA6
 Wire Wire Line
-	6110 3680 6320 3680
-Text Label 6110 3780 0    50   ~ 0
+	5780 3490 5990 3490
+Text Label 5780 3590 0    50   ~ 0
 PA7
 Wire Wire Line
-	6110 3780 6320 3780
-Text Label 6110 3980 0    50   ~ 0
+	5780 3590 5990 3590
+Text Label 5780 3790 0    50   ~ 0
 PC5
 Wire Wire Line
-	6110 3980 6320 3980
-Text Label 6110 3880 0    50   ~ 0
+	5780 3790 5990 3790
+Text Label 5780 3690 0    50   ~ 0
 PC4
 Wire Wire Line
-	6110 3880 6320 3880
-Text Label 6110 4080 0    50   ~ 0
+	5780 3690 5990 3690
+Text Label 5780 3890 0    50   ~ 0
 PB0
 Wire Wire Line
-	6320 4080 6110 4080
-Text Label 6110 4480 0    50   ~ 0
+	5990 3890 5780 3890
+Text Label 5780 4290 0    50   ~ 0
 PB1
 Wire Wire Line
-	6320 4180 6110 4180
-Text Label 6110 4380 0    50   ~ 0
+	5990 3990 5780 3990
+Text Label 5780 4190 0    50   ~ 0
 PB2
 Wire Wire Line
-	6320 4280 6110 4280
-Text Label 6110 4280 0    50   ~ 0
+	5990 4090 5780 4090
+Text Label 5780 4090 0    50   ~ 0
 PB10
 Wire Wire Line
-	6320 4380 6110 4380
-Text Label 6110 4180 0    50   ~ 0
+	5990 4190 5780 4190
+Text Label 5780 3990 0    50   ~ 0
 PB11
 Wire Wire Line
-	6320 4480 6110 4480
-Text Label 6110 4580 0    50   ~ 0
+	5990 4290 5780 4290
+Text Label 5780 4390 0    50   ~ 0
 PB12
 Wire Wire Line
-	6320 4580 6110 4580
-Text Label 6110 4680 0    50   ~ 0
+	5990 4390 5780 4390
+Text Label 5780 4490 0    50   ~ 0
 PB13
 Wire Wire Line
-	6320 4680 6110 4680
-Text Label 6110 4780 0    50   ~ 0
+	5990 4490 5780 4490
+Text Label 5780 4590 0    50   ~ 0
 PB14
 Wire Wire Line
-	6320 4780 6110 4780
+	5990 4590 5780 4590
 Wire Wire Line
-	6320 5080 6070 5080
-Text Label 6070 4980 0    39   ~ 0
+	5990 4890 5740 4890
+Text Label 5740 4790 0    39   ~ 0
 CANH
-Text Label 6070 4880 0    39   ~ 0
+Text Label 5740 4690 0    39   ~ 0
 CANL
 Wire Wire Line
-	6070 4980 6320 4980
+	5740 4790 5990 4790
 Wire Wire Line
-	6070 4880 6320 4880
-Text Label 6070 5080 0    30   ~ 0
+	5740 4690 5990 4690
+Text Label 5740 4890 0    30   ~ 0
 CAN_Shield
 $Comp
 L GeneralMCU-rescue:GND-power #PWR0137
 U 1 1 5DCE40AD
-P 5920 3270
-F 0 "#PWR0137" H 5920 3020 50  0001 C CNN
-F 1 "GND" H 5920 3130 39  0000 C CNN
-F 2 "" H 5920 3270 50  0001 C CNN
-F 3 "" H 5920 3270 50  0001 C CNN
-	1    5920 3270
+P 5590 3080
+F 0 "#PWR0137" H 5590 2830 50  0001 C CNN
+F 1 "GND" H 5590 2940 39  0000 C CNN
+F 2 "" H 5590 3080 50  0001 C CNN
+F 3 "" H 5590 3080 50  0001 C CNN
+	1    5590 3080
 	1    0    0    -1  
 $EndComp
 $Comp
 L GeneralMCU-rescue:+3V3-power #PWR0138
 U 1 1 5DCE4180
-P 6320 3380
-F 0 "#PWR0138" H 6320 3230 50  0001 C CNN
-F 1 "+3V3" V 6320 3580 50  0000 C CNN
-F 2 "" H 6320 3380 50  0001 C CNN
-F 3 "" H 6320 3380 50  0001 C CNN
-	1    6320 3380
+P 5990 3190
+F 0 "#PWR0138" H 5990 3040 50  0001 C CNN
+F 1 "+3V3" V 5990 3390 50  0000 C CNN
+F 2 "" H 5990 3190 50  0001 C CNN
+F 3 "" H 5990 3190 50  0001 C CNN
+	1    5990 3190
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GeneralMCU-rescue:+5V-u104_KICAD_pwr #PWR0139
 U 1 1 5DCE4253
-P 6320 3280
-F 0 "#PWR0139" H 6320 3280 10  0001 C CNN
-F 1 "+5V" V 6320 3460 40  0000 C CNN
-F 2 "" H 6320 3280 60  0000 C CNN
-F 3 "" H 6320 3280 60  0000 C CNN
-	1    6320 3280
+P 5990 3090
+F 0 "#PWR0139" H 5990 3090 10  0001 C CNN
+F 1 "+5V" V 5990 3270 40  0000 C CNN
+F 2 "" H 5990 3090 60  0000 C CNN
+F 3 "" H 5990 3090 60  0000 C CNN
+	1    5990 3090
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5920 3180 5920 3270
-$Comp
-L GeneralMCU-rescue:Conn_02x21_Counter_Clockwise-Connector_Generic J2
-U 1 1 5E1A0AF8
-P 6520 4180
-F 0 "J2" H 6570 5397 50  0000 C CNN
-F 1 "SMD castellation PKG" H 6570 5306 50  0000 C CNN
-F 2 "µ104KiCAD:PAD42" H 6520 4180 50  0001 C CNN
-F 3 "~" H 6520 4180 50  0001 C CNN
-	1    6520 4180
-	1    0    0    -1  
-$EndComp
+	5590 2990 5590 3080
 Wire Notes Line
-	5900 4510 6390 4510
+	5570 4320 6060 4320
 Wire Wire Line
-	5920 3180 6320 3180
+	5590 2990 5990 2990
 Wire Wire Line
 	5390 6120 5930 6120
 Wire Wire Line
@@ -2876,93 +2865,93 @@ Wire Wire Line
 $Comp
 L GeneralMCU-rescue:+V-u104_KICAD_pwr #PWR0140
 U 1 1 5DCE4326
-P 6820 5180
-F 0 "#PWR0140" H 6820 5180 10  0001 C CNN
-F 1 "+V" V 6780 5340 40  0000 C CNN
-F 2 "" H 6820 5180 60  0000 C CNN
-F 3 "" H 6820 5180 60  0000 C CNN
-	1    6820 5180
+P 6990 4990
+F 0 "#PWR0140" H 6990 4990 10  0001 C CNN
+F 1 "+V" V 6950 5150 40  0000 C CNN
+F 2 "" H 6990 4990 60  0000 C CNN
+F 3 "" H 6990 4990 60  0000 C CNN
+	1    6990 4990
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7110 3980 6820 3980
+	7280 3790 6990 3790
 Wire Wire Line
-	6820 3880 7110 3880
-Text Label 7110 3980 2    39   ~ 0
+	6990 3690 7280 3690
+Text Label 7280 3790 2    39   ~ 0
 I2C1_SCL
-Text Label 7110 3880 2    39   ~ 0
+Text Label 7280 3690 2    39   ~ 0
 I2C1_SDA
 Wire Wire Line
-	7030 4280 6820 4280
-Text Label 7030 4280 2    50   ~ 0
+	7200 4090 6990 4090
+Text Label 7200 4090 2    50   ~ 0
 PC10
 Wire Wire Line
-	7030 4180 6820 4180
-Text Label 7030 4180 2    50   ~ 0
+	7200 3990 6990 3990
+Text Label 7200 3990 2    50   ~ 0
 PC11
 Wire Wire Line
-	7030 4080 6820 4080
-Text Label 7030 4080 2    50   ~ 0
+	7200 3890 6990 3890
+Text Label 7200 3890 2    50   ~ 0
 PC12
 Wire Wire Line
-	6820 5080 7030 5080
-Text Label 7030 5080 2    50   ~ 0
+	6990 4890 7200 4890
+Text Label 7200 4890 2    50   ~ 0
 PA10
 Wire Wire Line
-	6820 3180 7030 3180
-Text Label 7030 3180 2    50   ~ 0
+	6990 2990 7200 2990
+Text Label 7200 2990 2    50   ~ 0
 PA2
 Wire Wire Line
-	6820 3280 7030 3280
-Text Label 7030 3280 2    50   ~ 0
+	6990 3090 7200 3090
+Text Label 7200 3090 2    50   ~ 0
 PA1
 Wire Wire Line
-	6820 3380 7030 3380
-Text Label 7030 3380 2    50   ~ 0
+	6990 3190 7200 3190
+Text Label 7200 3190 2    50   ~ 0
 PA0
 Wire Wire Line
-	6820 3780 7030 3780
-Text Label 7030 3780 2    50   ~ 0
+	6990 3590 7200 3590
+Text Label 7200 3590 2    50   ~ 0
 PC0
 Wire Wire Line
-	7030 3680 6820 3680
-Text Label 7030 3680 2    50   ~ 0
+	7200 3490 6990 3490
+Text Label 7200 3490 2    50   ~ 0
 PC1
 Wire Wire Line
-	7030 3580 6820 3580
-Text Label 7030 3580 2    50   ~ 0
+	7200 3390 6990 3390
+Text Label 7200 3390 2    50   ~ 0
 PC2
 Wire Wire Line
-	7030 3480 6820 3480
-Text Label 7030 3480 2    50   ~ 0
+	7200 3290 6990 3290
+Text Label 7200 3290 2    50   ~ 0
 PC3
 Wire Wire Line
-	6820 4980 7030 4980
-Text Label 7030 4980 2    50   ~ 0
+	6990 4790 7200 4790
+Text Label 7200 4790 2    50   ~ 0
 PA9
 Wire Wire Line
-	6820 4880 7030 4880
-Text Label 7030 4880 2    50   ~ 0
+	6990 4690 7200 4690
+Text Label 7200 4690 2    50   ~ 0
 PA8
 Wire Wire Line
-	7030 4480 6820 4480
-Text Label 7030 4480 2    50   ~ 0
+	7200 4290 6990 4290
+Text Label 7200 4290 2    50   ~ 0
 PC6
 Wire Wire Line
-	7030 4580 6820 4580
-Text Label 7030 4580 2    50   ~ 0
+	7200 4390 6990 4390
+Text Label 7200 4390 2    50   ~ 0
 PC7
 Wire Wire Line
-	7030 4680 6820 4680
-Text Label 7030 4680 2    50   ~ 0
+	7200 4490 6990 4490
+Text Label 7200 4490 2    50   ~ 0
 PC8
 Wire Wire Line
-	7030 4780 6820 4780
-Text Label 7030 4780 2    50   ~ 0
+	7200 4590 6990 4590
+Text Label 7200 4590 2    50   ~ 0
 PC9
 Wire Wire Line
-	6820 4380 7030 4380
-Text Label 7030 4380 2    50   ~ 0
+	6990 4190 7200 4190
+Text Label 7200 4190 2    50   ~ 0
 PB15
 $Comp
 L GeneralMCU-rescue:STM32F303R6Tx-MCU_ST_STM32F3 U1
@@ -2979,13 +2968,13 @@ $EndComp
 $Comp
 L GeneralMCU-rescue:CHASSIS-u104_KICAD_pwr #PWR0141
 U 1 1 5DD0A6FE
-P 6320 5180
-F 0 "#PWR0141" H 6320 5180 10  0001 C CNN
-F 1 "CHASSIS" H 6300 5050 39  0000 C CNN
-F 2 "" H 6320 5130 50  0000 C CNN
-F 3 "" H 6320 5130 50  0000 C CNN
-	1    6320 5180
-	1    0    0    -1  
+P 5990 4990
+F 0 "#PWR0141" H 5990 4990 10  0001 C CNN
+F 1 "CHASSIS" V 5990 4760 39  0000 C CNN
+F 2 "" H 5990 4940 50  0000 C CNN
+F 3 "" H 5990 4940 50  0000 C CNN
+	1    5990 4990
+	0    1    1    0   
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small snblock1
@@ -3059,9 +3048,88 @@ U 1 1 5DAF2789
 P 12470 7730
 F 0 "snblock5" H 12470 8005 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12470 7505 50  0001 C CNN
-F 2 "Symbol:KiCad-Logo2_8mm_SilkScreen" H 12470 7730 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_8mm_SilkScreen" H 12470 7730 50  0001 C CNN
 F 3 "~" H 12470 7730 50  0001 C CNN
 	1    12470 7730
+	1    0    0    -1  
+$EndComp
+$Comp
+L GeneralMCU-Example:SMD46 J2
+U 1 1 5DA99365
+P 6490 3790
+F 0 "J2" H 6490 4815 50  0000 C CNN
+F 1 "SMD46 castellation PKG" H 6490 4724 50  0000 C CNN
+F 2 "µ104KiCAD:PAD42" H 6490 3790 50  0001 C CNN
+F 3 "" H 6490 3790 50  0001 C CNN
+	1    6490 3790
+	1    0    0    -1  
+$EndComp
+$Comp
+L GeneralMCU-rescue:GND-power #PWR0149
+U 1 1 5DAE3D0D
+P 5990 5090
+F 0 "#PWR0149" H 5990 4840 50  0001 C CNN
+F 1 "GND" V 5990 4920 39  0000 C CNN
+F 2 "" H 5990 5090 50  0001 C CNN
+F 3 "" H 5990 5090 50  0001 C CNN
+	1    5990 5090
+	0    1    1    0   
+$EndComp
+$Comp
+L GeneralMCU-rescue:GND-power #PWR0150
+U 1 1 5DB0605C
+P 6990 5090
+F 0 "#PWR0150" H 6990 4840 50  0001 C CNN
+F 1 "GND" V 6990 4920 39  0000 C CNN
+F 2 "" H 6990 5090 50  0001 C CNN
+F 3 "" H 6990 5090 50  0001 C CNN
+	1    6990 5090
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6990 5190
+NoConn ~ 5990 5190
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock9
+U 1 1 5DC8D03D
+P 11960 6420
+F 0 "snblock9" H 11960 6695 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11960 6195 50  0001 C CNN
+F 2 "pics:datboi" H 11960 6420 50  0001 C CNN
+F 3 "~" H 11960 6420 50  0001 C CNN
+	1    11960 6420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock4
+U 1 1 5DCC7965
+P 11960 5990
+F 0 "snblock4" H 11960 6265 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 11960 5765 50  0001 C CNN
+F 2 "pics:poddy" H 11960 5990 50  0001 C CNN
+F 3 "~" H 11960 5990 50  0001 C CNN
+	1    11960 5990
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock10
+U 1 1 5DCDBFD3
+P 12490 5980
+F 0 "snblock10" H 12490 6255 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12490 5755 50  0001 C CNN
+F 2 "pics:stride" H 12490 5980 50  0001 C CNN
+F 3 "~" H 12490 5980 50  0001 C CNN
+	1    12490 5980
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small snblock11
+U 1 1 5DCDC37C
+P 13010 5990
+F 0 "snblock11" H 13010 6265 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 13010 5765 50  0001 C CNN
+F 2 "pics:MUN" H 13010 5990 50  0001 C CNN
+F 3 "~" H 13010 5990 50  0001 C CNN
+	1    13010 5990
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
