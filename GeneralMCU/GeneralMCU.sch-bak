@@ -1439,7 +1439,7 @@ Wire Notes Line
 	4010 1910 3390 1910
 Text Notes 3390 1150 0    39   ~ 0
 *Place Close to Conn\n\n
-Text Notes 11810 820  0    79   ~ 0
+Text Notes 11790 1260 0    79   ~ 0
 Drop In PCB Spec:\n1) CAN - Place TVS diode and bus filter caps close to CAN connector\n2) Provide power through J2 SMD pad within range from J5\n\n\n\nAssembly:\n1) Trim and file U4, and J6 THT flat on bottom off PCB\n2) Insert J3 jumper if powering over USB\n3) Solder jumper JP1 and JP2 for CAN terminations\n
 Text Notes 1400 2240 0    39   ~ 0
 *Under normal operation \npop. 1kΩ instead of C18\n\n
@@ -1583,7 +1583,7 @@ L GeneralMCU-rescue:Fuse_Small-Device F1
 U 1 1 5DC147F6
 P 1770 2970
 F 0 "F1" H 1690 3040 50  0000 C CNN
-F 1 "3VDC 1A PTC" H 1780 2910 28  0000 C CNN
+F 1 "PTC" H 1780 2910 28  0000 C CNN
 F 2 "Diodes_SMD:D_1206" H 1770 2970 50  0001 C CNN
 F 3 "~" H 1770 2970 50  0001 C CNN
 	1    1770 2970
@@ -2417,10 +2417,10 @@ Wire Wire Line
 Text Label 10620 1800 2    39   ~ 0
 USR_LED
 $Comp
-L GeneralMCU-rescue:Q_NMOS_GSD-Device Q1
+L GeneralMCU-rescue:Q_NMOS_GSD-Device e
 U 1 1 5D6F1295
 P 2570 7060
-F 0 "Q1" H 2775 7106 50  0000 L CNN
+F 0 "e" H 2775 7106 50  0000 L CNN
 F 1 "Q_NMOS_DGS" H 2775 7015 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2770 7160 50  0001 C CNN
 F 3 "~" H 2570 7060 50  0001 C CNN
