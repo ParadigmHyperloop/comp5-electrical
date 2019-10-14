@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,4 +14,272 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GeneralMCU-Example:SMD42 U?
+U 1 1 5D9FD493
+P 6000 3450
+F 0 "U?" H 6000 4475 50  0000 C CNN
+F 1 "SMD42" H 6000 4384 50  0000 C CNN
+F 2 "GeneralMCU_Example:SMD42-FTP" H 6000 3450 50  0001 C CNN
+F 3 "" H 6000 3450 50  0001 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D9FD6B3
+P 3450 4350
+F 0 "J?" H 3530 4342 50  0000 L CNN
+F 1 "Conn_01x04" H 3530 4251 50  0000 L CNN
+F 2 "" H 3450 4350 50  0001 C CNN
+F 3 "~" H 3450 4350 50  0001 C CNN
+	1    3450 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4350 4900 4350
+Wire Wire Line
+	5500 4450 4900 4450
+Text Label 4900 4350 0    50   ~ 0
+CAN_N
+Text Label 4900 4450 0    50   ~ 0
+CAN_P
+Text Label 4900 4550 0    50   ~ 0
+CAN_SHIELD
+Wire Wire Line
+	4900 4550 5500 4550
+Text Notes 3500 4900 0    39   Italic 0
+Name change for Diff routing\nCAN_N = CAN_L\nCAN_H = CAN_P
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DC49011
+P 7100 4000
+F 0 "#PWR?" H 7100 3850 50  0001 C CNN
+F 1 "+BATT" H 7115 4173 50  0000 C CNN
+F 2 "" H 7100 4000 50  0001 C CNN
+F 3 "" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	1    0    0    -1  
+$EndComp
+Text HLabel 4900 2950 0    50   Input ~ 0
+i_vsense
+Text HLabel 4900 3050 0    50   Input ~ 0
+i_csense
+Text HLabel 4900 3650 0    50   Input ~ 0
+HP_CTL
+Text HLabel 4900 3750 0    50   Input ~ 0
+24V_MCU_CTL
+Text HLabel 4900 3850 0    50   Input ~ 0
+12V_MCU_CTL
+Text HLabel 4900 3950 0    50   Input ~ 0
+5V_MCU_CTL
+Text HLabel 4900 3150 0    50   Input ~ 0
+o24_csense
+Text HLabel 4900 3250 0    50   Input ~ 0
+o12_csense
+Text HLabel 4900 3450 0    50   Input ~ 0
+o5_csense
+Wire Wire Line
+	5500 2950 4900 2950
+Wire Wire Line
+	5500 3050 4900 3050
+Wire Wire Line
+	5500 3150 4900 3150
+Wire Wire Line
+	5500 3450 4900 3450
+Wire Wire Line
+	5500 3250 4900 3250
+Wire Wire Line
+	4900 3650 5500 3650
+Wire Wire Line
+	5500 3750 4900 3750
+Wire Wire Line
+	5500 3850 4900 3850
+Wire Wire Line
+	4900 3950 5500 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DAB120B
+P 5000 2750
+F 0 "#PWR?" H 5000 2600 50  0001 C CNN
+F 1 "+3V3" H 5015 2923 50  0000 C CNN
+F 2 "" H 5000 2750 50  0001 C CNN
+F 3 "" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2650 5400 2650
+Wire Wire Line
+	5400 2650 5400 2300
+Wire Wire Line
+	5400 2300 5300 2300
+Wire Wire Line
+	5300 2300 5300 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5DAB14ED
+P 5300 2400
+F 0 "#PWR?" H 5300 2150 50  0001 C CNN
+F 1 "GND" H 5305 2227 50  0000 C CNN
+F 2 "" H 5300 2400 50  0001 C CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2850 5500 2850
+Wire Wire Line
+	5000 2850 5000 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5DAB1B74
+P 5200 5100
+F 0 "#PWR?" H 5200 4850 50  0001 C CNN
+F 1 "GND" H 5205 4927 50  0000 C CNN
+F 2 "" H 5200 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DAB1BBC
+P 5200 4900
+F 0 "R?" H 5270 4946 50  0000 L CNN
+F 1 "R" H 5270 4855 50  0000 L CNN
+F 2 "" V 5130 4900 50  0001 C CNN
+F 3 "~" H 5200 4900 50  0001 C CNN
+	1    5200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5100 5200 5050
+Wire Wire Line
+	5200 4750 5200 4650
+Wire Wire Line
+	5200 4650 5500 4650
+Text Label 4250 4350 2    50   ~ 0
+CAN_N
+Text Label 4250 4450 2    50   ~ 0
+CAN_P
+Text Label 4250 4550 2    50   ~ 0
+CAN_SHIELD
+Wire Wire Line
+	4250 4550 3650 4550
+Wire Wire Line
+	4250 4350 3650 4350
+Wire Wire Line
+	4250 4450 3650 4450
+NoConn ~ 3650 4250
+$Comp
+L Device:R R?
+U 1 1 5DA49E49
+P 7100 4300
+F 0 "R?" H 7170 4346 50  0000 L CNN
+F 1 "R" H 7170 4255 50  0000 L CNN
+F 2 "" V 7030 4300 50  0001 C CNN
+F 3 "~" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA49E89
+P 7350 4300
+F 0 "R?" H 7420 4346 50  0000 L CNN
+F 1 "R" H 7420 4255 50  0000 L CNN
+F 2 "" V 7280 4300 50  0001 C CNN
+F 3 "~" H 7350 4300 50  0001 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA49EAD
+P 7600 4300
+F 0 "R?" H 7670 4346 50  0000 L CNN
+F 1 "R" H 7670 4255 50  0000 L CNN
+F 2 "" V 7530 4300 50  0001 C CNN
+F 3 "~" H 7600 4300 50  0001 C CNN
+	1    7600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA49ED7
+P 7850 4300
+F 0 "R?" H 7920 4346 50  0000 L CNN
+F 1 "R" H 7920 4255 50  0000 L CNN
+F 2 "" V 7780 4300 50  0001 C CNN
+F 3 "~" H 7850 4300 50  0001 C CNN
+	1    7850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA49F3D
+P 7850 4000
+F 0 "#PWR?" H 7850 3850 50  0001 C CNN
+F 1 "+5V" H 7865 4173 50  0000 C CNN
+F 2 "" H 7850 4000 50  0001 C CNN
+F 3 "" H 7850 4000 50  0001 C CNN
+	1    7850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DA49F89
+P 7600 4000
+F 0 "#PWR?" H 7600 3850 50  0001 C CNN
+F 1 "+12V" H 7615 4173 50  0000 C CNN
+F 2 "" H 7600 4000 50  0001 C CNN
+F 3 "" H 7600 4000 50  0001 C CNN
+	1    7600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5DA49FD5
+P 7350 4000
+F 0 "#PWR?" H 7350 3850 50  0001 C CNN
+F 1 "+24V" H 7365 4173 50  0000 C CNN
+F 2 "" H 7350 4000 50  0001 C CNN
+F 3 "" H 7350 4000 50  0001 C CNN
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4650 7500 4550
+Wire Wire Line
+	7500 4550 7600 4550
+Wire Wire Line
+	7850 4550 7850 4450
+Wire Wire Line
+	6500 4650 7500 4650
+Wire Wire Line
+	7500 4550 7350 4550
+Wire Wire Line
+	7100 4550 7100 4450
+Connection ~ 7500 4550
+Wire Wire Line
+	7350 4450 7350 4550
+Connection ~ 7350 4550
+Wire Wire Line
+	7350 4550 7100 4550
+Wire Wire Line
+	7600 4450 7600 4550
+Connection ~ 7600 4550
+Wire Wire Line
+	7600 4550 7850 4550
+Wire Wire Line
+	7100 4150 7100 4000
+Wire Wire Line
+	7350 4150 7350 4000
+Wire Wire Line
+	7600 4150 7600 4000
+Wire Wire Line
+	7850 4150 7850 4000
+Text Notes 8100 4350 0    50   ~ 0
+ONLY POPULATE ONE AT A TIME\n
 $EndSCHEMATC

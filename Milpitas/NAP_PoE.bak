@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:Milpitas-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title "\"Milpitas\" - LVDC Distribution Board"
 Date "2019-08-11"
 Rev "0"

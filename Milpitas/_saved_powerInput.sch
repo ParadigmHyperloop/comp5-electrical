@@ -35,6 +35,7 @@ F 2 "" V 1280 2150 50  0001 C CNN
 F 3 "~" H 1350 2150 50  0001 C CNN
 F 4 "507-1059-1-ND" V 1350 2150 50  0001 C CNN "Digikey"
 F 5 "15A" V 1450 2150 50  0000 C CNN "Fusing Current"
+F 6 "121" V 1350 2150 50  0001 C CNN "I2T"
 	1    1350 2150
 	0    1    1    0   
 $EndComp
@@ -931,7 +932,7 @@ Reverse Voltage Prot.\nSemi-Undervolt prot.
 Text Notes 2300 2050 0    39   Italic 0
 Transient/ESD Prot.\n
 Text Notes 1100 1850 0    39   Italic 0
-Overcurrent Prot.
+Overcurrent Prot.\nFused at 15. Can operate for\n100 seconds at 20ish amps
 Text Notes 3150 3200 0    39   Italic 0
 Overvoltage Prot
 $Comp
