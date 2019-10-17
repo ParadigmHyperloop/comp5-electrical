@@ -1015,10 +1015,10 @@ GP_RELAY_3
 Text GLabel 8250 3100 0    50   BiDi ~ 0
 GP_RELAY_4
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5DA2F3C5
 P 1400 6200
-F 0 "TP?" H 1458 6318 50  0000 L CNN
+F 0 "TP3" H 1458 6318 50  0000 L CNN
 F 1 "5015" H 1458 6227 50  0000 L CNN
 F 2 "BigSur:Keystone_TP_SMD_5015" H 1600 6200 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 1600 6200 50  0001 C CNN
@@ -1027,10 +1027,10 @@ F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5DA2F64C
 P 1900 5750
-F 0 "TP?" H 1958 5868 50  0000 L CNN
+F 0 "TP2" H 1958 5868 50  0000 L CNN
 F 1 "5015" H 1958 5777 50  0000 L CNN
 F 2 "BigSur:Keystone_TP_SMD_5015" H 2100 5750 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p55.pdf" H 2100 5750 50  0001 C CNN
@@ -1038,4 +1038,6 @@ F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015C
 	1    1900 5750
 	1    0    0    -1  
 $EndComp
+Text Notes 9650 4100 0    50   ~ 0
+SUPPLYING PARADUINO\nWITH 24V INPUT TO THIS\nBOARD. IT HAS ONBOARD\nREGUATION TO 5V AND 3.3V.
 $EndSCHEMATC

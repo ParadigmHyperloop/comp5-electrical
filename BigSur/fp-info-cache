@@ -1,4 +1,4 @@
-16212438098174073
+16212438736605073
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -273,12 +273,12 @@ battery CR-3032 coin cell vertical
 2
 2
 BigSur
-Allegro_SOIC_6.2x5.0mm_P1.27mm
+Allegro_QFN_ACS70331EESATR
 
 
 0
-8
-6
+0
+0
 BigSur
 KEMET_CAP_SMD_T491C105K050AT
 
@@ -291,8 +291,8 @@ Keystone_TP_SMD_5015
 
 
 0
-0
-0
+1
+1
 BigSur
 OMRON_RELAY_G5LE-1A-VDDC12
 

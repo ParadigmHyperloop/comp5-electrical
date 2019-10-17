@@ -1038,4 +1038,6 @@ F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015C
 	1    1900 5750
 	1    0    0    -1  
 $EndComp
+Text Notes 9650 4100 0    50   ~ 0
+SUPPLYING PARADUINO\nWITH 24V INPUT TO THIS\nBOARD. IT HAS ONBOARD\nREGUATION TO 5V AND 3.3V.
 $EndSCHEMATC

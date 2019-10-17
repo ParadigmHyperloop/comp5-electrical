@@ -52,18 +52,18 @@ F 4 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/G5LE
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2000 2400 2100
+	2400 2000 2400 2050
 Wire Wire Line
-	2400 1350 2400 1400
+	2400 1300 2400 1350
 $Comp
 L power:+12V #PWR064
 U 1 1 5DA90131
-P 2400 1350
-F 0 "#PWR064" H 2400 1200 50  0001 C CNN
-F 1 "+12V" H 2415 1523 50  0000 C CNN
-F 2 "" H 2400 1350 50  0001 C CNN
-F 3 "" H 2400 1350 50  0001 C CNN
-	1    2400 1350
+P 2400 1300
+F 0 "#PWR064" H 2400 1150 50  0001 C CNN
+F 1 "+12V" H 2415 1473 50  0000 C CNN
+F 2 "" H 2400 1300 50  0001 C CNN
+F 3 "" H 2400 1300 50  0001 C CNN
+	1    2400 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -96,7 +96,7 @@ GP_RELAY_1_LOW
 Text GLabel 3050 1250 2    50   BiDi ~ 0
 GP_RELAY_1_HIGH
 Text Notes 600  750  0    118  ~ 0
-TODAY ON “JASPER DOESN’T KNOW ELECTRONICS,” BJTS!
+TODAY ON “JASPER DOESN’T KNOW ELECTRONICS,” BJTS! AND RELAYS!
 $Comp
 L Device:Q_NPN_BCE Q5
 U 1 1 5DA0A5EA
@@ -135,18 +135,18 @@ F 4 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/G5LE
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3950 2400 4050
+	2400 3950 2400 4000
 Wire Wire Line
-	2400 3300 2400 3350
+	2400 3250 2400 3300
 $Comp
 L power:+12V #PWR070
 U 1 1 5DA0A60C
-P 2400 3300
-F 0 "#PWR070" H 2400 3150 50  0001 C CNN
-F 1 "+12V" H 2415 3473 50  0000 C CNN
-F 2 "" H 2400 3300 50  0001 C CNN
-F 3 "" H 2400 3300 50  0001 C CNN
-	1    2400 3300
+P 2400 3250
+F 0 "#PWR070" H 2400 3100 50  0001 C CNN
+F 1 "+12V" H 2415 3423 50  0000 C CNN
+F 2 "" H 2400 3250 50  0001 C CNN
+F 3 "" H 2400 3250 50  0001 C CNN
+	1    2400 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -205,18 +205,18 @@ F 4 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/G5LE
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2000 5350 2100
+	5350 2000 5350 2050
 Wire Wire Line
-	5350 1350 5350 1400
+	5350 1300 5350 1350
 $Comp
 L power:+12V #PWR065
 U 1 1 5DA0EF32
-P 5350 1350
-F 0 "#PWR065" H 5350 1200 50  0001 C CNN
-F 1 "+12V" H 5365 1523 50  0000 C CNN
-F 2 "" H 5350 1350 50  0001 C CNN
-F 3 "" H 5350 1350 50  0001 C CNN
-	1    5350 1350
+P 5350 1300
+F 0 "#PWR065" H 5350 1150 50  0001 C CNN
+F 1 "+12V" H 5365 1473 50  0000 C CNN
+F 2 "" H 5350 1300 50  0001 C CNN
+F 3 "" H 5350 1300 50  0001 C CNN
+	1    5350 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -275,18 +275,18 @@ F 4 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/G5LE
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 3950 5350 4050
+	5350 3950 5350 4000
 Wire Wire Line
-	5350 3300 5350 3350
+	5350 3250 5350 3300
 $Comp
 L power:+12V #PWR071
 U 1 1 5DA0EF72
-P 5350 3300
-F 0 "#PWR071" H 5350 3150 50  0001 C CNN
-F 1 "+12V" H 5365 3473 50  0000 C CNN
-F 2 "" H 5350 3300 50  0001 C CNN
-F 3 "" H 5350 3300 50  0001 C CNN
-	1    5350 3300
+P 5350 3250
+F 0 "#PWR071" H 5350 3100 50  0001 C CNN
+F 1 "+12V" H 5365 3423 50  0000 C CNN
+F 2 "" H 5350 3250 50  0001 C CNN
+F 3 "" H 5350 3250 50  0001 C CNN
+	1    5350 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -490,4 +490,108 @@ F 5 "RMCF0603JJ1K00" V 1850 4250 50  0001 C CNN "Part Number"
 	1    1850 4250
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:D D14
+U 1 1 5DC73A46
+P 2000 1700
+F 0 "D14" V 1950 1550 50  0000 L CNN
+F 1 "BAS16LT1G" V 2050 1200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2000 1700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 2000 1700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 2000 1700 50  0001 C CNN "Digikey"
+	1    2000 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1350 2000 1350
+Wire Wire Line
+	2000 1350 2000 1550
+Connection ~ 2400 1350
+Wire Wire Line
+	2400 1350 2400 1400
+Wire Wire Line
+	2000 2050 2400 2050
+Wire Wire Line
+	2000 1850 2000 2050
+Connection ~ 2400 2050
+Wire Wire Line
+	2400 2050 2400 2100
+$Comp
+L Device:D D15
+U 1 1 5DC7A8DA
+P 4950 1700
+F 0 "D15" V 4900 1550 50  0000 L CNN
+F 1 "BAS16LT1G" V 5000 1200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 4950 1700 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 4950 1700 50  0001 C CNN "Digikey"
+	1    4950 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 1350 4950 1350
+Wire Wire Line
+	4950 1350 4950 1550
+Wire Wire Line
+	4950 2050 5350 2050
+Wire Wire Line
+	4950 1850 4950 2050
+Connection ~ 5350 1350
+Wire Wire Line
+	5350 1350 5350 1400
+Connection ~ 5350 2050
+Wire Wire Line
+	5350 2050 5350 2100
+$Comp
+L Device:D D16
+U 1 1 5DC7DB2D
+P 2000 3650
+F 0 "D16" V 1950 3500 50  0000 L CNN
+F 1 "BAS16LT1G" V 2050 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2000 3650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 2000 3650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 2000 3650 50  0001 C CNN "Digikey"
+	1    2000 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3300 2000 3300
+Wire Wire Line
+	2000 3300 2000 3500
+Wire Wire Line
+	2000 4000 2400 4000
+Wire Wire Line
+	2000 3800 2000 4000
+$Comp
+L Device:D D17
+U 1 1 5DC7F716
+P 4950 3650
+F 0 "D17" V 4900 3500 50  0000 L CNN
+F 1 "BAS16LT1G" V 5000 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3650 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 4950 3650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 4950 3650 50  0001 C CNN "Digikey"
+	1    4950 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3300 4950 3300
+Wire Wire Line
+	4950 3300 4950 3500
+Wire Wire Line
+	4950 4000 5350 4000
+Wire Wire Line
+	4950 3800 4950 4000
+Connection ~ 5350 3300
+Wire Wire Line
+	5350 3300 5350 3350
+Connection ~ 5350 4000
+Wire Wire Line
+	5350 4000 5350 4050
+Connection ~ 2400 4000
+Wire Wire Line
+	2400 4000 2400 4050
+Connection ~ 2400 3300
+Wire Wire Line
+	2400 3300 2400 3350
 $EndSCHEMATC
