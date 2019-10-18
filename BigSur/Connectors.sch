@@ -778,7 +778,6 @@ Wire Wire Line
 NoConn ~ 8250 2600
 Wire Wire Line
 	8250 2700 8450 2700
-NoConn ~ 8250 2700
 Wire Wire Line
 	8250 2800 8450 2800
 Wire Wire Line
@@ -1040,4 +1039,42 @@ F 4 "https://www.digikey.ca/product-detail/en/keystone-electronics/5015/36-5015C
 $EndComp
 Text Notes 9650 4100 0    50   ~ 0
 SUPPLYING PARADUINO\nWITH 24V INPUT TO THIS\nBOARD. IT HAS ONBOARD\nREGUATION TO 5V AND 3.3V.
+Text Notes 6000 4100 0    118  ~ 0
+INVERTER KILL LINES
+Text GLabel 8250 2700 0    50   BiDi ~ 0
+SOFTWARE_INVERTER_KILL
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5DAB1B33
+P 7300 4500
+F 0 "J?" H 7380 4542 50  0000 L CNN
+F 1 "Conn_01x03" H 7380 4451 50  0000 L CNN
+F 2 "" H 7300 4500 50  0001 C CNN
+F 3 "~" H 7300 4500 50  0001 C CNN
+	1    7300 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 4400 0    50   BiDi ~ 0
+SOFTWARE_INVERTER_KILL
+Wire Wire Line
+	7000 4400 7100 4400
+Wire Wire Line
+	7100 4500 7000 4500
+Text GLabel 7000 4500 0    50   BiDi ~ 0
+BRAKE_SOLENOID_HIGH
+Wire Wire Line
+	7100 4600 7000 4600
+Wire Wire Line
+	7000 4600 7000 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5DABF7D4
+P 7000 4650
+F 0 "#PWR?" H 7000 4400 50  0001 C CNN
+F 1 "GND" H 7005 4477 50  0000 C CNN
+F 2 "" H 7000 4650 50  0001 C CNN
+F 3 "" H 7000 4650 50  0001 C CNN
+	1    7000 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
