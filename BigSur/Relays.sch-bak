@@ -494,8 +494,8 @@ $Comp
 L Device:D D14
 U 1 1 5DC73A46
 P 2000 1700
-F 0 "D14" V 1950 1550 50  0000 L CNN
-F 1 "BAS16LT1G" V 2050 1200 50  0000 L CNN
+F 0 "D14" V 2000 1750 50  0000 L CNN
+F 1 "BAS16LT1G" V 2000 1200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2000 1700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 2000 1700 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 2000 1700 50  0001 C CNN "Digikey"
@@ -520,8 +520,8 @@ $Comp
 L Device:D D15
 U 1 1 5DC7A8DA
 P 4950 1700
-F 0 "D15" V 4900 1550 50  0000 L CNN
-F 1 "BAS16LT1G" V 5000 1200 50  0000 L CNN
+F 0 "D15" V 4950 1750 50  0000 L CNN
+F 1 "BAS16LT1G" V 4950 1200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 1700 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 4950 1700 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 4950 1700 50  0001 C CNN "Digikey"
@@ -546,8 +546,8 @@ $Comp
 L Device:D D16
 U 1 1 5DC7DB2D
 P 2000 3650
-F 0 "D16" V 1950 3500 50  0000 L CNN
-F 1 "BAS16LT1G" V 2050 3150 50  0000 L CNN
+F 0 "D16" V 2000 3700 50  0000 L CNN
+F 1 "BAS16LT1G" V 2000 3150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2000 3650 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 2000 3650 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 2000 3650 50  0001 C CNN "Digikey"
@@ -566,8 +566,8 @@ $Comp
 L Device:D D17
 U 1 1 5DC7F716
 P 4950 3650
-F 0 "D17" V 4900 3450 50  0000 L CNN
-F 1 "BAS16LT1G" V 5000 3150 50  0000 L CNN
+F 0 "D17" V 4950 3700 50  0000 L CNN
+F 1 "BAS16LT1G" V 4950 3150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3650 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 4950 3650 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/BAS16LT1G/BAS16LT1GOSCT-ND/917796" V 4950 3650 50  0001 C CNN "Digikey"
@@ -779,4 +779,7 @@ F 5 "ESR03EZPJ680" V 4250 4000 50  0001 C CNN "Part Number"
 	1    4250 4000
 	0    -1   -1   0   
 $EndComp
+Connection ~ 4950 2050
+Connection ~ 4950 4000
+Connection ~ 2000 4000
 $EndSCHEMATC
