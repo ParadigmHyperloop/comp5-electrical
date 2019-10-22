@@ -1216,26 +1216,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 1400 3500 1400
 Wire Wire Line
-	5800 1000 5750 1000
-Wire Wire Line
-	6150 1000 6100 1000
-Wire Wire Line
-	5450 1000 5350 1000
-$Comp
-L power:+3.3V #PWR03
-U 1 1 5DC61B8F
-P 6150 950
-F 0 "#PWR03" H 6150 800 50  0001 C CNN
-F 1 "+3.3V" H 6165 1123 50  0000 C CNN
-F 2 "" H 6150 950 50  0001 C CNN
-F 3 "" H 6150 950 50  0001 C CNN
-	1    6150 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 950  6150 1000
-Connection ~ 5350 1000
-Wire Wire Line
 	8950 1350 9000 1350
 $Comp
 L power:+3.3V #PWR05
@@ -1300,18 +1280,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 7100 4100 7100
 Connection ~ 4100 7100
-$Comp
-L Device:LED D2
-U 1 1 5DBEF76D
-P 5600 1000
-F 0 "D2" H 5593 1216 50  0000 C CNN
-F 1 "QTLP651C4TR" H 5593 1125 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5600 1000 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 5600 1000 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 5600 1000 50  0001 C CNN "Digikey"
-	1    5600 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D6
 U 1 1 5DC06160
@@ -1735,19 +1703,6 @@ F 5 "ESR03EZPJ680" V 9150 1350 50  0001 C CNN "Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R1
-U 1 1 5DC57211
-P 5950 1000
-F 0 "R1" V 5745 1000 50  0000 C CNN
-F 1 "68" V 5836 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5990 990 50  0001 C CNN
-F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 5950 1000 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 5950 1000 50  0001 C CNN "Digikey"
-F 5 "ESR03EZPJ680" V 5950 1000 50  0001 C CNN "Part Number"
-	1    5950 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_US R8
 U 1 1 5DC6007F
 P 5950 2950
@@ -1808,4 +1763,49 @@ F 5 "ESR03EZPJ680" H 5950 4900 50  0001 C CNN "Part Number"
 	1    5950 4900
 	1    0    0    -1  
 $EndComp
+Connection ~ 5350 1000
+$Comp
+L Device:R_US R1
+U 1 1 5DC57211
+P 5950 1000
+F 0 "R1" V 5745 1000 50  0000 C CNN
+F 1 "68" V 5836 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5990 990 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 5950 1000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 5950 1000 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 5950 1000 50  0001 C CNN "Part Number"
+	1    5950 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DBEF76D
+P 5600 1000
+F 0 "D2" H 5593 1216 50  0000 C CNN
+F 1 "QTLP651C4TR" H 5593 1125 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5600 1000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 5600 1000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 5600 1000 50  0001 C CNN "Digikey"
+	1    5600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 950  6150 1000
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5DC61B8F
+P 6150 950
+F 0 "#PWR03" H 6150 800 50  0001 C CNN
+F 1 "+3.3V" H 6165 1123 50  0000 C CNN
+F 2 "" H 6150 950 50  0001 C CNN
+F 3 "" H 6150 950 50  0001 C CNN
+	1    6150 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1000 5350 1000
+Wire Wire Line
+	6150 1000 6100 1000
+Wire Wire Line
+	5800 1000 5750 1000
 $EndSCHEMATC

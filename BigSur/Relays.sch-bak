@@ -15,7 +15,7 @@ Comment3 "x"
 Comment4 "Jasper Rubin"
 $EndDescr
 $Comp
-L Device:Q_NPN_BCE Q3
+L Device:Q_NPN_BEC Q3
 U 1 1 5DA8A6CB
 P 2300 2300
 F 0 "Q3" H 2491 2346 50  0000 L CNN
@@ -70,7 +70,7 @@ $Comp
 L Device:R_US R21
 U 1 1 5DA91CE3
 P 1850 2300
-F 0 "R21" V 1645 2300 50  0000 C CNN
+F 0 "R21" V 1950 2300 50  0000 C CNN
 F 1 "1K" V 1736 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1890 2290 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1850 2300 50  0001 C CNN
@@ -98,7 +98,7 @@ GP_RELAY_1_HIGH
 Text Notes 600  750  0    118  ~ 0
 TODAY ON “JASPER DOESN’T KNOW ELECTRONICS,” BJTS! AND RELAYS!
 $Comp
-L Device:Q_NPN_BCE Q5
+L Device:Q_NPN_BEC Q5
 U 1 1 5DA0A5EA
 P 2300 4250
 F 0 "Q5" H 2491 4296 50  0000 L CNN
@@ -168,7 +168,7 @@ GP_RELAY_2_LOW
 Text GLabel 3050 3200 2    50   BiDi ~ 0
 GP_RELAY_2_HIGH
 $Comp
-L Device:Q_NPN_BCE Q4
+L Device:Q_NPN_BEC Q4
 U 1 1 5DA0EF10
 P 5250 2300
 F 0 "Q4" H 5441 2346 50  0000 L CNN
@@ -238,7 +238,7 @@ GP_RELAY_3_LOW
 Text GLabel 6000 1250 2    50   BiDi ~ 0
 GP_RELAY_3_HIGH
 $Comp
-L Device:Q_NPN_BCE Q6
+L Device:Q_NPN_BEC Q6
 U 1 1 5DA0EF50
 P 5250 4250
 F 0 "Q6" H 5441 4296 50  0000 L CNN
@@ -455,7 +455,7 @@ $Comp
 L Device:R_US R22
 U 1 1 5DA990D2
 P 4800 2300
-F 0 "R22" V 4595 2300 50  0000 C CNN
+F 0 "R22" V 4900 2300 50  0000 C CNN
 F 1 "1K" V 4686 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 2290 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4800 2300 50  0001 C CNN
@@ -468,7 +468,7 @@ $Comp
 L Device:R_US R26
 U 1 1 5DA99973
 P 4800 4250
-F 0 "R26" V 4595 4250 50  0000 C CNN
+F 0 "R26" V 4900 4250 50  0000 C CNN
 F 1 "1K" V 4686 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4840 4240 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4800 4250 50  0001 C CNN
@@ -481,7 +481,7 @@ $Comp
 L Device:R_US R25
 U 1 1 5DA9A1F5
 P 1850 4250
-F 0 "R25" V 1645 4250 50  0000 C CNN
+F 0 "R25" V 1950 4250 50  0000 C CNN
 F 1 "1K" V 1736 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1890 4240 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1850 4250 50  0001 C CNN
@@ -566,7 +566,7 @@ $Comp
 L Device:D D17
 U 1 1 5DC7F716
 P 4950 3650
-F 0 "D17" V 4900 3500 50  0000 L CNN
+F 0 "D17" V 4900 3450 50  0000 L CNN
 F 1 "BAS16LT1G" V 5000 3150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4950 3650 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BAS16LT1-D.PDF" H 4950 3650 50  0001 C CNN
@@ -594,4 +594,189 @@ Wire Wire Line
 Connection ~ 2400 3300
 Wire Wire Line
 	2400 3300 2400 3350
+Wire Wire Line
+	1100 2050 1150 2050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB11585
+P 1100 2000
+F 0 "#PWR?" H 1100 1850 50  0001 C CNN
+F 1 "+3.3V" H 1115 2173 50  0000 C CNN
+F 2 "" H 1100 2000 50  0001 C CNN
+F 3 "" H 1100 2000 50  0001 C CNN
+	1    1100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2000 1100 2050
+Wire Wire Line
+	1450 2050 1550 2050
+$Comp
+L Device:LED D?
+U 1 1 5DB1158E
+P 1700 2050
+AR Path="/5D6EB2B2/5DB1158E" Ref="D?"  Part="1" 
+AR Path="/5D7D29A6/5DB1158E" Ref="D?"  Part="1" 
+F 0 "D?" H 1700 2150 50  0000 C CNN
+F 1 "QTLP651C4TR" H 1700 1900 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1700 2050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 1700 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 1700 2050 50  0001 C CNN "Digikey"
+	1    1700 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 2050 2000 2050
+$Comp
+L Device:R_US R?
+U 1 1 5DB11597
+P 1300 2050
+F 0 "R?" V 1200 2050 50  0000 C CNN
+F 1 "68" V 1400 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1340 2040 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 1300 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 1300 2050 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 1300 2050 50  0001 C CNN "Part Number"
+	1    1300 2050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2000 2050
+Wire Wire Line
+	1100 4000 1150 4000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB16724
+P 1100 3950
+F 0 "#PWR?" H 1100 3800 50  0001 C CNN
+F 1 "+3.3V" H 1115 4123 50  0000 C CNN
+F 2 "" H 1100 3950 50  0001 C CNN
+F 3 "" H 1100 3950 50  0001 C CNN
+	1    1100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3950 1100 4000
+Wire Wire Line
+	1450 4000 1550 4000
+$Comp
+L Device:LED D?
+U 1 1 5DB1672D
+P 1700 4000
+AR Path="/5D6EB2B2/5DB1672D" Ref="D?"  Part="1" 
+AR Path="/5D7D29A6/5DB1672D" Ref="D?"  Part="1" 
+F 0 "D?" H 1700 4100 50  0000 C CNN
+F 1 "QTLP651C4TR" H 1700 3850 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1700 4000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 1700 4000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 1700 4000 50  0001 C CNN "Digikey"
+	1    1700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 4000 2000 4000
+$Comp
+L Device:R_US R?
+U 1 1 5DB16736
+P 1300 4000
+F 0 "R?" V 1200 4000 50  0000 C CNN
+F 1 "68" V 1400 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1340 3990 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 1300 4000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 1300 4000 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 1300 4000 50  0001 C CNN "Part Number"
+	1    1300 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2050 4100 2050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB1A1F1
+P 4050 2000
+F 0 "#PWR?" H 4050 1850 50  0001 C CNN
+F 1 "+3.3V" H 4065 2173 50  0000 C CNN
+F 2 "" H 4050 2000 50  0001 C CNN
+F 3 "" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2000 4050 2050
+Wire Wire Line
+	4400 2050 4500 2050
+$Comp
+L Device:LED D?
+U 1 1 5DB1A1FA
+P 4650 2050
+AR Path="/5D6EB2B2/5DB1A1FA" Ref="D?"  Part="1" 
+AR Path="/5D7D29A6/5DB1A1FA" Ref="D?"  Part="1" 
+F 0 "D?" H 4650 2150 50  0000 C CNN
+F 1 "QTLP651C4TR" H 4650 1900 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4650 2050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 4650 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 4650 2050 50  0001 C CNN "Digikey"
+	1    4650 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2050 4950 2050
+$Comp
+L Device:R_US R?
+U 1 1 5DB1A203
+P 4250 2050
+F 0 "R?" V 4150 2050 50  0000 C CNN
+F 1 "68" V 4350 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4290 2040 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 4250 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 4250 2050 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 4250 2050 50  0001 C CNN "Part Number"
+	1    4250 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4000 4100 4000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB1E219
+P 4050 3950
+F 0 "#PWR?" H 4050 3800 50  0001 C CNN
+F 1 "+3.3V" H 4065 4123 50  0000 C CNN
+F 2 "" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3950 4050 4000
+Wire Wire Line
+	4400 4000 4500 4000
+$Comp
+L Device:LED D?
+U 1 1 5DB1E222
+P 4650 4000
+AR Path="/5D6EB2B2/5DB1E222" Ref="D?"  Part="1" 
+AR Path="/5D7D29A6/5DB1E222" Ref="D?"  Part="1" 
+F 0 "D?" H 4650 4100 50  0000 C CNN
+F 1 "QTLP651C4TR" H 4650 3850 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4650 4000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 4650 4000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 4650 4000 50  0001 C CNN "Digikey"
+	1    4650 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4000 4950 4000
+$Comp
+L Device:R_US R?
+U 1 1 5DB1E22B
+P 4250 4000
+F 0 "R?" V 4150 4000 50  0000 C CNN
+F 1 "68" V 4350 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4290 3990 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 4250 4000 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 4250 4000 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 4250 4000 50  0001 C CNN "Part Number"
+	1    4250 4000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
