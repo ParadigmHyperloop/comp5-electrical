@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name GeneralMCU_Example)(type KiCad)(uri ${KIPRJMOD}/GeneralMCU_Example/GeneralMCU_Example/GeneralMCU_Example.pretty)(options "")(descr ""))
+  (lib (name pics)(type KiCad)(uri ${KIPRJMOD}/pics)(options "")(descr ""))
+)
