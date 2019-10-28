@@ -148,259 +148,231 @@ F 3 "" H 3450 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 1750 3450 1650
-Text Notes 800  7550 0    118  ~ 0
+Text Notes 600  7700 0    118  ~ 0
 TODAY ON “THINGS JASPER DOESN’T UNDERSTAND,” FILTERS!\nOH, AND ALSO OPAMPS APPARRENTLY. GOOD TIMES.
-Text Notes 5400 3900 0    50   ~ 0
+Text Notes 6000 3900 0    50   ~ 0
 WHEN BRAKING, THE TWO NO SOLENOIDS (THE ECONOMIZED ONES)\nARE UNPOWERED. DURING THE RUN THEY SHOULD BE POWERED.\nKILL THE INVERTER WHEN THEY ARE UNPOWERED, SINCE BRAKING.
 $Comp
 L BigSurLib:MCP6L02T-E_MS U10
 U 1 1 5DA8E335
-P 7900 4450
-F 0 "U10" H 7900 4817 50  0000 C CNN
-F 1 "MCP6L02T-E_MS" H 7900 4726 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7900 4450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 7900 4450 50  0001 C CNN
-F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 7900 4450 50  0001 C CNN "Digikey"
-	1    7900 4450
+P 8500 4450
+F 0 "U10" H 8500 4817 50  0000 C CNN
+F 1 "MCP6L02T-E_MS" H 8500 4726 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8500 4450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 8500 4450 50  0001 C CNN
+F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 8500 4450 50  0001 C CNN "Digikey"
+	1    8500 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L BigSurLib:MCP6L02T-E_MS U10
 U 2 1 5DA8F0EF
-P 7900 5050
-F 0 "U10" H 7900 5417 50  0000 C CNN
-F 1 "MCP6L02T-E_MS" H 7900 5326 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7900 5050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 7900 5050 50  0001 C CNN
-F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 7900 5050 50  0001 C CNN "Digikey"
-	2    7900 5050
+P 8500 5050
+F 0 "U10" H 8500 5417 50  0000 C CNN
+F 1 "MCP6L02T-E_MS" H 8500 5326 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8500 5050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 8500 5050 50  0001 C CNN
+F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 8500 5050 50  0001 C CNN "Digikey"
+	2    8500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L BigSurLib:MCP6L02T-E_MS U10
 U 3 1 5DA8FFC3
-P 7400 5850
-F 0 "U10" H 7458 5896 50  0000 L CNN
-F 1 "MCP6L02T-E_MS" H 7458 5805 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7400 5850 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 7400 5850 50  0001 C CNN
-F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 7400 5850 50  0001 C CNN "Digikey"
-	3    7400 5850
+P 8000 5850
+F 0 "U10" H 8058 5896 50  0000 L CNN
+F 1 "MCP6L02T-E_MS" H 8058 5805 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8000 5850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf" H 8000 5850 50  0001 C CNN
+F 4 "digikey.ca/product-detail/en/microchip-technology/MCP6L02T-E-MS/MCP6L02T-E-MSCT-ND/2060114" H 8000 5850 50  0001 C CNN "Digikey"
+	3    8000 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0111
 U 1 1 5DA93EA9
-P 7400 5500
-F 0 "#PWR0111" H 7400 5350 50  0001 C CNN
-F 1 "+3.3V" H 7415 5673 50  0000 C CNN
-F 2 "" H 7400 5500 50  0001 C CNN
-F 3 "" H 7400 5500 50  0001 C CNN
-	1    7400 5500
+P 8000 5500
+F 0 "#PWR0111" H 8000 5350 50  0001 C CNN
+F 1 "+3.3V" H 8015 5673 50  0000 C CNN
+F 2 "" H 8000 5500 50  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+	1    8000 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 5500 7400 5550
+	8000 5500 8000 5550
 Wire Wire Line
-	7400 6150 7400 6200
+	8000 6150 8000 6200
 $Comp
 L power:GND #PWR0119
 U 1 1 5DA97807
-P 7400 6200
-F 0 "#PWR0119" H 7400 5950 50  0001 C CNN
-F 1 "GND" H 7405 6027 50  0000 C CNN
-F 2 "" H 7400 6200 50  0001 C CNN
-F 3 "" H 7400 6200 50  0001 C CNN
-	1    7400 6200
+P 8000 6200
+F 0 "#PWR0119" H 8000 5950 50  0001 C CNN
+F 1 "GND" H 8005 6027 50  0000 C CNN
+F 2 "" H 8000 6200 50  0001 C CNN
+F 3 "" H 8000 6200 50  0001 C CNN
+	1    8000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0113
 U 1 1 5DA97CB5
-P 6400 5650
-F 0 "#PWR0113" H 6400 5500 50  0001 C CNN
-F 1 "+3.3V" H 6415 5823 50  0000 C CNN
-F 2 "" H 6400 5650 50  0001 C CNN
-F 3 "" H 6400 5650 50  0001 C CNN
-	1    6400 5650
+P 7000 5650
+F 0 "#PWR0113" H 7000 5500 50  0001 C CNN
+F 1 "+3.3V" H 7015 5823 50  0000 C CNN
+F 2 "" H 7000 5650 50  0001 C CNN
+F 3 "" H 7000 5650 50  0001 C CNN
+	1    7000 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5DA97CBF
-P 6850 6100
-F 0 "#PWR0117" H 6850 5850 50  0001 C CNN
-F 1 "GND" H 6855 5927 50  0000 C CNN
-F 2 "" H 6850 6100 50  0001 C CNN
-F 3 "" H 6850 6100 50  0001 C CNN
-	1    6850 6100
+P 7450 6100
+F 0 "#PWR0117" H 7450 5850 50  0001 C CNN
+F 1 "GND" H 7455 5927 50  0000 C CNN
+F 2 "" H 7450 6100 50  0001 C CNN
+F 3 "" H 7450 6100 50  0001 C CNN
+	1    7450 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 5750 6850 5750
+	7000 5750 7450 5750
 Wire Wire Line
-	6850 6050 6850 6100
+	7450 6050 7450 6100
 $Comp
 L Device:C C?
 U 1 1 5DA97CCD
-P 6850 5900
+P 7450 5900
 AR Path="/5D6EB2B2/5DA97CCD" Ref="C?"  Part="1" 
 AR Path="/5D71C3EA/5DA97CCD" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DA97CCD" Ref="C33"  Part="1" 
-F 0 "C33" H 6965 5946 50  0000 L CNN
-F 1 "0.1uF" H 6965 5855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 5900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 6850 5900 50  0001 C CNN
-F 4 "CL10B104KB8NNNC" H 6850 5900 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6850 5900 50  0001 C CNN "Digikey"
-	1    6850 5900
+F 0 "C33" H 7565 5946 50  0000 L CNN
+F 1 "0.1uF" H 7565 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 5900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 7450 5900 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 7450 5900 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7450 5900 50  0001 C CNN "Digikey"
+	1    7450 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DA9B747
-P 6400 5900
+P 7000 5900
 AR Path="/5D6EB2B2/5DA9B747" Ref="C?"  Part="1" 
 AR Path="/5D71C3EA/5DA9B747" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DA9B747" Ref="C32"  Part="1" 
-F 0 "C32" H 6515 5946 50  0000 L CNN
-F 1 "2.2uF" H 6515 5855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 5900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KP8NNNC.pdf" H 6400 5900 50  0001 C CNN
-F 4 "CL10B104KB8NNNC" H 6400 5900 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6400 5900 50  0001 C CNN "Digikey"
-	1    6400 5900
+F 0 "C32" H 7115 5946 50  0000 L CNN
+F 1 "2.2uF" H 7115 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 5900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL10A225KP8NNNC.pdf" H 7000 5900 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 7000 5900 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 7000 5900 50  0001 C CNN "Digikey"
+	1    7000 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 6050 6400 6050
-Connection ~ 6850 6050
-Connection ~ 6400 5750
+	7450 6050 7000 6050
+Connection ~ 7450 6050
+Connection ~ 7000 5750
 Wire Wire Line
-	6400 5650 6400 5750
+	7000 5650 7000 5750
 Wire Wire Line
-	5850 5150 7600 5150
-Text Label 6200 4550 0    50   ~ 0
+	6450 5150 8200 5150
+Text Label 6800 4550 0    50   ~ 0
 SOLENOID_OFF_VREF
-Connection ~ 5850 4700
+Connection ~ 6450 4700
 Wire Wire Line
-	5850 4700 5850 5150
+	6450 4700 6450 5150
 Wire Wire Line
-	5850 4700 5850 4550
-Text GLabel 7600 4350 0    50   BiDi ~ 0
+	6450 4700 6450 4550
+Text GLabel 8200 4350 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CURRENT_SENSE_1
-Text GLabel 7600 4950 0    50   BiDi ~ 0
+Text GLabel 8200 4950 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CURRENT_SENSE_2
 Wire Wire Line
-	5850 4550 7600 4550
-$Comp
-L BigSurLib:74LVC1G00W5-7 U11
-U 1 1 5DAEA7B8
-P 8700 4750
-F 0 "U11" H 8725 5017 50  0000 C CNN
-F 1 "74LVC1G00W5-7" H 8725 4926 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8700 4750 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G00.pdf" H 8750 4750 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G00W5-7/1034-74LVC1G00W5-7DICT-ND/5629187" H 8700 4750 50  0001 C CNN "Digikey"
-	1    8700 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BigSurLib:74LVC1G00W5-7 U11
-U 2 1 5DAEBA3E
-P 9050 5850
-F 0 "U11" H 9108 5896 50  0000 L CNN
-F 1 "74LVC1G00W5-7" H 9108 5805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 5850 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G00.pdf" H 9100 5850 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G00W5-7/1034-74LVC1G00W5-7DICT-ND/5629187" H 9050 5850 50  0001 C CNN "Digikey"
-	2    9050 5850
-	1    0    0    -1  
-$EndComp
+	6450 4550 8200 4550
 Wire Wire Line
-	8200 4450 8350 4450
+	8800 4450 8950 4450
 Wire Wire Line
-	8350 4450 8350 4700
+	8950 4450 8950 4700
 Wire Wire Line
-	8350 4700 8450 4700
+	8800 5050 8950 5050
 Wire Wire Line
-	8200 5050 8350 5050
+	8950 5050 8950 4800
 Wire Wire Line
-	8350 5050 8350 4800
-Wire Wire Line
-	8350 4800 8450 4800
-Wire Wire Line
-	9000 4750 9150 4750
+	9600 4750 9750 4750
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 5DAF6490
-P 9050 5450
-F 0 "#PWR0110" H 9050 5300 50  0001 C CNN
-F 1 "+3.3V" H 9065 5623 50  0000 C CNN
-F 2 "" H 9050 5450 50  0001 C CNN
-F 3 "" H 9050 5450 50  0001 C CNN
-	1    9050 5450
+P 9650 5450
+F 0 "#PWR0110" H 9650 5300 50  0001 C CNN
+F 1 "+3.3V" H 9665 5623 50  0000 C CNN
+F 2 "" H 9650 5450 50  0001 C CNN
+F 3 "" H 9650 5450 50  0001 C CNN
+	1    9650 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 5450 9050 5500
+	9650 5450 9650 5500
 Wire Wire Line
-	9050 6200 9050 6250
+	9650 6200 9650 6250
 $Comp
 L power:GND #PWR0120
 U 1 1 5DAF8FA9
-P 9050 6250
-F 0 "#PWR0120" H 9050 6000 50  0001 C CNN
-F 1 "GND" H 9055 6077 50  0000 C CNN
-F 2 "" H 9050 6250 50  0001 C CNN
-F 3 "" H 9050 6250 50  0001 C CNN
-	1    9050 6250
+P 9650 6250
+F 0 "#PWR0120" H 9650 6000 50  0001 C CNN
+F 1 "GND" H 9655 6077 50  0000 C CNN
+F 2 "" H 9650 6250 50  0001 C CNN
+F 3 "" H 9650 6250 50  0001 C CNN
+	1    9650 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5DB0D1A1
-P 8500 6100
-F 0 "#PWR0118" H 8500 5850 50  0001 C CNN
-F 1 "GND" H 8505 5927 50  0000 C CNN
-F 2 "" H 8500 6100 50  0001 C CNN
-F 3 "" H 8500 6100 50  0001 C CNN
-	1    8500 6100
+P 9100 6100
+F 0 "#PWR0118" H 9100 5850 50  0001 C CNN
+F 1 "GND" H 9105 5927 50  0000 C CNN
+F 2 "" H 9100 6100 50  0001 C CNN
+F 3 "" H 9100 6100 50  0001 C CNN
+	1    9100 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 6050 8500 6100
+	9100 6050 9100 6100
 $Comp
 L Device:C C?
 U 1 1 5DB0D1AF
-P 8500 5900
+P 9100 5900
 AR Path="/5D6EB2B2/5DB0D1AF" Ref="C?"  Part="1" 
 AR Path="/5D71C3EA/5DB0D1AF" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DB0D1AF" Ref="C34"  Part="1" 
-F 0 "C34" H 8615 5946 50  0000 L CNN
-F 1 "0.1uF" H 8615 5855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 5900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 8500 5900 50  0001 C CNN
-F 4 "CL10B104KB8NNNC" H 8500 5900 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 8500 5900 50  0001 C CNN "Digikey"
-	1    8500 5900
+F 0 "C34" H 9215 5946 50  0000 L CNN
+F 1 "0.1uF" H 9215 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9100 5900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 9100 5900 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 9100 5900 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 9100 5900 50  0001 C CNN "Digikey"
+	1    9100 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0114
 U 1 1 5DB161C4
-P 8500 5650
-F 0 "#PWR0114" H 8500 5500 50  0001 C CNN
-F 1 "+3.3V" H 8515 5823 50  0000 C CNN
-F 2 "" H 8500 5650 50  0001 C CNN
-F 3 "" H 8500 5650 50  0001 C CNN
-	1    8500 5650
+P 9100 5650
+F 0 "#PWR0114" H 9100 5500 50  0001 C CNN
+F 1 "+3.3V" H 9115 5823 50  0000 C CNN
+F 2 "" H 9100 5650 50  0001 C CNN
+F 3 "" H 9100 5650 50  0001 C CNN
+	1    9100 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 5650 8500 5750
-Text GLabel 9250 4750 2    50   BiDi ~ 0
-BRAKE_SOLENOID_HIGH
+	9100 5650 9100 5750
+Text GLabel 9850 4750 2    50   BiDi ~ 0
+BRAKE_SOLENOID_LOW
 $Comp
 L BigSurLib:ACS70331EESATR-2P5U3 U5
 U 1 1 5DB3C5DF
@@ -1266,139 +1238,165 @@ SOLENOID_ECONOMIZED_CHANNEL_2
 $Comp
 L Device:LED D22
 U 1 1 5DC1B64C
-P 9150 4500
-F 0 "D22" V 9189 4383 50  0000 R CNN
-F 1 "QTLP651C4TR" V 9098 4383 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9150 4500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9150 4500 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" V 9150 4500 50  0001 C CNN "Digikey"
-	1    9150 4500
+P 9750 4500
+F 0 "D22" V 9789 4383 50  0000 R CNN
+F 1 "QTLP651C4TR" V 9698 4383 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9750 4500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9750 4500 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" V 9750 4500 50  0001 C CNN "Digikey"
+	1    9750 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9150 4650 9150 4750
-Connection ~ 9150 4750
+	9750 4650 9750 4750
+Connection ~ 9750 4750
 Wire Wire Line
-	9150 4750 9250 4750
+	9750 4750 9850 4750
 $Comp
 L Device:R_US R37
 U 1 1 5DC2971E
-P 9150 4100
-F 0 "R37" H 9218 4146 50  0000 L CNN
-F 1 "68" H 9218 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9190 4090 50  0001 C CNN
-F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9150 4100 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" H 9150 4100 50  0001 C CNN "Digikey"
-F 5 "ESR03EZPJ680" H 9150 4100 50  0001 C CNN "Part Number"
-	1    9150 4100
+P 9750 4100
+F 0 "R37" H 9818 4146 50  0000 L CNN
+F 1 "68" H 9818 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9790 4090 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9750 4100 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" H 9750 4100 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" H 9750 4100 50  0001 C CNN "Part Number"
+	1    9750 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 4250 9150 4350
+	9750 4250 9750 4350
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5DC3736E
-P 9150 3850
-F 0 "#PWR0101" H 9150 3700 50  0001 C CNN
-F 1 "+3.3V" H 9165 4023 50  0000 C CNN
-F 2 "" H 9150 3850 50  0001 C CNN
-F 3 "" H 9150 3850 50  0001 C CNN
-	1    9150 3850
+P 9750 3850
+F 0 "#PWR0101" H 9750 3700 50  0001 C CNN
+F 1 "+3.3V" H 9765 4023 50  0000 C CNN
+F 2 "" H 9750 3850 50  0001 C CNN
+F 3 "" H 9750 3850 50  0001 C CNN
+	1    9750 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 3850 9150 3950
+	9750 3850 9750 3950
 Wire Wire Line
-	5500 4700 5850 4700
+	6100 4700 6450 4700
 $Comp
 L Device:R_US R39
 U 1 1 5DAAC33E
-P 5500 4500
-F 0 "R39" H 5568 4546 50  0000 L CNN
-F 1 "10K" H 5568 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5540 4490 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 5500 4500 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 5500 4500 50  0001 C CNN "Part Number"
-F 5 "RNCP0603FTD10K0" H 5500 4500 50  0001 C CNN "Digikey"
-	1    5500 4500
+P 6100 4500
+F 0 "R39" H 6168 4546 50  0000 L CNN
+F 1 "10K" H 6168 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6140 4490 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 6100 4500 50  0001 C CNN
+F 4 "RNCP0603FTD10K0" H 6100 4500 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 6100 4500 50  0001 C CNN "Digikey"
+	1    6100 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R40
 U 1 1 5DAADB59
-P 5500 4900
-F 0 "R40" H 5568 4946 50  0000 L CNN
-F 1 "1.1K" H 5568 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5540 4890 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5500 4900 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT1K10/RMCF0603FT1K10CT-ND/2417966" H 5500 4900 50  0001 C CNN "Digikey"
-F 5 "RMCF0603FT1K10" H 5500 4900 50  0001 C CNN "Part Number"
-	1    5500 4900
+P 6100 4900
+F 0 "R40" H 6168 4946 50  0000 L CNN
+F 1 "1.1K" H 6168 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6140 4890 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6100 4900 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603FT1K10/RMCF0603FT1K10CT-ND/2417966" H 6100 4900 50  0001 C CNN "Digikey"
+F 5 "RMCF0603FT1K10" H 6100 4900 50  0001 C CNN "Part Number"
+	1    6100 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5DAAE3B5
-P 5500 4250
-F 0 "#PWR0104" H 5500 4100 50  0001 C CNN
-F 1 "+3.3V" H 5515 4423 50  0000 C CNN
-F 2 "" H 5500 4250 50  0001 C CNN
-F 3 "" H 5500 4250 50  0001 C CNN
-	1    5500 4250
+P 6100 4250
+F 0 "#PWR0104" H 6100 4100 50  0001 C CNN
+F 1 "+3.3V" H 6115 4423 50  0000 C CNN
+F 2 "" H 6100 4250 50  0001 C CNN
+F 3 "" H 6100 4250 50  0001 C CNN
+	1    6100 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 4250 5500 4350
+	6100 4250 6100 4350
 Wire Wire Line
-	5500 4650 5500 4700
+	6100 4650 6100 4700
 Wire Wire Line
-	5500 5050 5500 5150
+	6100 5050 6100 5150
 $Comp
 L power:GND #PWR0108
 U 1 1 5DAB40A2
-P 5500 5150
-F 0 "#PWR0108" H 5500 4900 50  0001 C CNN
-F 1 "GND" H 5505 4977 50  0000 C CNN
-F 2 "" H 5500 5150 50  0001 C CNN
-F 3 "" H 5500 5150 50  0001 C CNN
-	1    5500 5150
+P 6100 5150
+F 0 "#PWR0108" H 6100 4900 50  0001 C CNN
+F 1 "GND" H 6105 4977 50  0000 C CNN
+F 2 "" H 6100 5150 50  0001 C CNN
+F 3 "" H 6100 5150 50  0001 C CNN
+	1    6100 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 5500 4700
+Connection ~ 6100 4700
 Wire Wire Line
-	5500 4700 5500 4750
+	6100 4700 6100 4750
 $Comp
 L Device:C C?
 U 1 1 5DAC261B
-P 5850 5350
+P 6450 5350
 AR Path="/5D6EB2B2/5DAC261B" Ref="C?"  Part="1" 
 AR Path="/5D71C3EA/5DAC261B" Ref="C?"  Part="1" 
 AR Path="/5D765C4F/5DAC261B" Ref="C30"  Part="1" 
-F 0 "C30" H 5965 5396 50  0000 L CNN
-F 1 "0.1uF" H 5965 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 5350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 5850 5350 50  0001 C CNN
-F 4 "CL10B104KB8NNNC" H 5850 5350 50  0001 C CNN "Part Number"
-F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 5850 5350 50  0001 C CNN "Digikey"
-	1    5850 5350
+F 0 "C30" H 6565 5396 50  0000 L CNN
+F 1 "0.1uF" H 6565 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 5350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B104KB8NNNC-19.pdf" H 6450 5350 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 6450 5350 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNC/1276-1000-1-ND/3889086" H 6450 5350 50  0001 C CNN "Digikey"
+	1    6450 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 5150 5850 5200
-Connection ~ 5850 5150
+	6450 5150 6450 5200
+Connection ~ 6450 5150
 Wire Wire Line
-	5850 5500 5850 5600
+	6450 5500 6450 5600
 $Comp
 L power:GND #PWR0112
 U 1 1 5DACFFE3
-P 5850 5600
-F 0 "#PWR0112" H 5850 5350 50  0001 C CNN
-F 1 "GND" H 5855 5427 50  0000 C CNN
-F 2 "" H 5850 5600 50  0001 C CNN
-F 3 "" H 5850 5600 50  0001 C CNN
-	1    5850 5600
+P 6450 5600
+F 0 "#PWR0112" H 6450 5350 50  0001 C CNN
+F 1 "GND" H 6455 5427 50  0000 C CNN
+F 2 "" H 6450 5600 50  0001 C CNN
+F 3 "" H 6450 5600 50  0001 C CNN
+	1    6450 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 8950 5050 0    50   ~ 0
-MAKING THIS ACTIVE HIGH, COULD\nDO AN AND IF WE WANT ACTIVE LOW.
+Wire Wire Line
+	8950 4700 9050 4700
+Wire Wire Line
+	9050 4800 8950 4800
+$Comp
+L BigSurLib:74LVC1G08W5-7 U11
+U 1 1 5DD472CB
+P 9300 4750
+F 0 "U11" H 9325 5017 50  0000 C CNN
+F 1 "74LVC1G08W5-7" H 9325 4926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 4950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf" H 9350 4750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G08W5-7/74LVC1G08W5-7DICT-ND/2330117" H 9550 5050 50  0001 C CNN "Digikey"
+	1    9300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BigSurLib:74LVC1G08W5-7 U?
+U 2 1 5DD4ED6F
+P 9650 5850
+F 0 "U?" H 9708 5896 50  0000 L CNN
+F 1 "74LVC1G08W5-7" H 9708 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9700 6050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G00.pdf" H 9700 5850 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G00W5-7/1034-74LVC1G00W5-7DICT-ND/5629187" H 9900 6150 50  0001 C CNN "Digikey"
+	2    9650 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

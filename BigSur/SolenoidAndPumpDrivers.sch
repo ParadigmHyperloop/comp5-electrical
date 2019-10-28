@@ -335,182 +335,182 @@ $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5DA27703
-P 9750 1750
+P 9750 2450
 AR Path="/5D7D29A6/5DA27703" Ref="Q?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27703" Ref="Q1"  Part="1" 
-F 0 "Q1" H 9956 1796 50  0000 L CNN
-F 1 "TSM900N10" H 9956 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 9950 1850 50  0001 C CNN
-F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 9750 1750 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 9750 1750 50  0001 C CNN "Digikey"
-	1    9750 1750
+F 0 "Q1" H 9956 2496 50  0000 L CNN
+F 1 "TSM900N10" H 9956 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 9950 2550 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 9750 2450 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 9750 2450 50  0001 C CNN "Digikey"
+	1    9750 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 1950 9850 2150
+	9850 2650 9850 2850
 $Comp
 L power:GND #PWR?
 U 1 1 5DA2770A
-P 9850 2150
+P 9850 2850
 AR Path="/5D7D29A6/5DA2770A" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA2770A" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 9850 1900 50  0001 C CNN
-F 1 "GND" H 9855 1977 50  0000 C CNN
-F 2 "" H 9850 2150 50  0001 C CNN
-F 3 "" H 9850 2150 50  0001 C CNN
-	1    9850 2150
+F 0 "#PWR010" H 9850 2600 50  0001 C CNN
+F 1 "GND" H 9855 2677 50  0000 C CNN
+F 2 "" H 9850 2850 50  0001 C CNN
+F 3 "" H 9850 2850 50  0001 C CNN
+	1    9850 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 1550 9850 1450
+	9850 2250 9850 2150
 Wire Wire Line
-	9850 1450 10000 1450
-Text GLabel 10000 1450 2    50   BiDi ~ 0
+	9850 2150 10000 2150
+Text GLabel 10000 2150 2    50   BiDi ~ 0
 PUMP_LS_CHANNEL_1
-Connection ~ 9850 1450
+Connection ~ 9850 2150
 Wire Wire Line
-	9550 1750 9350 1750
+	9550 2450 9350 2450
 Wire Wire Line
-	9350 1750 9350 1800
-Connection ~ 9350 1750
+	9350 2450 9350 2500
+Connection ~ 9350 2450
 Wire Wire Line
-	9350 1750 9050 1750
+	9350 2450 9050 2450
 $Comp
 L power:GND #PWR?
 U 1 1 5DA2771E
-P 9350 2150
+P 9350 2850
 AR Path="/5D7D29A6/5DA2771E" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA2771E" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 9350 1900 50  0001 C CNN
-F 1 "GND" H 9355 1977 50  0000 C CNN
-F 2 "" H 9350 2150 50  0001 C CNN
-F 3 "" H 9350 2150 50  0001 C CNN
-	1    9350 2150
+F 0 "#PWR09" H 9350 2600 50  0001 C CNN
+F 1 "GND" H 9355 2677 50  0000 C CNN
+F 2 "" H 9350 2850 50  0001 C CNN
+F 3 "" H 9350 2850 50  0001 C CNN
+	1    9350 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 2150 9350 2100
+	9350 2850 9350 2800
 $Comp
 L power:+24V #PWR?
 U 1 1 5DA27726
-P 9850 850
+P 9850 1550
 AR Path="/5D7D29A6/5DA27726" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27726" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 9850 700 50  0001 C CNN
-F 1 "+24V" H 9865 1023 50  0000 C CNN
-F 2 "" H 9850 850 50  0001 C CNN
-F 3 "" H 9850 850 50  0001 C CNN
-	1    9850 850 
+F 0 "#PWR01" H 9850 1400 50  0001 C CNN
+F 1 "+24V" H 9865 1723 50  0000 C CNN
+F 2 "" H 9850 1550 50  0001 C CNN
+F 3 "" H 9850 1550 50  0001 C CNN
+	1    9850 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 5DA2772D
-P 9850 1100
+P 9850 1800
 AR Path="/5D7D29A6/5DA2772D" Ref="D?"  Part="1" 
 AR Path="/5D6EB2B2/5DA2772D" Ref="D3"  Part="1" 
-F 0 "D3" V 9804 1179 50  0000 L CNN
-F 1 "NTS12120EMFST1G" V 9895 1179 50  0000 L CNN
-F 2 "BigSur:ONSemi_SMD_Schottky_NTS12120EMFS" H 9850 1100 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 9850 1100 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 9850 1100 50  0001 C CNN "Digikey"
-	1    9850 1100
+F 0 "D3" V 9804 1879 50  0000 L CNN
+F 1 "NTS12120EMFST1G" V 9895 1879 50  0000 L CNN
+F 2 "BigSur:ONSemi_SMD_Schottky_NTS12120EMFS" H 9850 1800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 9850 1800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 9850 1800 50  0001 C CNN "Digikey"
+	1    9850 1800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9850 850  9850 950 
-Text GLabel 9050 1750 0    50   BiDi ~ 0
+	9850 1550 9850 1650
+Text GLabel 9050 2450 0    50   BiDi ~ 0
 PUMP_INPUT_1
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5DA27736
-P 9750 3900
+P 9750 4600
 AR Path="/5D7D29A6/5DA27736" Ref="Q?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27736" Ref="Q2"  Part="1" 
-F 0 "Q2" H 9956 3946 50  0000 L CNN
-F 1 "TSM900N10" H 9956 3855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 9950 4000 50  0001 C CNN
-F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 9750 3900 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 9750 3900 50  0001 C CNN "Digikey"
-	1    9750 3900
+F 0 "Q2" H 9956 4646 50  0000 L CNN
+F 1 "TSM900N10" H 9956 4555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 9950 4700 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM900N10_A15.pdf" H 9750 4600 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/taiwan-semiconductor-corporation/TSM900N10CP-ROG/TSM900N10CPROGCT-ND/7360607" H 9750 4600 50  0001 C CNN "Digikey"
+	1    9750 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 4100 9850 4300
+	9850 4800 9850 5000
 $Comp
 L power:GND #PWR?
 U 1 1 5DA2773D
-P 9850 4300
+P 9850 5000
 AR Path="/5D7D29A6/5DA2773D" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA2773D" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 9850 4050 50  0001 C CNN
-F 1 "GND" H 9855 4127 50  0000 C CNN
-F 2 "" H 9850 4300 50  0001 C CNN
-F 3 "" H 9850 4300 50  0001 C CNN
-	1    9850 4300
+F 0 "#PWR027" H 9850 4750 50  0001 C CNN
+F 1 "GND" H 9855 4827 50  0000 C CNN
+F 2 "" H 9850 5000 50  0001 C CNN
+F 3 "" H 9850 5000 50  0001 C CNN
+	1    9850 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 3700 9850 3600
+	9850 4400 9850 4300
 Wire Wire Line
-	9850 3600 10000 3600
-Text GLabel 10000 3600 2    50   BiDi ~ 0
+	9850 4300 10000 4300
+Text GLabel 10000 4300 2    50   BiDi ~ 0
 PUMP_LS_CHANNEL_2
-Connection ~ 9850 3600
+Connection ~ 9850 4300
 Wire Wire Line
-	9550 3900 9350 3900
+	9550 4600 9350 4600
 Wire Wire Line
-	9350 3900 9350 3950
-Connection ~ 9350 3900
+	9350 4600 9350 4650
+Connection ~ 9350 4600
 Wire Wire Line
-	9350 3900 9050 3900
+	9350 4600 9050 4600
 $Comp
 L power:GND #PWR?
 U 1 1 5DA27751
-P 9350 4300
+P 9350 5000
 AR Path="/5D7D29A6/5DA27751" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27751" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 9350 4050 50  0001 C CNN
-F 1 "GND" H 9355 4127 50  0000 C CNN
-F 2 "" H 9350 4300 50  0001 C CNN
-F 3 "" H 9350 4300 50  0001 C CNN
-	1    9350 4300
+F 0 "#PWR026" H 9350 4750 50  0001 C CNN
+F 1 "GND" H 9355 4827 50  0000 C CNN
+F 2 "" H 9350 5000 50  0001 C CNN
+F 3 "" H 9350 5000 50  0001 C CNN
+	1    9350 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 4300 9350 4250
+	9350 5000 9350 4950
 Wire Wire Line
-	9850 3400 9850 3500
+	9850 4100 9850 4200
 $Comp
 L power:+24V #PWR?
 U 1 1 5DA27759
-P 9850 3000
+P 9850 3700
 AR Path="/5D7D29A6/5DA27759" Ref="#PWR?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27759" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 9850 2850 50  0001 C CNN
-F 1 "+24V" H 9865 3173 50  0000 C CNN
-F 2 "" H 9850 3000 50  0001 C CNN
-F 3 "" H 9850 3000 50  0001 C CNN
-	1    9850 3000
+F 0 "#PWR017" H 9850 3550 50  0001 C CNN
+F 1 "+24V" H 9865 3873 50  0000 C CNN
+F 2 "" H 9850 3700 50  0001 C CNN
+F 3 "" H 9850 3700 50  0001 C CNN
+	1    9850 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 5DA27760
-P 9850 3250
+P 9850 3950
 AR Path="/5D7D29A6/5DA27760" Ref="D?"  Part="1" 
 AR Path="/5D6EB2B2/5DA27760" Ref="D7"  Part="1" 
-F 0 "D7" V 9804 3329 50  0000 L CNN
-F 1 "NTS12120EMFST1G" V 9895 3329 50  0000 L CNN
-F 2 "BigSur:ONSemi_SMD_Schottky_NTS12120EMFS" H 9850 3250 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 9850 3250 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 9850 3250 50  0001 C CNN "Digikey"
-	1    9850 3250
+F 0 "D7" V 9804 4029 50  0000 L CNN
+F 1 "NTS12120EMFST1G" V 9895 4029 50  0000 L CNN
+F 2 "BigSur:ONSemi_SMD_Schottky_NTS12120EMFS" H 9850 3950 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 9850 3950 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/on-semiconductor/NTS12120EMFST1G/NTS12120EMFST1GOSCT-ND/8538813" V 9850 3950 50  0001 C CNN "Digikey"
+	1    9850 3950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9850 3000 9850 3100
-Text GLabel 9050 3900 0    50   BiDi ~ 0
+	9850 3700 9850 3800
+Text GLabel 9050 4600 0    50   BiDi ~ 0
 PUMP_INPUT_2
 Wire Wire Line
 	5050 5800 5050 5400
@@ -1216,46 +1216,46 @@ Wire Wire Line
 Wire Wire Line
 	3400 1400 3500 1400
 Wire Wire Line
-	8950 1350 9000 1350
+	8950 2050 9000 2050
 $Comp
 L power:+3.3V #PWR05
 U 1 1 5D9D9B3A
-P 8950 1300
-F 0 "#PWR05" H 8950 1150 50  0001 C CNN
-F 1 "+3.3V" H 8965 1473 50  0000 C CNN
-F 2 "" H 8950 1300 50  0001 C CNN
-F 3 "" H 8950 1300 50  0001 C CNN
-	1    8950 1300
+P 8950 2000
+F 0 "#PWR05" H 8950 1850 50  0001 C CNN
+F 1 "+3.3V" H 8965 2173 50  0000 C CNN
+F 2 "" H 8950 2000 50  0001 C CNN
+F 3 "" H 8950 2000 50  0001 C CNN
+	1    8950 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 1300 8950 1350
+	8950 2000 8950 2050
 Wire Wire Line
-	9850 1250 9850 1350
+	9850 1950 9850 2050
 Wire Wire Line
-	9300 1350 9400 1350
+	9300 2050 9400 2050
 $Comp
 L Device:LED D4
 U 1 1 5D9D9B4F
-P 9550 1350
-F 0 "D4" H 9543 1566 50  0000 C CNN
-F 1 "QTLP651C4TR" H 9543 1475 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9550 1350 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9550 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 9550 1350 50  0001 C CNN "Digikey"
-	1    9550 1350
+P 9550 2050
+F 0 "D4" H 9543 2266 50  0000 C CNN
+F 1 "QTLP651C4TR" H 9543 2175 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9550 2050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9550 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 9550 2050 50  0001 C CNN "Digikey"
+	1    9550 2050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9700 1350 9850 1350
-Connection ~ 9850 1350
+	9700 2050 9850 2050
+Connection ~ 9850 2050
 Wire Wire Line
-	9850 1350 9850 1450
+	9850 2050 9850 2150
 Wire Wire Line
-	9700 3500 9850 3500
-Connection ~ 9850 3500
+	9700 4200 9850 4200
+Connection ~ 9850 4200
 Wire Wire Line
-	9850 3500 9850 3600
+	9850 4200 9850 4300
 Text Notes 6250 5350 0    50   ~ 0
 SOMEONE WHO UNDERSTANDS\nELECTRICITY LET ME KNOW IF\nTHESE LEDS ARE ALL GONNA\nBLOW UP OR SOMETHING. I DON’T\nTHINK CONNECTING THEM TO THE\nSOLENOIDS/PUMPS LIKE THIS\nSHOULD BE AN ISSUE, BUT I\nALSO DON’T KNOW MUCH.
 Text Notes 2050 5050 0    50   ~ 0
@@ -1293,45 +1293,45 @@ F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP6
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 3500 9000 3500
+	8950 4200 9000 4200
 $Comp
 L power:+3.3V #PWR019
 U 1 1 5DC16EBC
-P 8950 3450
-F 0 "#PWR019" H 8950 3300 50  0001 C CNN
-F 1 "+3.3V" H 8965 3623 50  0000 C CNN
-F 2 "" H 8950 3450 50  0001 C CNN
-F 3 "" H 8950 3450 50  0001 C CNN
-	1    8950 3450
+P 8950 4150
+F 0 "#PWR019" H 8950 4000 50  0001 C CNN
+F 1 "+3.3V" H 8965 4323 50  0000 C CNN
+F 2 "" H 8950 4150 50  0001 C CNN
+F 3 "" H 8950 4150 50  0001 C CNN
+	1    8950 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 3450 8950 3500
+	8950 4150 8950 4200
 Wire Wire Line
-	9300 3500 9400 3500
+	9300 4200 9400 4200
 $Comp
 L Device:LED D8
 U 1 1 5DC16EC9
-P 9550 3500
-F 0 "D8" H 9543 3716 50  0000 C CNN
-F 1 "QTLP651C4TR" H 9543 3625 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9550 3500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9550 3500 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 9550 3500 50  0001 C CNN "Digikey"
-	1    9550 3500
+P 9550 4200
+F 0 "D8" H 9543 4416 50  0000 C CNN
+F 1 "QTLP651C4TR" H 9543 4325 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9550 4200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 9550 4200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" H 9550 4200 50  0001 C CNN "Digikey"
+	1    9550 4200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_US R9
 U 1 1 5DC16ED4
-P 9150 3500
-F 0 "R9" V 8945 3500 50  0000 C CNN
-F 1 "68" V 9036 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9190 3490 50  0001 C CNN
-F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9150 3500 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 9150 3500 50  0001 C CNN "Digikey"
-F 5 "ESR03EZPJ680" V 9150 3500 50  0001 C CNN "Part Number"
-	1    9150 3500
+P 9150 4200
+F 0 "R9" V 8945 4200 50  0000 C CNN
+F 1 "68" V 9036 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9190 4190 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9150 4200 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 9150 4200 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 9150 4200 50  0001 C CNN "Part Number"
+	1    9150 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1405,33 +1405,33 @@ $EndComp
 $Comp
 L Device:R_US R3
 U 1 1 5DA4F3BB
-P 9350 1950
+P 9350 2650
 AR Path="/5D6EB2B2/5DA4F3BB" Ref="R3"  Part="1" 
 AR Path="/5D71C3EA/5DA4F3BB" Ref="R?"  Part="1" 
 AR Path="/5D765C4F/5DA4F3BB" Ref="R?"  Part="1" 
-F 0 "R3" H 9418 1996 50  0000 L CNN
-F 1 "10K" H 9418 1905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9390 1940 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9350 1950 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 9350 1950 50  0001 C CNN "Digikey"
-F 5 "RNCP0603FTD10K0" H 9350 1950 50  0001 C CNN "Part Number"
-	1    9350 1950
+F 0 "R3" H 9418 2696 50  0000 L CNN
+F 1 "10K" H 9418 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9390 2640 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9350 2650 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 9350 2650 50  0001 C CNN "Digikey"
+F 5 "RNCP0603FTD10K0" H 9350 2650 50  0001 C CNN "Part Number"
+	1    9350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R13
 U 1 1 5DA6508F
-P 9350 4100
+P 9350 4800
 AR Path="/5D6EB2B2/5DA6508F" Ref="R13"  Part="1" 
 AR Path="/5D71C3EA/5DA6508F" Ref="R?"  Part="1" 
 AR Path="/5D765C4F/5DA6508F" Ref="R?"  Part="1" 
-F 0 "R13" H 9418 4146 50  0000 L CNN
-F 1 "10K" H 9418 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9390 4090 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9350 4100 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 9350 4100 50  0001 C CNN "Digikey"
-F 5 "RNCP0603FTD10K0" H 9350 4100 50  0001 C CNN "Part Number"
-	1    9350 4100
+F 0 "R13" H 9418 4846 50  0000 L CNN
+F 1 "10K" H 9418 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9390 4790 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rncp.pdf" H 9350 4800 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND/2240478" H 9350 4800 50  0001 C CNN "Digikey"
+F 5 "RNCP0603FTD10K0" H 9350 4800 50  0001 C CNN "Part Number"
+	1    9350 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1692,14 +1692,14 @@ Connection ~ 7750 3550
 $Comp
 L Device:R_US R2
 U 1 1 5DC4E64D
-P 9150 1350
-F 0 "R2" V 8945 1350 50  0000 C CNN
-F 1 "68" V 9036 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9190 1340 50  0001 C CNN
-F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9150 1350 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 9150 1350 50  0001 C CNN "Digikey"
-F 5 "ESR03EZPJ680" V 9150 1350 50  0001 C CNN "Part Number"
-	1    9150 1350
+P 9150 2050
+F 0 "R2" V 8945 2050 50  0000 C CNN
+F 1 "68" V 9036 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9190 2040 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 9150 2050 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ680/RHM68DCT-ND/4053812" V 9150 2050 50  0001 C CNN "Digikey"
+F 5 "ESR03EZPJ680" V 9150 2050 50  0001 C CNN "Part Number"
+	1    9150 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1808,4 +1808,10 @@ Wire Wire Line
 	6150 1000 6100 1000
 Wire Wire Line
 	5800 1000 5750 1000
+Text Notes 1500 850  0    118  ~ 0
+SOLENOID DRIVERS
+Text Notes 8900 950  0    118  ~ 0
+PUMP DRIVERS
+Wire Notes Line
+	8250 1300 8250 5550
 $EndSCHEMATC
