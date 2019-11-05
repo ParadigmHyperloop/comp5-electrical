@@ -229,7 +229,7 @@ $EndComp
 Text GLabel 4500 4400 0    50   BiDi ~ 0
 SOLENOID_ECONOMIZED_CHANNEL_2
 Text Notes 1350 3300 0    118  ~ 0
-Pumps
+PUMPS
 Wire Wire Line
 	1800 3700 1600 3700
 Wire Wire Line

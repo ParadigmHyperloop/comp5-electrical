@@ -1,4 +1,4 @@
-update=Sunday, November 03, 2019 at 06:19:59 PM
+update=Monday, November 04, 2019 at 03:11:19 PM
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=PARADIGM_TEMPLATE.kicad_wks
 LastNetListRead=BigSur.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -233,7 +233,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
