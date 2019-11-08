@@ -1179,4 +1179,122 @@ F 4 "https://www.aliexpress.com/item/32689137918.html" H 4800 6300 50  0001 C CN
 	1    4800 6300
 	1    0    0    1   
 $EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DC6BC2D
+P 2250 1750
+AR Path="/5D6EB2B2/5DC6BC2D" Ref="D?"  Part="1" 
+AR Path="/5D71C3EA/5DC6BC2D" Ref="D23"  Part="1" 
+F 0 "D23" V 2350 1750 50  0000 R CNN
+F 1 "QTLP651C4TR" H 2500 1850 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2250 1750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 2250 1750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" V 2250 1750 50  0001 C CNN "Digikey"
+	1    2250 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR0125
+U 1 1 5DC71029
+P 2250 1550
+AR Path="/5D71C3EA/5DC71029" Ref="#PWR0125"  Part="1" 
+AR Path="/5D7D29A6/5DC71029" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0125" H 2250 1400 50  0001 C CNN
+F 1 "+24V" H 2265 1723 50  0000 C CNN
+F 2 "" H 2250 1550 50  0001 C CNN
+F 3 "" H 2250 1550 50  0001 C CNN
+	1    2250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1550 2250 1600
+$Comp
+L Device:R_US R42
+U 1 1 5DC76705
+P 2250 2150
+F 0 "R42" H 2318 2196 50  0000 L CNN
+F 1 "2K" H 2318 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2290 2140 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/ESR01MZPF/esr-e" H 2250 2150 50  0001 C CNN
+F 4 "ESR03EZPJ202" H 2250 2150 50  0001 C CNN "Part Number"
+F 5 "https://www.digikey.ca/product-detail/en/rohm-semiconductor/ESR03EZPJ202/RHM2.0KDCT-ND/1762928" H 2250 2150 50  0001 C CNN "Digikey"
+	1    2250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1900 2250 2000
+Wire Wire Line
+	2250 2300 2250 2350
+$Comp
+L power:GND #PWR0127
+U 1 1 5DC808D4
+P 2250 2350
+AR Path="/5D71C3EA/5DC808D4" Ref="#PWR0127"  Part="1" 
+AR Path="/5D7D29A6/5DC808D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0127" H 2250 2100 50  0001 C CNN
+F 1 "GND" H 2255 2177 50  0000 C CNN
+F 2 "" H 2250 2350 50  0001 C CNN
+F 3 "" H 2250 2350 50  0001 C CNN
+	1    2250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DC97B38
+P 2750 1750
+AR Path="/5D6EB2B2/5DC97B38" Ref="D?"  Part="1" 
+AR Path="/5D71C3EA/5DC97B38" Ref="D24"  Part="1" 
+F 0 "D24" V 2850 1750 50  0000 R CNN
+F 1 "QTLP651C4TR" H 3000 1850 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2750 1750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/QTLP651C-2,3,4,7,B.pdf" H 2750 1750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/everlight-electronics-co-ltd/QTLP651C4TR/1080-1484-1-ND/7598723" V 2750 1750 50  0001 C CNN "Digikey"
+	1    2750 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1550 2750 1600
+$Comp
+L Device:R_US R43
+U 1 1 5DC97B4D
+P 2750 2150
+F 0 "R43" H 2818 2196 50  0000 L CNN
+F 1 "1K" H 2818 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 2140 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2750 2150 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RMCF0603JJ1K00/RMCF0603JJ1K00CT-ND/6053833" H 2750 2150 50  0001 C CNN "Digikey"
+F 5 "RMCF0603JJ1K00" H 2750 2150 50  0001 C CNN "Part Number"
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1900 2750 2000
+Wire Wire Line
+	2750 2300 2750 2350
+$Comp
+L power:GND #PWR0128
+U 1 1 5DC97B59
+P 2750 2350
+AR Path="/5D71C3EA/5DC97B59" Ref="#PWR0128"  Part="1" 
+AR Path="/5D7D29A6/5DC97B59" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0128" H 2750 2100 50  0001 C CNN
+F 1 "GND" H 2755 2177 50  0000 C CNN
+F 2 "" H 2750 2350 50  0001 C CNN
+F 3 "" H 2750 2350 50  0001 C CNN
+	1    2750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0126
+U 1 1 5DC9E390
+P 2750 1550
+AR Path="/5D71C3EA/5DC9E390" Ref="#PWR0126"  Part="1" 
+AR Path="/5D7D29A6/5DC9E390" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0126" H 2750 1400 50  0001 C CNN
+F 1 "+12V" H 2765 1723 50  0000 C CNN
+F 2 "" H 2750 1550 50  0001 C CNN
+F 3 "" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
