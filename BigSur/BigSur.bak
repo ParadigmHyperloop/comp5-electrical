@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BigSur-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,8 +17,8 @@ $EndDescr
 $Sheet
 S 1950 1450 1500 1000
 U 5D6EB2B2
-F0 "SolenoidDrivers" 50
-F1 "SolenoidDrivers.sch" 50
+F0 "SolenoidAndPumpDrivers" 50
+F1 "SolenoidAndPumpDrivers.sch" 50
 $EndSheet
 $Sheet
 S 1950 2750 1500 1000
@@ -31,13 +31,13 @@ Connectors\n (sheet 3)
 $Sheet
 S 1950 4100 1500 1000
 U 5D7D29A6
-F0 "PumpDrivers" 50
-F1 "PumpDrivers.sch" 50
+F0 "Relays" 50
+F1 "Relays.sch" 50
 $EndSheet
-Text Notes 2200 4750 0    98   ~ 0
-Pump Drivers\n  (sheet 4)
-Text Notes 2100 2100 0    98   ~ 0
-Solenoid Drivers\n   (sheet 2)
+Text Notes 2100 4800 0    98   ~ 0
+General Purpose\n     Relays\n   (sheet 4)
+Text Notes 2200 2150 0    98   ~ 0
+Solenoid and\nPump Drivers\n  (sheet 2)
 $Sheet
 S 3650 1450 1500 1000
 U 5D765C4F
