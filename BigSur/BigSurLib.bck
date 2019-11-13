@@ -7,7 +7,7 @@ $ENDCMP
 #
 $CMP 74LVC1G08W5-7
 D SINGLE 2 INPUT POSITIVE NAND GATE
-F https://www.diodes.com/assets/Datasheets/74LVC1G00.pdf
+F https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf
 $ENDCMP
 #
 $CMP ACS70331EESATR-2P5U3
