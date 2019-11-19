@@ -1376,27 +1376,27 @@ Wire Wire Line
 Wire Wire Line
 	9050 4800 8950 4800
 $Comp
-L BigSurLib:74LVC1G08W5-7 U11
-U 1 1 5DD472CB
-P 9300 4750
-F 0 "U11" H 9325 5017 50  0000 C CNN
-F 1 "74LVC1G08W5-7" H 9325 4926 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 4950 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf" H 9350 4750 50  0001 C CNN
-F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G08W5-7/74LVC1G08W5-7DICT-ND/2330117" H 9550 5050 50  0001 C CNN "Digikey"
-	1    9300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BigSurLib:74LVC1G08W5-7 U11
+L BigSurLib:74LVC1G00W5-7 U11
 U 2 1 5DD4ED6F
 P 9650 5850
 F 0 "U11" H 9708 5896 50  0000 L CNN
-F 1 "74LVC1G08W5-7" H 9708 5805 50  0000 L CNN
+F 1 "74LVC1G00W5-7" H 9708 5805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9700 6050 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf" H 9700 5850 50  0001 C CNN
 F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G00W5-7/1034-74LVC1G00W5-7DICT-ND/5629187" H 9900 6150 50  0001 C CNN "Digikey"
 	2    9650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BigSurLib:74LVC1G00W5-7 U11
+U 1 1 5DCDC7D8
+P 9300 4750
+F 0 "U11" H 9325 5017 50  0000 C CNN
+F 1 "74LVC1G00W5-7" H 9325 4926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 4950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/74LVC1G08.pdf" H 9350 4750 50  0001 C CNN
+F 4 "https://www.digikey.ca/product-detail/en/diodes-incorporated/74LVC1G00W5-7/1034-74LVC1G00W5-7DICT-ND/5629187" H 9550 5050 50  0001 C CNN "Digikey"
+	1    9300 4750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

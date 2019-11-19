@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BigSur-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -372,7 +372,7 @@ $EndComp
 Wire Wire Line
 	9100 5650 9100 5750
 Text GLabel 9850 4750 2    50   BiDi ~ 0
-BRAKE_SOLENOID_LOW
+BRAKE_SOLENOID_HIGH
 $Comp
 L BigSurLib:ACS70331EESATR-2P5U3 U5
 U 1 1 5DB3C5DF

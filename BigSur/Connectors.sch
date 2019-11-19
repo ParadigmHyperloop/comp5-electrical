@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BigSur-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -823,7 +823,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6950 4500 6950
 Text GLabel 4500 6950 0    50   BiDi ~ 0
-BRAKE_SOLENOID_LOW
+BRAKE_SOLENOID_HIGH
 Wire Wire Line
 	4600 7050 4500 7050
 Wire Wire Line
