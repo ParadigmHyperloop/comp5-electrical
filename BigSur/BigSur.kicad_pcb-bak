@@ -2200,7 +2200,7 @@
   )
 
   (module LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5DBF688E)
-    (at 135.6 75.8 90)
+    (at 104.1 29.8 90)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5D6EB2B2/5DC4F831)
@@ -4207,7 +4207,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5DBF6CA2)
-    (at 138.1 75.8 90)
+    (at 106.6 29.8 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5D6EB2B2/5DC72229)
