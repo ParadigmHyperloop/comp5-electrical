@@ -672,8 +672,6 @@ Text GLabel 9650 3100 2    50   BiDi ~ 0
 DRV8806_SERIAL_DATIN
 Wire Wire Line
 	9650 3200 9450 3200
-Text GLabel 9650 3200 2    50   BiDi ~ 0
-DRV8806_SERIAL_DATOUT
 Wire Wire Line
 	9650 3300 9450 3300
 Text GLabel 9650 3300 2    50   BiDi ~ 0
@@ -707,7 +705,7 @@ Wire Wire Line
 	10450 3700 9450 3700
 Text GLabel 9650 2800 2    50   BiDi ~ 0
 DRV8806_nFAULT
-Text GLabel 9650 2700 2    50   BiDi ~ 0
+Text GLabel 9650 3200 2    50   BiDi ~ 0
 DRV8806_SERIAL_DATOUT_3.3V
 Text GLabel 9650 2600 2    50   BiDi ~ 0
 DRV103_nOK
@@ -1297,4 +1295,5 @@ F 3 "" H 2750 1550 50  0001 C CNN
 	1    2750 1550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9650 2700
 $EndSCHEMATC
