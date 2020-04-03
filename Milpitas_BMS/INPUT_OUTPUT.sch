@@ -166,8 +166,8 @@ AR Path="/5FD6E2F1" Ref="J?"  Part="1"
 AR Path="/5FD4A06E/5FD6E2F1" Ref="J402"  Part="1" 
 F 0 "J402" H 592 3875 50  0000 C CNN
 F 1 "BATT_PWR_INPUT" H 592 3966 50  0000 C CNN
-F 2 "" H 700 4200 50  0001 C CNN
-F 3 "~" H 700 4200 50  0001 C CNN
+F 2 "Milpitas_BMS:XT30-RIGHT-ANGLE" H 700 4200 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/32689137918.html" H 700 4200 50  0001 C CNN
 	1    700  4200
 	-1   0    0    1   
 $EndComp
@@ -179,8 +179,8 @@ AR Path="/5FD6E2EB" Ref="J?"  Part="1"
 AR Path="/5FD4A06E/5FD6E2EB" Ref="J400"  Part="1" 
 F 0 "J400" H 492 1625 50  0000 C CNN
 F 1 "CHG INPUT" H 492 1716 50  0000 C CNN
-F 2 "" H 600 1950 50  0001 C CNN
-F 3 "~" H 600 1950 50  0001 C CNN
+F 2 "Milpitas_BMS:XT30-RIGHT-ANGLE" H 600 1950 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/32689137918.html" H 600 1950 50  0001 C CNN
 	1    600  1950
 	-1   0    0    1   
 $EndComp
@@ -193,36 +193,6 @@ Wire Wire Line
 Connection ~ 4350 4100
 Wire Wire Line
 	4350 4100 4600 4100
-Text Label 7850 4350 0    39   ~ 0
-BATT_ON
-Text Label 7850 3550 0    39   ~ 0
-CHG_ON
-Text Label 7850 3950 0    39   ~ 0
-DIS_ON
-Wire Wire Line
-	8300 4050 7850 4050
-Wire Wire Line
-	8300 3950 7850 3950
-Wire Wire Line
-	8300 3850 7850 3850
-Wire Wire Line
-	8300 3750 7850 3750
-Wire Wire Line
-	8300 3550 7850 3550
-Entry Wire Line
-	8300 3550 8400 3650
-Entry Wire Line
-	8300 3650 8400 3750
-Entry Wire Line
-	8300 3750 8400 3850
-Entry Wire Line
-	8300 3850 8400 3950
-Entry Wire Line
-	8300 3950 8400 4050
-Entry Wire Line
-	8300 4050 8400 4150
-Text HLabel 8600 4800 2    39   Input ~ 0
-STM_32_IO_CTL
 $Comp
 L power:+BATT #PWR0142
 U 1 1 61347B3F
@@ -439,8 +409,6 @@ Wire Wire Line
 	2400 1350 2400 1700
 Wire Wire Line
 	5900 4100 5900 1850
-Wire Wire Line
-	8300 3650 7850 3650
 Wire Wire Line
 	1850 2000 1650 2000
 Wire Wire Line
@@ -668,12 +636,12 @@ $EndComp
 $Comp
 L power:GND #PWR0151
 U 1 1 617E3F94
-P 4100 3050
-F 0 "#PWR0151" H 4100 2800 50  0001 C CNN
-F 1 "GND" H 4105 2877 50  0000 C CNN
-F 2 "" H 4100 3050 50  0001 C CNN
-F 3 "" H 4100 3050 50  0001 C CNN
-	1    4100 3050
+P 4100 3000
+F 0 "#PWR0151" H 4100 2750 50  0001 C CNN
+F 1 "GND" H 4105 2827 50  0000 C CNN
+F 2 "" H 4100 3000 50  0001 C CNN
+F 3 "" H 4100 3000 50  0001 C CNN
+	1    4100 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -840,8 +808,8 @@ AR Path="/60F5939F" Ref="J?"  Part="1"
 AR Path="/5FD4A06E/60F5939F" Ref="J401"  Part="1" 
 F 0 "J401" H 10892 1625 50  0000 C CNN
 F 1 "POWER_OUTPUT" H 10892 1716 50  0000 C CNN
-F 2 "" H 11000 1950 50  0001 C CNN
-F 3 "~" H 11000 1950 50  0001 C CNN
+F 2 "Milpitas_BMS:XT30-RIGHT-ANGLE" H 11000 1950 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/32689137918.html" H 11000 1950 50  0001 C CNN
 	1    11000 1950
 	1    0    0    1   
 $EndComp
@@ -1064,68 +1032,14 @@ Connection ~ 8000 1850
 Wire Wire Line
 	9700 1850 10200 1850
 Connection ~ 9800 2500
-Text Label 7850 3850 0    39   ~ 0
-CHG_FAULT
-Text Label 7850 3750 0    39   ~ 0
-I_CHG
-Text Label 7850 3650 0    39   ~ 0
-V_CHG
-Wire Wire Line
-	7850 4150 8300 4150
-Wire Wire Line
-	7850 4250 8300 4250
-Wire Wire Line
-	7850 4350 8300 4350
-Wire Wire Line
-	7850 4450 8300 4450
-Wire Wire Line
-	7850 4550 8300 4550
-Wire Wire Line
-	7850 4650 8300 4650
-Wire Bus Line
-	8400 4800 8600 4800
-Text Label 7850 4150 0    39   ~ 0
-I_DIS
-Text Label 7850 4250 0    39   ~ 0
-DIS_FAULT
-Text Label 7850 4050 0    39   ~ 0
-V_DIS
-Text Label 7850 4450 0    39   ~ 0
-V_BATT
-Text Label 7850 4550 0    39   ~ 0
-I_BATT
-Text Label 7850 4650 0    39   ~ 0
-BATT_FAULT
-Entry Wire Line
-	8300 4150 8400 4250
-Entry Wire Line
-	8300 4250 8400 4350
-Entry Wire Line
-	8300 4350 8400 4450
-Entry Wire Line
-	8300 4450 8400 4550
-Entry Wire Line
-	8300 4550 8400 4650
-Entry Wire Line
-	8300 4650 8400 4750
 $Sheet
 S 1050 6000 2250 1100
 U 62249708
 F0 "Cell Tap Pinout" 39
 F1 "Cell_Tap_Pinout.sch" 39
-F2 "BUS_SOUTH_CELL_CONN" I R 3300 6900 39 
-F3 "BUS_NORTH_CELL_CONN" I R 3300 7000 39 
 $EndSheet
 Text Notes 1450 6700 0    157  ~ 31
 CELL TAP \nCONNECTORS
-Text HLabel 3650 6900 2    39   Input ~ 0
-BUS_SOUTH_CELL_CONN
-Text HLabel 3650 7000 2    39   Input ~ 0
-BUS_NORTH_CELL_CONN
-Wire Bus Line
-	3300 6900 3650 6900
-Wire Bus Line
-	3300 7000 3650 7000
 Text Notes 650  1550 0    39   ~ 0
 XT30 
 Text Notes 10850 1550 0    39   ~ 0
@@ -2668,8 +2582,6 @@ Wire Wire Line
 	5250 3850 5250 3800
 Wire Wire Line
 	5250 3800 5150 3800
-Wire Bus Line
-	8400 3650 8400 4800
 Connection ~ 5250 3850
 $Comp
 L Device:Fuse F?
