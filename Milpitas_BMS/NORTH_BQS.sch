@@ -280,22 +280,6 @@ F 4 "10V" H 3900 1950 50  0000 C CNN "Voltage"
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 614FF6D3
-P 3500 2200
-AR Path="/614FF6D3" Ref="C?"  Part="1" 
-AR Path="/5FBE719C/614FF6D3" Ref="C?"  Part="1" 
-AR Path="/5FCA7CA4/614FF6D3" Ref="C?"  Part="1" 
-AR Path="/614D0E92/614FF6D3" Ref="C311"  Part="1" 
-F 0 "C311" H 3592 2246 50  0000 L CNN
-F 1 "0.47uF" H 3592 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3500 2200 50  0001 C CNN
-F 3 "~" H 3500 2200 50  0001 C CNN
-F 4 "10V" H 3900 2250 50  0000 C CNN "Voltage"
-	1    3500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 614FF6DA
 P 3500 2500
 AR Path="/614FF6DA" Ref="C?"  Part="1" 
@@ -1516,18 +1500,6 @@ Wire Wire Line
 Connection ~ 6550 2100
 Wire Wire Line
 	6550 2100 6700 2100
-Entry Wire Line
-	8100 900  8200 1000
-Entry Wire Line
-	8100 1200 8200 1300
-Entry Wire Line
-	8100 2100 8200 2200
-Entry Wire Line
-	8100 2400 8200 2500
-Wire Bus Line
-	8200 2550 8350 2550
-Text HLabel 8350 2550 2    39   Input Italic 0
-BUS_NORTH_COMH
 Text Label 4600 900  0    39   ~ 0
 NORTH_COMH_P
 Text Label 4600 1200 0    39   ~ 0
@@ -1811,23 +1783,17 @@ Wire Wire Line
 	8300 6300 8400 6300
 Wire Wire Line
 	8300 6200 8300 6300
-Text HLabel 10000 6250 2    39   Input Italic 0
-BUS_SOUTH_COMH
-Wire Wire Line
-	10000 5400 10000 5450
-Wire Wire Line
-	9100 5400 10000 5400
 $Comp
 L Device:R R?
 U 1 1 614FFB13
-P 10000 5600
+P 10700 5650
 AR Path="/5FCA7CA4/614FFB13" Ref="R?"  Part="1" 
 AR Path="/614D0E92/614FFB13" Ref="R329"  Part="1" 
-F 0 "R329" H 10070 5646 50  0000 L CNN
-F 1 "0" H 10070 5555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9930 5600 50  0001 C CNN
-F 3 "~" H 10000 5600 50  0001 C CNN
-	1    10000 5600
+F 0 "R329" H 10770 5696 50  0000 L CNN
+F 1 "0" H 10770 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10630 5650 50  0001 C CNN
+F 3 "~" H 10700 5650 50  0001 C CNN
+	1    10700 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1855,22 +1821,10 @@ NoConn ~ 9100 5100
 NoConn ~ 9100 5300
 Text Label 9650 5700 2    39   ~ 0
 NORTH_COML_P
-Text Label 9650 5800 2    39   ~ 0
-NORTH_COML_N
 Text Label 9650 5900 2    39   ~ 0
 NORTH_FAULTL_P
 Text Label 9650 6000 2    39   ~ 0
 NORTH_FAULTL_N
-Wire Bus Line
-	9750 6250 10000 6250
-Entry Wire Line
-	9650 6000 9750 6100
-Entry Wire Line
-	9650 5900 9750 6000
-Entry Wire Line
-	9650 5800 9750 5900
-Entry Wire Line
-	9650 5700 9750 5800
 Wire Wire Line
 	9100 6000 9650 6000
 Wire Wire Line
@@ -3995,12 +3949,12 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR0233
 U 1 1 5E8477D6
-P 10000 5750
-F 0 "#PWR0233" H 10000 5500 50  0001 C CNN
-F 1 "GNDS" H 10005 5577 50  0000 C CNN
-F 2 "" H 10000 5750 50  0001 C CNN
-F 3 "" H 10000 5750 50  0001 C CNN
-	1    10000 5750
+P 10700 5800
+F 0 "#PWR0233" H 10700 5550 50  0001 C CNN
+F 1 "GNDS" H 10705 5627 50  0000 C CNN
+F 2 "" H 10700 5800 50  0001 C CNN
+F 3 "" H 10700 5800 50  0001 C CNN
+	1    10700 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4096,8 +4050,42 @@ Text GLabel 9800 2550 2    39   Input ~ 0
 NORTH_THERM6_N
 Text GLabel 9800 1750 2    39   Input ~ 0
 NORTH_THERM2_N
-Wire Bus Line
-	8200 1000 8200 2550
-Wire Bus Line
-	9750 5800 9750 6250
+$Comp
+L Device:C_Small C?
+U 1 1 614FF6D3
+P 3500 2200
+AR Path="/614FF6D3" Ref="C?"  Part="1" 
+AR Path="/5FBE719C/614FF6D3" Ref="C?"  Part="1" 
+AR Path="/5FCA7CA4/614FF6D3" Ref="C?"  Part="1" 
+AR Path="/614D0E92/614FF6D3" Ref="C311"  Part="1" 
+F 0 "C311" H 3592 2246 50  0000 L CNN
+F 1 "0.47uF" H 3592 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3500 2200 50  0001 C CNN
+F 3 "~" H 3500 2200 50  0001 C CNN
+F 4 "10V" H 3900 2250 50  0000 C CNN "Voltage"
+	1    3500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 5400 10700 5500
+Wire Wire Line
+	9100 5400 10700 5400
+Text GLabel 9650 5700 2    39   Input ~ 0
+NORTH_COML_P
+Text GLabel 9650 5800 2    39   Input ~ 0
+NORTH_COML_N
+Text GLabel 9650 5900 2    39   Input ~ 0
+NORTH_FAULTL_P
+Text GLabel 9650 6000 2    39   Input ~ 0
+NORTH_FAULTL_N
+Text Label 9650 5800 2    39   ~ 0
+NORTH_COML_N
+Text GLabel 8100 900  2    39   Input ~ 0
+SOUTH_COMN_P
+Text GLabel 8100 1200 2    39   Input ~ 0
+SOUTH_COMN_N
+Text GLabel 8100 2100 2    39   Input ~ 0
+SOUTH_FAULTN_P
+Text GLabel 8100 2400 2    39   Input ~ 0
+SOUTH_FAULTN_N
 $EndSCHEMATC

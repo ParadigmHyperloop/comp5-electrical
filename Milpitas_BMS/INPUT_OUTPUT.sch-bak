@@ -193,36 +193,6 @@ Wire Wire Line
 Connection ~ 4350 4100
 Wire Wire Line
 	4350 4100 4600 4100
-Text Label 7200 4300 0    39   ~ 0
-BATT_ON
-Text Label 7200 3500 0    39   ~ 0
-CHG_ON
-Text Label 7200 3900 0    39   ~ 0
-DIS_ON
-Wire Wire Line
-	8300 4050 7850 4050
-Wire Wire Line
-	8300 3950 7850 3950
-Wire Wire Line
-	8300 3850 7850 3850
-Wire Wire Line
-	8300 3750 7850 3750
-Wire Wire Line
-	8300 3550 7850 3550
-Entry Wire Line
-	8300 3550 8400 3650
-Entry Wire Line
-	8300 3650 8400 3750
-Entry Wire Line
-	8300 3750 8400 3850
-Entry Wire Line
-	8300 3850 8400 3950
-Entry Wire Line
-	8300 3950 8400 4050
-Entry Wire Line
-	8300 4050 8400 4150
-Text HLabel 8750 4800 2    39   Input ~ 0
-STM_32_IO_CTL
 $Comp
 L power:+BATT #PWR0142
 U 1 1 61347B3F
@@ -241,7 +211,7 @@ Wire Wire Line
 	4050 4100 4350 4100
 Text Notes 4350 3550 0    39   Italic 0
 Diode allows bypass of load switch\nduring charging state\nCredit: Belbino (TM)\n
-Text Notes 9200 4450 0    39   ~ 0
+Text Notes 8000 4550 0    39   ~ 0
 FOUR BMS States:\nCharging, Discharging, Standby, Fault\nThree load switches:\nCHG | DIS | BATT\nCharge state: 1 | x | 0\nDischarge State: x | 1 | 1\nFault : 0 | 0 | 0
 $Comp
 L Device:R R406
@@ -439,8 +409,6 @@ Wire Wire Line
 	2400 1350 2400 1700
 Wire Wire Line
 	5900 4100 5900 1850
-Wire Wire Line
-	8300 3650 7850 3650
 Wire Wire Line
 	1850 2000 1650 2000
 Wire Wire Line
@@ -1064,50 +1032,6 @@ Connection ~ 8000 1850
 Wire Wire Line
 	9700 1850 10200 1850
 Connection ~ 9800 2500
-Text Label 7200 3800 0    39   ~ 0
-CHG_FAULT
-Text Label 7200 3700 0    39   ~ 0
-I_CHG
-Text Label 7200 3600 0    39   ~ 0
-V_CHG
-Wire Wire Line
-	7850 4150 8300 4150
-Wire Wire Line
-	7850 4250 8300 4250
-Wire Wire Line
-	7850 4350 8300 4350
-Wire Wire Line
-	7850 4450 8300 4450
-Wire Wire Line
-	7850 4550 8300 4550
-Wire Wire Line
-	7850 4650 8300 4650
-Wire Bus Line
-	8400 4800 8750 4800
-Text Label 7200 4100 0    39   ~ 0
-I_DIS
-Text Label 7200 4200 0    39   ~ 0
-DIS_FAULT
-Text Label 7200 4000 0    39   ~ 0
-V_DIS
-Text Label 7200 4400 0    39   ~ 0
-V_BATT
-Text Label 7200 4500 0    39   ~ 0
-I_BATT
-Text Label 7200 4600 0    39   ~ 0
-BATT_FAULT
-Entry Wire Line
-	8300 4150 8400 4250
-Entry Wire Line
-	8300 4250 8400 4350
-Entry Wire Line
-	8300 4350 8400 4450
-Entry Wire Line
-	8300 4450 8400 4550
-Entry Wire Line
-	8300 4550 8400 4650
-Entry Wire Line
-	8300 4650 8400 4750
 $Sheet
 S 1050 6000 2250 1100
 U 62249708
@@ -2687,32 +2611,76 @@ F 4 "486-1686-1-ND" V 10450 1850 50  0001 C CNN "Digikey"
 	1    10450 1850
 	0    -1   -1   0   
 $EndComp
-Text Label 8450 4800 0    39   ~ 0
-A[1..12]
-Text Label 7850 3550 0    39   ~ 0
-A1
-Text Label 7850 3650 0    39   ~ 0
-A2
-Text Label 7850 3750 0    39   ~ 0
-A3
-Text Label 7850 3850 0    39   ~ 0
-A4
-Text Label 7850 3950 0    39   ~ 0
-A5
-Text Label 7850 4050 0    39   ~ 0
-A6
-Text Label 7850 4150 0    39   ~ 0
-A7
-Text Label 7850 4250 0    39   ~ 0
-A8
-Text Label 7850 4350 0    39   ~ 0
-A9
-Text Label 7850 4450 0    39   ~ 0
-A10
-Text Label 7850 4550 0    39   ~ 0
-A11
-Text Label 7850 4650 0    39   ~ 0
-A12
-Wire Bus Line
-	8400 3650 8400 4800
+Wire Wire Line
+	7250 4550 6900 4550
+Wire Wire Line
+	7250 4950 6900 4950
+Wire Wire Line
+	7250 4150 6900 4150
+Text Label 6900 4150 0    39   ~ 0
+DIS_FAULT
+Text Label 6900 4550 0    39   ~ 0
+BATT_FAULT
+Wire Wire Line
+	7250 3850 6900 3850
+Wire Wire Line
+	7250 4250 6900 4250
+Text Label 6900 3850 0    39   ~ 0
+DIS_ON
+Text Label 6900 4950 0    39   ~ 0
+CHG_FAULT
+Text Label 6900 4350 0    39   ~ 0
+I_BATT
+Text Label 6900 4450 0    39   ~ 0
+V_BATT
+Text Label 6900 4750 0    39   ~ 0
+I_CHG
+Text Label 6900 4050 0    39   ~ 0
+V_DIS
+Wire Wire Line
+	7250 4350 6900 4350
+Wire Wire Line
+	7250 4450 6900 4450
+Wire Wire Line
+	7250 4750 6900 4750
+Wire Wire Line
+	7250 4050 6900 4050
+Text Label 6900 3950 0    39   ~ 0
+I_DIS
+Wire Wire Line
+	7250 3950 6900 3950
+Wire Wire Line
+	7250 4850 6900 4850
+Text Label 6900 4850 0    39   ~ 0
+V_CHG
+Text Label 6900 4250 0    39   ~ 0
+BATT_ON
+Text Label 6900 4650 0    39   ~ 0
+CHG_ON
+Wire Wire Line
+	7250 4650 6900 4650
+Text GLabel 7250 3850 2    39   Input ~ 0
+DIS_ON
+Text GLabel 7250 3950 2    39   Input ~ 0
+I_DIS
+Text GLabel 7250 4050 2    39   Input ~ 0
+V_DIS
+Text GLabel 7250 4150 2    39   Input ~ 0
+DIS_FAULT
+Text GLabel 7250 4250 2    39   Input ~ 0
+BATT_ON
+Text GLabel 7250 4350 2    39   Input ~ 0
+I_BATT
+Text GLabel 7250 4450 2    39   Input ~ 0
+V_BATT
+Text GLabel 7250 4550 2    39   Input ~ 0
+BATT_FAULT
+Text GLabel 7250 4650 2    39   Input ~ 0
+CHG_ON
+Text GLabel 7250 4750 2    39   Input ~ 0
+I_CHG
+Text GLabel 7250 4850 2    39   Input ~ 0
+V_CHG
+Text GLabel 7250 4950 2    39   Input ~ 0
+CHG_FAULT
 $EndSCHEMATC

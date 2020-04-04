@@ -211,7 +211,7 @@ Wire Wire Line
 	4050 4100 4350 4100
 Text Notes 4350 3550 0    39   Italic 0
 Diode allows bypass of load switch\nduring charging state\nCredit: Belbino (TM)\n
-Text Notes 9200 4450 0    39   ~ 0
+Text Notes 8000 4550 0    39   ~ 0
 FOUR BMS States:\nCharging, Discharging, Standby, Fault\nThree load switches:\nCHG | DIS | BATT\nCharge state: 1 | x | 0\nDischarge State: x | 1 | 1\nFault : 0 | 0 | 0
 $Comp
 L Device:R R406
@@ -2611,4 +2611,76 @@ F 4 "486-1686-1-ND" V 10450 1850 50  0001 C CNN "Digikey"
 	1    10450 1850
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7250 4550 6900 4550
+Wire Wire Line
+	7250 4950 6900 4950
+Wire Wire Line
+	7250 4150 6900 4150
+Text Label 6900 4150 0    39   ~ 0
+DIS_FAULT
+Text Label 6900 4550 0    39   ~ 0
+BATT_FAULT
+Wire Wire Line
+	7250 3850 6900 3850
+Wire Wire Line
+	7250 4250 6900 4250
+Text Label 6900 3850 0    39   ~ 0
+DIS_ON
+Text Label 6900 4950 0    39   ~ 0
+CHG_FAULT
+Text Label 6900 4350 0    39   ~ 0
+I_BATT
+Text Label 6900 4450 0    39   ~ 0
+V_BATT
+Text Label 6900 4750 0    39   ~ 0
+I_CHG
+Text Label 6900 4050 0    39   ~ 0
+V_DIS
+Wire Wire Line
+	7250 4350 6900 4350
+Wire Wire Line
+	7250 4450 6900 4450
+Wire Wire Line
+	7250 4750 6900 4750
+Wire Wire Line
+	7250 4050 6900 4050
+Text Label 6900 3950 0    39   ~ 0
+I_DIS
+Wire Wire Line
+	7250 3950 6900 3950
+Wire Wire Line
+	7250 4850 6900 4850
+Text Label 6900 4850 0    39   ~ 0
+V_CHG
+Text Label 6900 4250 0    39   ~ 0
+BATT_ON
+Text Label 6900 4650 0    39   ~ 0
+CHG_ON
+Wire Wire Line
+	7250 4650 6900 4650
+Text GLabel 7250 3850 2    39   Input ~ 0
+DIS_ON
+Text GLabel 7250 3950 2    39   Input ~ 0
+I_DIS
+Text GLabel 7250 4050 2    39   Input ~ 0
+V_DIS
+Text GLabel 7250 4150 2    39   Input ~ 0
+DIS_FAULT
+Text GLabel 7250 4250 2    39   Input ~ 0
+BATT_ON
+Text GLabel 7250 4350 2    39   Input ~ 0
+I_BATT
+Text GLabel 7250 4450 2    39   Input ~ 0
+V_BATT
+Text GLabel 7250 4550 2    39   Input ~ 0
+BATT_FAULT
+Text GLabel 7250 4650 2    39   Input ~ 0
+CHG_ON
+Text GLabel 7250 4750 2    39   Input ~ 0
+I_CHG
+Text GLabel 7250 4850 2    39   Input ~ 0
+V_CHG
+Text GLabel 7250 4950 2    39   Input ~ 0
+CHG_FAULT
 $EndSCHEMATC

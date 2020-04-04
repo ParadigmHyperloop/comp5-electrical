@@ -2060,18 +2060,6 @@ Text Label 9550 3350 2    39   ~ 0
 SOUTH_FAULTH_N
 Wire Wire Line
 	8850 3350 9550 3350
-Entry Wire Line
-	8100 850  8200 950 
-Entry Wire Line
-	8100 1150 8200 1250
-Entry Wire Line
-	8100 2050 8200 2150
-Entry Wire Line
-	8100 2350 8200 2450
-Wire Bus Line
-	8200 2500 8350 2500
-Text HLabel 8350 2500 2    39   Input Italic 0
-BUS_SOUTH_COMH
 Text Label 9550 3050 2    39   ~ 0
 SOUTH_COMH_P
 Text Label 9600 5700 2    39   ~ 0
@@ -2082,30 +2070,6 @@ Text Label 9600 5900 2    39   ~ 0
 SOUTH_FAULTN_P
 Text Label 9600 6000 2    39   ~ 0
 SOUTH_FAULTN_N
-Entry Wire Line
-	9600 5700 9700 5800
-Entry Wire Line
-	9600 5800 9700 5900
-Entry Wire Line
-	9600 5900 9700 6000
-Entry Wire Line
-	9600 6000 9700 6100
-Wire Bus Line
-	9700 6200 9900 6200
-Text HLabel 9900 6200 2    39   Input Italic 0
-BUS_NORTH_COMH
-Entry Wire Line
-	10550 5100 10650 5200
-Entry Wire Line
-	10550 5200 10650 5300
-Entry Wire Line
-	10550 5300 10650 5400
-Entry Wire Line
-	10550 5400 10650 5500
-Wire Bus Line
-	10650 5600 10700 5600
-Text HLabel 10700 5600 2    39   Input Italic 0
-STM32_COMMS
 Text Label 550  4900 0    39   ~ 0
 SOUTH_THERM1_P
 Text Label 600  5200 0    39   ~ 0
@@ -4060,10 +4024,28 @@ F 3 "" H 7150 2700 50  0001 C CNN
 	1    7150 2700
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	10650 5200 10650 5600
-Wire Bus Line
-	9700 5800 9700 6200
-Wire Bus Line
-	8200 950  8200 2500
+Text GLabel 10550 5100 2    39   Input ~ 0
+STM32_RX
+Text GLabel 10550 5200 2    39   Input ~ 0
+STM32_TX
+Text GLabel 10550 5300 2    39   Input ~ 0
+~BMS_FAULT
+Text GLabel 10550 5400 2    39   Input ~ 0
+BMS_WAKEUP
+Text GLabel 8100 850  2    39   Input ~ 0
+NORTH_COML_P
+Text GLabel 8100 1150 2    39   Input ~ 0
+NORTH_COML_N
+Text GLabel 8100 2050 2    39   Input ~ 0
+NORTH_FAULTL_P
+Text GLabel 8100 2350 2    39   Input ~ 0
+NORTH_FAULTL_N
+Text GLabel 9600 5700 2    39   Input ~ 0
+SOUTH_COMN_P
+Text GLabel 9600 5800 2    39   Input ~ 0
+SOUTH_COMN_N
+Text GLabel 9600 5900 2    39   Input ~ 0
+SOUTH_FAULTN_P
+Text GLabel 9600 6000 2    39   Input ~ 0
+SOUTH_FAULTN_N
 $EndSCHEMATC

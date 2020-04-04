@@ -53,8 +53,6 @@ Wire Bus Line
 	4450 3600 4450 4450
 Wire Bus Line
 	4450 4450 4750 4450
-Wire Bus Line
-	7700 4600 8300 4600
 Text Notes 5350 3500 0    118  ~ 24
 NORTH (SLAVE)\nBQ79606
 $Sheet
@@ -67,10 +65,6 @@ F3 "BUS_SOUTH_COMH" I L 4750 3700 39
 $EndSheet
 Wire Bus Line
 	4550 3700 4750 3700
-Wire Bus Line
-	7050 5350 7700 5350
-Wire Bus Line
-	7700 5350 7700 4600
 Wire Bus Line
 	8300 4700 7800 4700
 Wire Bus Line
@@ -983,7 +977,7 @@ Connection ~ 2700 6950
 Text Notes 1600 6550 0    39   ~ 0
 Population options\nfor chassis grounding\n
 $Bitmap
-Pos 9600 6850
+Pos 9450 6850
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 BC 00 00 00 A6 08 02 00 00 00 B7 0A CB 
@@ -3449,4 +3443,10 @@ F 4 "A106146CT-ND" H 4450 7050 50  0001 C CNN "Digikey"
 $EndComp
 Text Label 3600 4600 0    39   ~ 0
 A[0..12]
+Wire Bus Line
+	7700 4600 8300 4600
+Wire Bus Line
+	7700 5350 7700 4600
+Wire Bus Line
+	7050 5350 7700 5350
 $EndSCHEMATC
