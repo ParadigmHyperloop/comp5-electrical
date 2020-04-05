@@ -193,7 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 1750 2450 1750
 Wire Wire Line
-	1750 2050 2350 2050
+	1750 2050 2450 2050
 Wire Wire Line
 	1750 2350 2450 2350
 Wire Wire Line

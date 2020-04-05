@@ -3441,12 +3441,12 @@ F 4 "A106146CT-ND" H 4450 7050 50  0001 C CNN "Digikey"
 	1    4450 7050
 	1    0    0    -1  
 $EndComp
-Text Label 3600 4600 0    39   ~ 0
-A[0..12]
 Wire Bus Line
 	7700 4600 8300 4600
 Wire Bus Line
 	7700 5350 7700 4600
 Wire Bus Line
 	7050 5350 7700 5350
+Text Label 3600 4600 0    39   ~ 0
+A[0..12]
 $EndSCHEMATC

@@ -3980,7 +3980,7 @@ SOUTH_CELL_6
 Text GLabel 10150 800  2    39   Input ~ 0
 SOUTH_CELL_5
 Text GLabel 10150 900  2    39   Input ~ 0
-SOUTH_CELL_5
+SOUTH_CELL_4
 Text GLabel 10150 1000 2    39   Input ~ 0
 SOUTH_CELL_3
 Text GLabel 10150 1100 2    39   Input ~ 0
