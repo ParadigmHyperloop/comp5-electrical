@@ -3447,6 +3447,4 @@ Wire Bus Line
 	7700 5350 7700 4600
 Wire Bus Line
 	7050 5350 7700 5350
-Text Label 3600 4600 0    39   ~ 0
-A[0..12]
 $EndSCHEMATC

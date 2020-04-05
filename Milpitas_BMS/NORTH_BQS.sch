@@ -1144,16 +1144,16 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 614FF9D0
-P 6850 900
+P 6900 900
 AR Path="/614FF9D0" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/614FF9D0" Ref="R?"  Part="1" 
 AR Path="/5FCA7CA4/614FF9D0" Ref="R?"  Part="1" 
 AR Path="/614D0E92/614FF9D0" Ref="R317"  Part="1" 
-F 0 "R317" V 6643 900 50  0000 C CNN
-F 1 "49" V 6734 900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 900 50  0001 C CNN
-F 3 "~" H 6850 900 50  0001 C CNN
-	1    6850 900 
+F 0 "R317" V 6693 900 50  0000 C CNN
+F 1 "49" V 6784 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 900 50  0001 C CNN
+F 3 "~" H 6900 900 50  0001 C CNN
+	1    6900 900 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1173,7 +1173,7 @@ F 3 "~" H 7250 1050 50  0001 C CNN
 $EndComp
 Connection ~ 7250 900 
 Wire Wire Line
-	7000 900  7250 900 
+	7050 900  7250 900 
 Connection ~ 7150 1200
 Wire Wire Line
 	7150 1350 7150 1200
@@ -1183,9 +1183,9 @@ Connection ~ 5300 1200
 Wire Wire Line
 	5300 1350 5300 1200
 Wire Wire Line
-	7000 1200 7150 1200
+	7050 1200 7150 1200
 Wire Wire Line
-	6350 1200 6700 1200
+	6350 1200 6750 1200
 Wire Wire Line
 	5750 1200 6150 1200
 $Comp
@@ -1266,22 +1266,20 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 614FFA1D
-P 6850 1200
+P 6900 1200
 AR Path="/614FFA1D" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/614FFA1D" Ref="R?"  Part="1" 
 AR Path="/5FCA7CA4/614FFA1D" Ref="R?"  Part="1" 
 AR Path="/614D0E92/614FFA1D" Ref="R318"  Part="1" 
-F 0 "R318" V 6643 1200 50  0000 C CNN
-F 1 "49" V 6734 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 1200 50  0001 C CNN
-F 3 "~" H 6850 1200 50  0001 C CNN
-	1    6850 1200
+F 0 "R318" V 6693 1200 50  0000 C CNN
+F 1 "49" V 6784 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1200 50  0001 C CNN
+F 3 "~" H 6900 1200 50  0001 C CNN
+	1    6900 1200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7150 1200 7250 1200
-Wire Wire Line
-	7250 1200 7850 1200
 Connection ~ 7250 1200
 $Comp
 L Device:R R?
@@ -1316,16 +1314,14 @@ Wire Wire Line
 Wire Wire Line
 	6350 900  6550 900 
 Wire Wire Line
-	6550 900  6700 900 
+	6550 900  6750 900 
 Connection ~ 6550 900 
 Wire Wire Line
 	7050 2550 7050 2400
 Wire Wire Line
 	5400 2550 5400 2400
 Wire Wire Line
-	7000 2400 7050 2400
-Wire Wire Line
-	6350 2400 6700 2400
+	6350 2400 6750 2400
 Wire Wire Line
 	5750 2400 6150 2400
 $Comp
@@ -1421,31 +1417,31 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 614FFA96
-P 6850 2400
+P 6900 2400
 AR Path="/614FFA96" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/614FFA96" Ref="R?"  Part="1" 
 AR Path="/5FCA7CA4/614FFA96" Ref="R?"  Part="1" 
 AR Path="/614D0E92/614FFA96" Ref="R324"  Part="1" 
-F 0 "R324" V 6643 2400 50  0000 C CNN
-F 1 "49" V 6734 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 2400 50  0001 C CNN
-F 3 "~" H 6850 2400 50  0001 C CNN
-	1    6850 2400
+F 0 "R324" V 6693 2400 50  0000 C CNN
+F 1 "49" V 6784 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2400 50  0001 C CNN
+F 3 "~" H 6900 2400 50  0001 C CNN
+	1    6900 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 614FFA9C
-P 6850 2100
+P 6900 2100
 AR Path="/614FFA9C" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/614FFA9C" Ref="R?"  Part="1" 
 AR Path="/5FCA7CA4/614FFA9C" Ref="R?"  Part="1" 
 AR Path="/614D0E92/614FFA9C" Ref="R321"  Part="1" 
-F 0 "R321" V 6643 2100 50  0000 C CNN
-F 1 "49" V 6734 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 2100 50  0001 C CNN
-F 3 "~" H 6850 2100 50  0001 C CNN
-	1    6850 2100
+F 0 "R321" V 6693 2100 50  0000 C CNN
+F 1 "49" V 6784 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2100 50  0001 C CNN
+F 3 "~" H 6900 2100 50  0001 C CNN
+	1    6900 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1469,7 +1465,7 @@ F 3 "~" H 7250 2250 50  0001 C CNN
 $EndComp
 Connection ~ 7250 2100
 Wire Wire Line
-	7000 2100 7250 2100
+	7050 2100 7250 2100
 Connection ~ 7250 2400
 $Comp
 L Device:R R?
@@ -1499,7 +1495,7 @@ Wire Wire Line
 	6550 2550 6550 2100
 Connection ~ 6550 2100
 Wire Wire Line
-	6550 2100 6700 2100
+	6550 2100 6750 2100
 Text Label 4600 900  0    39   ~ 0
 NORTH_COMH_P
 Text Label 4600 1200 0    39   ~ 0
@@ -1714,7 +1710,7 @@ F 0 "C318" V 6300 750 50  0000 C CNN
 F 1 "2200pF" V 6112 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 900 50  0001 C CNN
 F 3 "~" H 6250 900 50  0001 C CNN
-F 4 "75V" V 6200 1050 50  0000 C CNN "Voltage"
+F 4 "75V" V 6200 750 50  0000 C CNN "Voltage"
 	1    6250 900 
 	0    1    1    0   
 $EndComp
@@ -1729,7 +1725,7 @@ F 0 "C319" V 6300 1050 50  0000 C CNN
 F 1 "2200pF" V 6112 1200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 1200 50  0001 C CNN
 F 3 "~" H 6250 1200 50  0001 C CNN
-F 4 "75V" V 6200 1350 50  0000 C CNN "Voltage"
+F 4 "75V" V 6200 1050 50  0000 C CNN "Voltage"
 	1    6250 1200
 	0    1    1    0   
 $EndComp
@@ -3493,164 +3489,6 @@ F 4 "296-BQ79606APHPTQ1CT-ND" H 8750 3500 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5E935AC0
-P 4800 900
-AR Path="/5FD707DF/5E935AC0" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E935AC0" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E935AC0" Ref="TP300"  Part="1" 
-F 0 "TP300" H 4700 1200 50  0000 L CNN
-F 1 "NORTH_COMH_P" H 4500 1100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5000 900 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5000 900 50  0001 C CNN
-F 4 "36-5003-ND" H 4800 900 50  0001 C CNN "Digikey"
-	1    4800 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 900  4800 900 
-Connection ~ 4800 900 
-Wire Wire Line
-	4800 900  5150 900 
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E96D819
-P 7850 900
-AR Path="/5FD707DF/5E96D819" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E96D819" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E96D819" Ref="TP301"  Part="1" 
-F 0 "TP301" H 7750 1200 50  0000 L CNN
-F 1 "SOUTH_COML_P" H 7550 1100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8050 900 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8050 900 50  0001 C CNN
-F 4 "36-5003-ND" H 7850 900 50  0001 C CNN "Digikey"
-	1    7850 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 900  7850 900 
-Connection ~ 7850 900 
-Wire Wire Line
-	7850 900  8100 900 
-Wire Wire Line
-	4600 1200 4800 1200
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E96E0C9
-P 4800 1200
-AR Path="/5FD707DF/5E96E0C9" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E96E0C9" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E96E0C9" Ref="TP302"  Part="1" 
-F 0 "TP302" H 4700 1500 50  0000 L CNN
-F 1 "NORTH_COMH_N" H 4500 1400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5000 1200 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5000 1200 50  0001 C CNN
-F 4 "36-5003-ND" H 4800 1200 50  0001 C CNN "Digikey"
-	1    4800 1200
-	-1   0    0    1   
-$EndComp
-Connection ~ 4800 1200
-Wire Wire Line
-	4800 1200 5150 1200
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E96E7D2
-P 7850 1200
-AR Path="/5FD707DF/5E96E7D2" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E96E7D2" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E96E7D2" Ref="TP303"  Part="1" 
-F 0 "TP303" H 7750 1500 50  0000 L CNN
-F 1 "SOUTH_COMN_N" H 7550 1400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8050 1200 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8050 1200 50  0001 C CNN
-F 4 "36-5003-ND" H 7850 1200 50  0001 C CNN "Digikey"
-	1    7850 1200
-	-1   0    0    1   
-$EndComp
-Connection ~ 7850 1200
-Wire Wire Line
-	7850 1200 8100 1200
-Wire Wire Line
-	4600 2100 4800 2100
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E970604
-P 4800 2100
-AR Path="/5FD707DF/5E970604" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E970604" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E970604" Ref="TP304"  Part="1" 
-F 0 "TP304" H 4700 2400 50  0000 L CNN
-F 1 "NORTH_FAULTH_P" H 4500 2300 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5000 2100 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5000 2100 50  0001 C CNN
-F 4 "36-5003-ND" H 4800 2100 50  0001 C CNN "Digikey"
-	1    4800 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 4800 2100
-Wire Wire Line
-	4800 2100 5150 2100
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E970F3B
-P 7800 2100
-AR Path="/5FD707DF/5E970F3B" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E970F3B" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E970F3B" Ref="TP306"  Part="1" 
-F 0 "TP306" H 7700 2400 50  0000 L CNN
-F 1 "SOUTH_FAULTN_P" H 7500 2300 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8000 2100 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8000 2100 50  0001 C CNN
-F 4 "36-5003-ND" H 7800 2100 50  0001 C CNN "Digikey"
-	1    7800 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 2100 7800 2100
-Connection ~ 7800 2100
-Wire Wire Line
-	7800 2100 8100 2100
-Wire Wire Line
-	4600 2400 4800 2400
-Wire Wire Line
-	7250 2400 7800 2400
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E971925
-P 4800 2400
-AR Path="/5FD707DF/5E971925" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E971925" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E971925" Ref="TP305"  Part="1" 
-F 0 "TP305" H 4700 2700 50  0000 L CNN
-F 1 "NORTH_FAULTH_N" H 4500 2600 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5000 2400 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5000 2400 50  0001 C CNN
-F 4 "36-5003-ND" H 4800 2400 50  0001 C CNN "Digikey"
-	1    4800 2400
-	-1   0    0    1   
-$EndComp
-Connection ~ 4800 2400
-Wire Wire Line
-	4800 2400 5150 2400
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E971F28
-P 7800 2400
-AR Path="/5FD707DF/5E971F28" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E971F28" Ref="TP?"  Part="1" 
-AR Path="/614D0E92/5E971F28" Ref="TP307"  Part="1" 
-F 0 "TP307" H 7700 2700 50  0000 L CNN
-F 1 "SOUTH_FAULTN_N" H 7500 2600 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8000 2400 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8000 2400 50  0001 C CNN
-F 4 "36-5003-ND" H 7800 2400 50  0001 C CNN "Digikey"
-	1    7800 2400
-	-1   0    0    1   
-$EndComp
-Connection ~ 7800 2400
-Wire Wire Line
-	7800 2400 8100 2400
-$Comp
 L power:GNDS #PWR0208
 U 1 1 5E83E430
 P 1750 2950
@@ -4088,4 +3926,28 @@ Text GLabel 8100 2100 2    39   Input ~ 0
 SOUTH_FAULTN_P
 Text GLabel 8100 2400 2    39   Input ~ 0
 SOUTH_FAULTN_N
+Text Label 5800 900  0    39   ~ 0
+N_COMH_LS_P
+Text Label 5800 1200 0    39   ~ 0
+N_COMH_LS_N
+Text Label 5750 2100 0    39   ~ 0
+N_FAULTH_LS_P
+Text Label 5750 2400 0    39   ~ 0
+N_FAULTH_LS_N
+Wire Wire Line
+	4600 2100 5150 2100
+Wire Wire Line
+	4600 1200 5150 1200
+Wire Wire Line
+	4600 900  5150 900 
+Wire Wire Line
+	7250 900  8100 900 
+Wire Wire Line
+	7250 1200 8100 1200
+Wire Wire Line
+	7250 2100 8100 2100
+Wire Wire Line
+	7250 2400 8100 2400
+Wire Wire Line
+	4600 2400 5150 2400
 $EndSCHEMATC

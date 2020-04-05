@@ -972,7 +972,7 @@ F 0 "C214" V 6400 700 50  0000 C CNN
 F 1 "2200pF" V 6212 850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 850 50  0001 C CNN
 F 3 "~" H 6350 850 50  0001 C CNN
-F 4 "75V" V 6300 1000 50  0000 C CNN "Voltage"
+F 4 "75V" V 6300 700 50  0000 C CNN "Voltage"
 	1    6350 850 
 	0    1    1    0   
 $EndComp
@@ -1363,10 +1363,6 @@ Wire Wire Line
 	9900 5300 10550 5300
 Wire Wire Line
 	10150 5400 10550 5400
-Text Label 10550 5100 2    39   ~ 0
-STM32_RX
-Text Label 10550 5200 2    39   ~ 0
-STM32_TX
 Text Label 10550 5300 2    39   ~ 0
 ~BMS_FAULT
 Text Label 10550 5400 2    39   ~ 0
@@ -1385,19 +1381,6 @@ Text Label 9550 3150 2    39   ~ 0
 SOUTH_COMH_N
 Wire Wire Line
 	8850 3150 9550 3150
-$Comp
-L power:+BATT #PWR?
-U 1 1 5FC052AA
-P 5250 3300
-AR Path="/5FC052AA" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE719C/5FC052AA" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 5250 3150 50  0001 C CNN
-F 1 "+BATT" H 5265 3473 50  0000 C CNN
-F 2 "" H 5250 3300 50  0001 C CNN
-F 3 "" H 5250 3300 50  0001 C CNN
-	1    5250 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5FC052B1
@@ -1531,7 +1514,7 @@ $EndComp
 Wire Wire Line
 	5500 2500 5500 2350
 Wire Wire Line
-	6450 2350 6800 2350
+	6450 2350 6850 2350
 Wire Wire Line
 	5850 2350 6250 2350
 $Comp
@@ -1602,27 +1585,27 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 6023F9DE
-P 6950 2350
+P 7000 2350
 AR Path="/6023F9DE" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/6023F9DE" Ref="R224"  Part="1" 
-F 0 "R224" V 6743 2350 50  0000 C CNN
-F 1 "49" V 6834 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 2350 50  0001 C CNN
-F 3 "~" H 6950 2350 50  0001 C CNN
-	1    6950 2350
+F 0 "R224" V 6793 2350 50  0000 C CNN
+F 1 "49" V 6884 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2350 50  0001 C CNN
+F 3 "~" H 7000 2350 50  0001 C CNN
+	1    7000 2350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6023F9E4
-P 6950 2050
+P 7000 2050
 AR Path="/6023F9E4" Ref="R?"  Part="1" 
 AR Path="/5FBE719C/6023F9E4" Ref="R223"  Part="1" 
-F 0 "R223" V 6743 2050 50  0000 C CNN
-F 1 "49" V 6834 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 2050 50  0001 C CNN
-F 3 "~" H 6950 2050 50  0001 C CNN
-	1    6950 2050
+F 0 "R223" V 6793 2050 50  0000 C CNN
+F 1 "49" V 6884 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 2050 50  0001 C CNN
+F 3 "~" H 7000 2050 50  0001 C CNN
+	1    7000 2050
 	0    1    1    0   
 $EndComp
 Text Label 8100 2050 2    39   ~ 0
@@ -1648,7 +1631,7 @@ F 3 "~" H 7350 2200 50  0001 C CNN
 $EndComp
 Connection ~ 7350 2050
 Wire Wire Line
-	7100 2050 7350 2050
+	7150 2050 7350 2050
 Connection ~ 7350 2350
 $Comp
 L Device:R R?
@@ -1676,7 +1659,7 @@ Wire Wire Line
 	6650 2500 6650 2050
 Connection ~ 6650 2050
 Wire Wire Line
-	6650 2050 6800 2050
+	6650 2050 6850 2050
 $Comp
 L Device:R R?
 U 1 1 5FC05088
@@ -1972,82 +1955,82 @@ F 3 "" H 1600 3100 50  0001 C CNN
 	1    1600 3100
 	1    0    0    -1  
 $EndComp
-Text Label 9450 2500 0    39   ~ 0
+Text Label 9200 2550 0    39   ~ 0
 SOUTH_THERM6_N
-Text Label 9450 2400 0    39   ~ 0
+Text Label 9200 2450 0    39   ~ 0
 SOUTH_THERM6_P
 Wire Wire Line
-	9450 2500 10150 2500
+	9200 2550 9900 2550
 Wire Wire Line
-	9450 2400 10150 2400
-Text Label 9450 2300 0    39   ~ 0
+	9200 2450 9900 2450
+Text Label 9200 2350 0    39   ~ 0
 SOUTH_THERM5_N
-Text Label 9450 2200 0    39   ~ 0
+Text Label 9200 2250 0    39   ~ 0
 SOUTH_THERM5_P
 Wire Wire Line
-	9450 2300 10150 2300
+	9200 2350 9900 2350
 Wire Wire Line
-	9450 2200 10150 2200
-Text Label 9450 2100 0    39   ~ 0
+	9200 2250 9900 2250
+Text Label 9200 2150 0    39   ~ 0
 SOUTH_THERM4_N
-Text Label 9450 2000 0    39   ~ 0
+Text Label 9200 2050 0    39   ~ 0
 SOUTH_THERM4_P
 Wire Wire Line
-	9450 2100 10150 2100
+	9200 2150 9900 2150
 Wire Wire Line
-	9450 2000 10150 2000
-Text Label 9450 1900 0    39   ~ 0
+	9200 2050 9900 2050
+Text Label 9200 1950 0    39   ~ 0
 SOUTH_THERM3_N
-Text Label 9450 1800 0    39   ~ 0
+Text Label 9200 1850 0    39   ~ 0
 SOUTH_THERM3_P
 Wire Wire Line
-	9450 1900 10150 1900
+	9200 1950 9900 1950
 Wire Wire Line
-	9450 1800 10150 1800
-Text Label 9450 1700 0    39   ~ 0
+	9200 1850 9900 1850
+Text Label 9200 1750 0    39   ~ 0
 SOUTH_THERM2_N
-Text Label 9450 1600 0    39   ~ 0
+Text Label 9200 1650 0    39   ~ 0
 SOUTH_THERM2_P
 Wire Wire Line
-	9450 1700 10150 1700
+	9200 1750 9900 1750
 Wire Wire Line
-	9450 1600 10150 1600
-Text Label 9450 1500 0    39   ~ 0
+	9200 1650 9900 1650
+Text Label 9200 1550 0    39   ~ 0
 SOUTH_THERM1_N
-Text Label 9450 1400 0    39   ~ 0
+Text Label 9200 1450 0    39   ~ 0
 SOUTH_THERM1_P
 Wire Wire Line
-	9450 1500 10150 1500
+	9200 1550 9900 1550
 Wire Wire Line
-	9450 1400 10150 1400
-Text Label 9450 700  0    39   ~ 0
+	9200 1450 9900 1450
+Text Label 9200 750  0    39   ~ 0
 SOUTH_CELL6
-Text Label 9450 800  0    39   ~ 0
+Text Label 9200 850  0    39   ~ 0
 SOUTH_CELL5
-Text Label 9450 900  0    39   ~ 0
+Text Label 9200 950  0    39   ~ 0
 SOUTH_CELL4
-Text Label 9450 1000 0    39   ~ 0
+Text Label 9200 1050 0    39   ~ 0
 SOUTH_CELL3
-Text Label 9450 1100 0    39   ~ 0
+Text Label 9200 1150 0    39   ~ 0
 SOUTH_CELL2
-Text Label 9450 1200 0    39   ~ 0
+Text Label 9200 1250 0    39   ~ 0
 SOUTH_CELL1
-Text Label 9450 1300 0    39   ~ 0
+Text Label 9200 1350 0    39   ~ 0
 SOUTH_CELL0
 Wire Wire Line
-	9450 1300 10150 1300
+	9200 1350 9900 1350
 Wire Wire Line
-	9450 1200 10150 1200
+	9200 1250 9900 1250
 Wire Wire Line
-	9450 1100 10150 1100
+	9200 1150 9900 1150
 Wire Wire Line
-	9450 1000 10150 1000
+	9200 1050 9900 1050
 Wire Wire Line
-	9450 900  10150 900 
+	9200 950  9900 950 
 Wire Wire Line
-	9450 800  10150 800 
+	9200 850  9900 850 
 Wire Wire Line
-	9450 700  10150 700 
+	9200 750  9900 750 
 Text Label 4700 2050 0    39   ~ 0
 SOUTH_FAULTH_P
 Text Label 4700 2350 0    39   ~ 0
@@ -2165,8 +2148,6 @@ Wire Wire Line
 	5500 1150 5550 1150
 Wire Wire Line
 	5250 1150 5500 1150
-Wire Wire Line
-	7100 2350 7150 2350
 $Comp
 L Device:C_Small C?
 U 1 1 6023F9BA
@@ -2239,7 +2220,7 @@ F 0 "C215" V 6400 950 50  0000 C CNN
 F 1 "2200pF" V 6212 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 1150 50  0001 C CNN
 F 3 "~" H 6350 1150 50  0001 C CNN
-F 4 "75V" V 6300 1300 50  0000 C CNN "Voltage"
+F 4 "75V" V 6300 1000 50  0000 C CNN "Voltage"
 	1    6350 1150
 	0    1    1    0   
 $EndComp
@@ -2253,7 +2234,7 @@ F 0 "C221" V 6400 1900 50  0000 C CNN
 F 1 "2200pF" V 6212 2050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 2050 50  0001 C CNN
 F 3 "~" H 6350 2050 50  0001 C CNN
-F 4 "75V" V 6300 2200 50  0000 C CNN "Voltage"
+F 4 "75V" V 6300 1900 50  0000 C CNN "Voltage"
 	1    6350 2050
 	0    1    1    0   
 $EndComp
@@ -2267,7 +2248,7 @@ F 0 "C223" V 6400 2200 50  0000 C CNN
 F 1 "2200pF" V 6212 2350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 2350 50  0001 C CNN
 F 3 "~" H 6350 2350 50  0001 C CNN
-F 4 "75V" V 6300 2500 50  0000 C CNN "Voltage"
+F 4 "75V" V 6300 2200 50  0000 C CNN "Voltage"
 	1    6350 2350
 	0    1    1    0   
 $EndComp
@@ -3791,158 +3772,6 @@ F 4 "296-BQ79606APHPTQ1CT-ND" H 8500 3500 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5E8FB497
-P 4900 850
-AR Path="/5FD707DF/5E8FB497" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E8FB497" Ref="TP200"  Part="1" 
-F 0 "TP200" H 4800 1150 50  0000 L CNN
-F 1 "SOUTH_COMH_P" H 4600 1050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5100 850 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5100 850 50  0001 C CNN
-F 4 "36-5003-ND" H 4900 850 50  0001 C CNN "Digikey"
-	1    4900 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 850  4900 850 
-Connection ~ 4900 850 
-Wire Wire Line
-	4900 850  5250 850 
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E912AB7
-P 7850 850
-AR Path="/5FD707DF/5E912AB7" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E912AB7" Ref="TP201"  Part="1" 
-F 0 "TP201" H 7750 1150 50  0000 L CNN
-F 1 "NORTH_COML_P" H 7550 1050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8050 850 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8050 850 50  0001 C CNN
-F 4 "36-5003-ND" H 7850 850 50  0001 C CNN "Digikey"
-	1    7850 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 850  7850 850 
-Connection ~ 7850 850 
-Wire Wire Line
-	7850 850  8100 850 
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E913467
-P 4900 1150
-AR Path="/5FD707DF/5E913467" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E913467" Ref="TP202"  Part="1" 
-F 0 "TP202" H 4800 1450 50  0000 L CNN
-F 1 "SOUTH_COMH_N" H 4600 1350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5100 1150 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5100 1150 50  0001 C CNN
-F 4 "36-5003-ND" H 4900 1150 50  0001 C CNN "Digikey"
-	1    4900 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E9139A2
-P 7850 1150
-AR Path="/5FD707DF/5E9139A2" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E9139A2" Ref="TP203"  Part="1" 
-F 0 "TP203" H 7750 1450 50  0000 L CNN
-F 1 "NORTH_COML_N" H 7550 1350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8050 1150 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8050 1150 50  0001 C CNN
-F 4 "36-5003-ND" H 7850 1150 50  0001 C CNN "Digikey"
-	1    7850 1150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4700 1150 4900 1150
-Connection ~ 4900 1150
-Wire Wire Line
-	4900 1150 5250 1150
-Wire Wire Line
-	7350 1150 7850 1150
-Connection ~ 7850 1150
-Wire Wire Line
-	7850 1150 8100 1150
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E91634D
-P 4900 2050
-AR Path="/5FD707DF/5E91634D" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E91634D" Ref="TP204"  Part="1" 
-F 0 "TP204" H 4800 2350 50  0000 L CNN
-F 1 "SOUTH_FAULTH_P" H 4600 2250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5100 2050 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5100 2050 50  0001 C CNN
-F 4 "36-5003-ND" H 4900 2050 50  0001 C CNN "Digikey"
-	1    4900 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E9170D8
-P 7800 2050
-AR Path="/5FD707DF/5E9170D8" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E9170D8" Ref="TP205"  Part="1" 
-F 0 "TP205" H 7700 2350 50  0000 L CNN
-F 1 "NORTH_FAULTL_P" H 7500 2250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8000 2050 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8000 2050 50  0001 C CNN
-F 4 "36-5003-ND" H 7800 2050 50  0001 C CNN "Digikey"
-	1    7800 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 2050 4900 2050
-Wire Wire Line
-	7350 2050 7800 2050
-Connection ~ 4900 2050
-Wire Wire Line
-	4900 2050 5250 2050
-Connection ~ 7800 2050
-Wire Wire Line
-	7800 2050 8100 2050
-Wire Wire Line
-	4700 2350 4900 2350
-Wire Wire Line
-	7350 2350 7800 2350
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E9185A7
-P 4900 2350
-AR Path="/5FD707DF/5E9185A7" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E9185A7" Ref="TP206"  Part="1" 
-F 0 "TP206" H 4800 2650 50  0000 L CNN
-F 1 "SOUTH_FAULTH_N" H 4600 2550 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 5100 2350 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5100 2350 50  0001 C CNN
-F 4 "36-5003-ND" H 4900 2350 50  0001 C CNN "Digikey"
-	1    4900 2350
-	-1   0    0    1   
-$EndComp
-Connection ~ 4900 2350
-Wire Wire Line
-	4900 2350 5250 2350
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E91978B
-P 7800 2350
-AR Path="/5FD707DF/5E91978B" Ref="TP?"  Part="1" 
-AR Path="/5FBE719C/5E91978B" Ref="TP207"  Part="1" 
-F 0 "TP207" H 7700 2650 50  0000 L CNN
-F 1 "NORTH_FAULTL_N" H 7500 2550 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8000 2350 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 8000 2350 50  0001 C CNN
-F 4 "36-5003-ND" H 7800 2350 50  0001 C CNN "Digikey"
-	1    7800 2350
-	-1   0    0    1   
-$EndComp
-Connection ~ 7800 2350
-Wire Wire Line
-	7800 2350 8100 2350
-$Comp
 L power:GNDS #PWR0132
 U 1 1 5E8619DB
 P 6650 1500
@@ -3975,43 +3804,43 @@ F 3 "" H 6650 2700 50  0001 C CNN
 	1    6650 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 700  2    39   Input ~ 0
+Text GLabel 9900 750  2    39   Input ~ 0
 SOUTH_CELL_6
-Text GLabel 10150 800  2    39   Input ~ 0
+Text GLabel 9900 850  2    39   Input ~ 0
 SOUTH_CELL_5
-Text GLabel 10150 900  2    39   Input ~ 0
+Text GLabel 9900 950  2    39   Input ~ 0
 SOUTH_CELL_4
-Text GLabel 10150 1000 2    39   Input ~ 0
+Text GLabel 9900 1050 2    39   Input ~ 0
 SOUTH_CELL_3
-Text GLabel 10150 1100 2    39   Input ~ 0
+Text GLabel 9900 1150 2    39   Input ~ 0
 SOUTH_CELL_2
-Text GLabel 10150 1200 2    39   Input ~ 0
+Text GLabel 9900 1250 2    39   Input ~ 0
 SOUTH_CELL_1
-Text GLabel 10150 1300 2    39   Input ~ 0
+Text GLabel 9900 1350 2    39   Input ~ 0
 SOUTH_CELL_0
-Text GLabel 10150 1400 2    39   Input ~ 0
+Text GLabel 9900 1450 2    39   Input ~ 0
 SOUTH_THERM1_P
-Text GLabel 10150 1500 2    39   Input ~ 0
+Text GLabel 9900 1550 2    39   Input ~ 0
 SOUTH_THERM1_N
-Text GLabel 10150 1600 2    39   Input ~ 0
+Text GLabel 9900 1650 2    39   Input ~ 0
 SOUTH_THERM2_P
-Text GLabel 10150 1800 2    39   Input ~ 0
+Text GLabel 9900 1850 2    39   Input ~ 0
 SOUTH_THERM3_P
-Text GLabel 10150 1900 2    39   Input ~ 0
+Text GLabel 9900 1950 2    39   Input ~ 0
 SOUTH_THERM3_N
-Text GLabel 10150 2000 2    39   Input ~ 0
+Text GLabel 9900 2050 2    39   Input ~ 0
 SOUTH_THERM4_P
-Text GLabel 10150 2100 2    39   Input ~ 0
+Text GLabel 9900 2150 2    39   Input ~ 0
 SOUTH_THERM4_N
-Text GLabel 10150 2200 2    39   Input ~ 0
+Text GLabel 9900 2250 2    39   Input ~ 0
 SOUTH_THERM5_P
-Text GLabel 10150 2300 2    39   Input ~ 0
+Text GLabel 9900 2350 2    39   Input ~ 0
 SOUTH_THERM5_N
-Text GLabel 10150 2400 2    39   Input ~ 0
+Text GLabel 9900 2450 2    39   Input ~ 0
 SOUTH_THERM6_P
-Text GLabel 10150 2500 2    39   Input ~ 0
+Text GLabel 9900 2550 2    39   Input ~ 0
 SOUTH_THERM6_N
-Text GLabel 10150 1700 2    39   Input ~ 0
+Text GLabel 9900 1750 2    39   Input ~ 0
 SOUTH_THERM2_N
 $Comp
 L power:GNDS #PWR0206
@@ -4025,9 +3854,9 @@ F 3 "" H 7150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10550 5100 2    39   Input ~ 0
-STM32_RX
+STM32_UART_P
 Text GLabel 10550 5200 2    39   Input ~ 0
-STM32_TX
+STM32_UART_N
 Text GLabel 10550 5300 2    39   Input ~ 0
 ~BMS_FAULT
 Text GLabel 10550 5400 2    39   Input ~ 0
@@ -4048,4 +3877,38 @@ Text GLabel 9600 5900 2    39   Input ~ 0
 SOUTH_FAULTN_P
 Text GLabel 9600 6000 2    39   Input ~ 0
 SOUTH_FAULTN_N
+Text Label 6450 850  0    39   ~ 0
+S_COMH_LS_P
+Text Label 6450 1150 0    39   ~ 0
+S_COMH_LS_N
+Text Label 6450 2050 0    39   ~ 0
+S_FAULTH_LS_P
+Text Label 6450 2350 0    39   ~ 0
+S_FAULTH_LS_N
+Text Label 4900 3300 0    39   ~ 0
+SOUTH_CELL6
+Wire Wire Line
+	5250 3300 4900 3300
+Text Notes 4650 3200 0    39   ~ 0
+Refrenced off the highest in the local cell stack
+Wire Wire Line
+	4700 2350 5250 2350
+Wire Wire Line
+	4700 2050 5250 2050
+Wire Wire Line
+	4700 1150 5250 1150
+Wire Wire Line
+	4700 850  5250 850 
+Wire Wire Line
+	7350 850  8100 850 
+Wire Wire Line
+	7350 1150 8100 1150
+Wire Wire Line
+	7350 2050 8100 2050
+Wire Wire Line
+	7350 2350 8100 2350
+Text Label 10050 5100 0    39   ~ 0
+STM32_UART_P
+Text Label 10050 5200 0    39   ~ 0
+STM32_UART_N
 $EndSCHEMATC

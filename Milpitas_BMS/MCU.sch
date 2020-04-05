@@ -623,8 +623,6 @@ Wire Wire Line
 	750  4300 1100 4300
 Wire Wire Line
 	1400 4300 1700 4300
-Text Label 1700 4300 2    39   ~ 0
-XTAL32_OUT_N
 $Comp
 L Device:Crystal Y2
 U 1 1 6122A8FF
@@ -684,18 +682,14 @@ F 3 "" H 1700 5350 50  0001 C CNN
 	1    1700 5350
 	1    0    0    -1  
 $EndComp
-Text Label 750  5100 0    39   ~ 0
-XTAL_IN_P
 Wire Wire Line
 	750  5100 1100 5100
 Wire Wire Line
 	1400 5100 1700 5100
-Text Label 1700 5100 2    39   ~ 0
-XTAL_OUT_N
 Text Label 7450 2950 2    39   ~ 0
-CAN_H_P
+CAN_P
 Text Label 7450 3050 2    39   ~ 0
-CAN_L_N
+CAN_N
 $Comp
 L power:GND #PWR0182
 U 1 1 6123F529
@@ -771,50 +765,50 @@ $EndComp
 $Comp
 L Device:R R114
 U 1 1 6126B376
-P 7200 3400
-F 0 "R114" H 7270 3446 50  0000 L CNN
-F 1 "0" H 7270 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 3400 50  0001 C CNN
-F 3 "~" H 7200 3400 50  0001 C CNN
-	1    7200 3400
+P 7200 3500
+F 0 "R114" H 7270 3546 50  0000 L CNN
+F 1 "0" H 7270 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 3500 50  0001 C CNN
+F 3 "~" H 7200 3500 50  0001 C CNN
+	1    7200 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3250 7200 3150
+	7200 3350 7200 3250
 Wire Wire Line
 	7100 3050 7800 3050
 Wire Wire Line
 	7100 2950 7800 2950
-Text Label 7200 3150 0    39   ~ 0
+Text Label 7200 3250 0    39   ~ 0
 CAN_SH
 $Comp
 L power:GND #PWR0186
 U 1 1 61278D37
-P 7200 3550
-F 0 "#PWR0186" H 7200 3300 50  0001 C CNN
-F 1 "GND" H 7205 3377 50  0000 C CNN
-F 2 "" H 7200 3550 50  0001 C CNN
-F 3 "" H 7200 3550 50  0001 C CNN
-	1    7200 3550
+P 7200 3650
+F 0 "#PWR0186" H 7200 3400 50  0001 C CNN
+F 1 "GND" H 7205 3477 50  0000 C CNN
+F 2 "" H 7200 3650 50  0001 C CNN
+F 3 "" H 7200 3650 50  0001 C CNN
+	1    7200 3650
 	1    0    0    -1  
 $EndComp
-Text Label 9200 1350 0    39   ~ 0
-DIAGS_TX_P
-Text Label 9200 1450 0    39   ~ 0
-DIAGS_RX_N
+Text Label 9150 1300 0    39   ~ 0
+DIAGS_P
+Text Label 9150 1500 0    39   ~ 0
+DIAGS_N
 $Comp
 L power:+3V3 #PWR0187
 U 1 1 613331EB
-P 10100 800
-F 0 "#PWR0187" H 10100 650 50  0001 C CNN
-F 1 "+3V3" H 10115 973 50  0000 C CNN
-F 2 "" H 10100 800 50  0001 C CNN
-F 3 "" H 10100 800 50  0001 C CNN
-	1    10100 800 
+P 10050 750
+F 0 "#PWR0187" H 10050 600 50  0001 C CNN
+F 1 "+3V3" H 10065 923 50  0000 C CNN
+F 2 "" H 10050 750 50  0001 C CNN
+F 3 "" H 10050 750 50  0001 C CNN
+	1    10050 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 1550 10250 1550
+	10450 1600 10200 1600
 $Comp
 L power:+BATT #PWR0189
 U 1 1 61350246
@@ -999,7 +993,7 @@ Connection ~ 3500 2600
 Wire Wire Line
 	3300 2600 3400 2600
 Text Label 2150 4250 0    39   ~ 0
-XTAL32_OUT_N
+XTAL32_IN_N
 Text Label 2150 4150 0    39   ~ 0
 XTAL32_IN_P
 Wire Wire Line
@@ -1013,7 +1007,7 @@ CAN_TX_P
 Wire Wire Line
 	6300 2850 6050 2850
 Text Label 2200 6150 0    39   ~ 0
-XTAL32_OUT_N
+XTAL32_IN_N
 Text Label 2200 6050 0    39   ~ 0
 XTAL32_IN_P
 Wire Wire Line
@@ -1338,9 +1332,9 @@ $EndComp
 Wire Wire Line
 	5650 3750 5700 3750
 Text Label 4850 3750 0    39   ~ 0
-CAN_H_P
+CAN_P
 Text Label 6400 3750 2    39   ~ 0
-CAN_L_N
+CAN_N
 Text Label 2150 2950 0    39   ~ 0
 ~RESET
 Wire Wire Line
@@ -1370,18 +1364,6 @@ Wire Wire Line
 	3250 1150 3500 1150
 Wire Wire Line
 	3100 1150 3250 1150
-$Comp
-L Connector:TestPoint TP100
-U 1 1 625522A6
-P 1450 1000
-F 0 "TP100" H 1508 1118 50  0000 L CNN
-F 1 "BATT_RAIL" H 1508 1027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 1650 1000 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 1650 1000 50  0001 C CNN
-F 4 "36-5003-ND" H 1450 1000 50  0001 C CNN "Digikey"
-	1    1450 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 1150 1450 1000
 Wire Wire Line
@@ -1408,10 +1390,10 @@ Text Label 8550 4500 0    39   ~ 0
 BMS_WAKEUP_J
 Text Label 8550 4400 0    39   ~ 0
 ~BMS_FAULT_J
-Text Label 8550 4300 0    39   ~ 0
-STM32_TX_N
-Text Label 8550 4200 0    39   ~ 0
-STM32_RX_P
+Text Label 8500 4300 0    39   ~ 0
+STM32_UART_J_N
+Text Label 8500 4200 0    39   ~ 0
+STM32_UART_J_P
 $Comp
 L Device:R R113
 U 1 1 6269ABE8
@@ -1457,9 +1439,9 @@ F 3 "~" H 9100 4200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8950 4200 8550 4200
+	8950 4200 8500 4200
 Wire Wire Line
-	8950 4300 8550 4300
+	8950 4300 8500 4300
 Wire Wire Line
 	8950 4400 8550 4400
 Wire Wire Line
@@ -1478,9 +1460,9 @@ $EndComp
 Wire Wire Line
 	9500 2200 9250 2200
 Text Label 9300 4200 0    39   ~ 0
-STM32_RX
+STM32_UART_P
 Text Label 9300 4300 0    39   ~ 0
-STM32_TX
+STM32_UART_N
 Text Label 9300 4400 0    39   ~ 0
 ~BMS_FAULT
 Text Label 9300 4500 0    39   ~ 0
@@ -3082,25 +3064,13 @@ $EndBitmap
 $Comp
 L Connector_Generic:Conn_01x04 J102
 U 1 1 5E8BEBB1
-P 10700 1350
-F 0 "J102" H 10780 1342 50  0000 L CNN
-F 1 "DIAGS_CON" H 10780 1251 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical" H 10700 1350 50  0001 C CNN
-F 3 "~" H 10700 1350 50  0001 C CNN
-F 4 "2057-HPH2-A-04-UA-ND" H 10700 1350 50  0001 C CNN "Digikey"
-	1    10700 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP101
-U 1 1 5E8F0277
-P 3250 1000
-F 0 "TP101" H 3308 1118 50  0000 L CNN
-F 1 "3V3 RAIL" H 3308 1027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 3450 1000 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 3450 1000 50  0001 C CNN
-F 4 "36-5003-ND" H 3250 1000 50  0001 C CNN "Digikey"
-	1    3250 1000
+P 10650 1400
+F 0 "J102" H 10730 1392 50  0000 L CNN
+F 1 "DIAGS_CON" H 10730 1301 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical" H 10650 1400 50  0001 C CNN
+F 3 "~" H 10650 1400 50  0001 C CNN
+F 4 "2057-HPH2-A-04-UA-ND" H 10650 1400 50  0001 C CNN "Digikey"
+	1    10650 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3109,9 +3079,9 @@ U 1 1 5E8F0AFA
 P 6050 2450
 F 0 "TP102" H 6108 2568 50  0000 L CNN
 F 1 "CAN_TX_P" H 6108 2477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6250 2450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6250 2450 50  0001 C CNN
-F 4 "36-5003-ND" H 6050 2450 50  0001 C CNN "Digikey"
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6250 2450 50  0001 C CNN
+F 3 "" H 6250 2450 50  0001 C CNN
+F 4 "" H 6050 2450 50  0001 C CNN "Digikey"
 	1    6050 2450
 	1    0    0    -1  
 $EndComp
@@ -3121,7 +3091,7 @@ U 1 1 5E8F3AF4
 P 6150 2700
 F 0 "TP103" H 6208 2818 50  0000 L CNN
 F 1 "CAN_RX_N" H 6208 2727 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 6350 2700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6350 2700 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6350 2700 50  0001 C CNN
 F 4 "36-5003-ND" H 6150 2700 50  0001 C CNN "Digikey"
 	1    6150 2700
@@ -3152,54 +3122,6 @@ F 4 "36-5003-ND" H 6050 3550 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP106
-U 1 1 5E8F6992
-P 9650 3550
-F 0 "TP106" H 9708 3668 50  0000 L CNN
-F 1 "BMS_UART_TX" H 9708 3577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 9850 3550 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9850 3550 50  0001 C CNN
-F 4 "36-5003-ND" H 9650 3550 50  0001 C CNN "Digikey"
-	1    9650 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP107
-U 1 1 5E8F6CC7
-P 9750 3750
-F 0 "TP107" H 9808 3868 50  0000 L CNN
-F 1 "BMS_UART_RX" H 9808 3777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 9950 3750 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9950 3750 50  0001 C CNN
-F 4 "36-5003-ND" H 9750 3750 50  0001 C CNN "Digikey"
-	1    9750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP108
-U 1 1 5E8F6F84
-P 9900 3950
-F 0 "TP108" H 9958 4068 50  0000 L CNN
-F 1 "BMS_FAULT" H 9958 3977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 10100 3950 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 10100 3950 50  0001 C CNN
-F 4 "36-5003-ND" H 9900 3950 50  0001 C CNN "Digikey"
-	1    9900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E8F71CB
-P 10000 4150
-F 0 "TP1" H 10058 4268 50  0000 L CNN
-F 1 "BMS_WAKEUP" H 10058 4177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 10200 4150 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 10200 4150 50  0001 C CNN
-F 4 "36-5003-ND" H 10000 4150 50  0001 C CNN "Digikey"
-	1    10000 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D100
 U 1 1 5E98772C
 P 3500 1600
@@ -3210,30 +3132,6 @@ F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/opto/l
 F 4 "SML-D12D1WT86CT-ND" V 3500 1600 50  0001 C CNN "Digikey"
 	1    3500 1600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP110
-U 1 1 5E98A4D1
-P 650 4200
-F 0 "TP110" H 708 4318 50  0000 L CNN
-F 1 "XTAL32" H 708 4227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 850 4200 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 850 4200 50  0001 C CNN
-F 4 "36-5003-ND" H 650 4200 50  0001 C CNN "Digikey"
-	1    650  4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP111
-U 1 1 5E98AADE
-P 650 5000
-F 0 "TP111" H 708 5118 50  0000 L CNN
-F 1 "XTAL" H 708 5027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 850 5000 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 850 5000 50  0001 C CNN
-F 4 "36-5003-ND" H 650 5000 50  0001 C CNN "Digikey"
-	1    650  5000
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	650  5000 650  5100
@@ -3268,13 +3166,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 5750 4650 5750
 Text Label 4650 5650 2    39   ~ 0
-DIAGS_TX_P
+DIAGS_P
 Text Label 4650 5750 2    39   ~ 0
-DIAGS_RX_N
+DIAGS_N
 Text Label 2150 5150 0    39   ~ 0
-STM32_RX_P
+STM32_UART_J_P
 Text Label 2150 5050 0    39   ~ 0
-STM32_TX_N
+STM32_UART_J_N
 $Comp
 L Device:R R9
 U 1 1 5E8A8245
@@ -3347,54 +3245,43 @@ V_CHG_J
 $Comp
 L Device:R R124
 U 1 1 5E9A4E39
-P 9550 1100
-F 0 "R124" H 9800 1050 50  0000 R CNN
-F 1 "10k" H 9750 1150 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9480 1100 50  0001 C CNN
-F 3 "~" H 9550 1100 50  0001 C CNN
-	1    9550 1100
+P 9450 1050
+F 0 "R124" H 9700 1000 50  0000 R CNN
+F 1 "10k" H 9650 1100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 1050 50  0001 C CNN
+F 3 "~" H 9450 1050 50  0001 C CNN
+	1    9450 1050
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9850 1350 9850 1250
-Wire Wire Line
-	9200 1350 9850 1350
-Connection ~ 9850 1350
+	9750 1300 9750 1200
 $Comp
 L Device:R R125
 U 1 1 5E9A4744
-P 9850 1100
-F 0 "R125" H 10100 1050 50  0000 R CNN
-F 1 "10k" H 10050 1150 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9780 1100 50  0001 C CNN
-F 3 "~" H 9850 1100 50  0001 C CNN
-	1    9850 1100
+P 9750 1050
+F 0 "R125" H 10000 1000 50  0000 R CNN
+F 1 "10k" H 9950 1100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 1050 50  0001 C CNN
+F 3 "~" H 9750 1050 50  0001 C CNN
+	1    9750 1050
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9200 1450 9550 1450
+	9450 800  9450 900 
 Wire Wire Line
-	9550 1450 9550 1250
-Connection ~ 9550 1450
+	9750 900  9750 800 
 Wire Wire Line
-	10100 850  9850 850 
+	9750 800  9450 800 
 Wire Wire Line
-	9550 850  9550 950 
+	7800 3150 7500 3150
 Wire Wire Line
-	9850 950  9850 850 
-Connection ~ 9850 850 
+	7800 3550 7500 3550
+Text Label 7500 3150 0    39   ~ 0
+CAN_P
+Text Label 7500 3550 0    39   ~ 0
+CAN_N
 Wire Wire Line
-	9850 850  9550 850 
-Wire Wire Line
-	7800 3250 7500 3250
-Wire Wire Line
-	7800 3350 7500 3350
-Text Label 7500 3250 0    39   ~ 0
-CAN_H_P
-Text Label 7500 3350 0    39   ~ 0
-CAN_L_N
-Wire Wire Line
-	7200 3150 7800 3150
+	7200 3250 7800 3250
 $Comp
 L Connector_Generic:Conn_01x09 J104
 U 1 1 5E96E267
@@ -3408,23 +3295,14 @@ F 4 "A132511-ND" H 8000 3250 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 800  10100 850 
-Connection ~ 10100 850 
+	10350 1400 10450 1400
 Wire Wire Line
-	10100 850  10100 1250
-Wire Wire Line
-	10400 1250 10500 1250
-Wire Wire Line
-	10100 1250 10200 1250
-Wire Wire Line
-	9850 1350 10500 1350
-Wire Wire Line
-	9550 1450 10500 1450
+	10050 1400 10150 1400
 $Comp
-L Device:D_Small D2
+L Device:D_Small D114
 U 1 1 5EA51015
 P 7500 1150
-F 0 "D2" H 7500 945 50  0000 C CNN
+F 0 "D114" H 7500 945 50  0000 C CNN
 F 1 "PMEG6002EJ" H 7500 1036 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323F" V 7500 1150 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf" V 7500 1150 50  0001 C CNN
@@ -3436,8 +3314,6 @@ Wire Wire Line
 	7400 1150 7200 1150
 Wire Wire Line
 	7600 1150 7700 1150
-Text Notes 7800 3800 0    39   ~ 0
-Pinout Subject to change during layout
 $Comp
 L power:+3V3 #PWR0239
 U 1 1 5EA8CEFE
@@ -3651,26 +3527,26 @@ E_cap = 1/2*C*V^2\nE_cap = 0.1815J\nP_RTC = 3.3 uW\nT_ON = E_cap/P_RTC\nT_ON = a
 $Comp
 L Device:D_Small D112
 U 1 1 5EA7BBBC
-P 10300 1250
-F 0 "D112" H 10400 1050 50  0000 C CNN
-F 1 "PMEG6002EJ" H 10400 1150 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323F" V 10300 1250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf" V 10300 1250 50  0001 C CNN
-F 4 "1727-5214-1-ND" H 10300 1250 50  0001 C CNN "Digikey"
-	1    10300 1250
+P 10250 1400
+F 0 "D112" H 10250 1100 50  0000 C CNN
+F 1 "PMEG6002EJ" H 10300 1200 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323F" V 10250 1400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf" V 10250 1400 50  0001 C CNN
+F 4 "1727-5214-1-ND" H 10250 1400 50  0001 C CNN "Digikey"
+	1    10250 1400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	10250 1550 10250 1650
+	10200 1600 10200 1700
 $Comp
 L power:GND #PWR0188
 U 1 1 61336EEC
-P 10250 1650
-F 0 "#PWR0188" H 10250 1400 50  0001 C CNN
-F 1 "GND" H 10255 1477 50  0000 C CNN
-F 2 "" H 10250 1650 50  0001 C CNN
-F 3 "" H 10250 1650 50  0001 C CNN
-	1    10250 1650
+P 10200 1700
+F 0 "#PWR0188" H 10200 1450 50  0001 C CNN
+F 1 "GND" H 10205 1527 50  0000 C CNN
+F 2 "" H 10200 1700 50  0001 C CNN
+F 3 "" H 10200 1700 50  0001 C CNN
+	1    10200 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3745,10 +3621,6 @@ Text GLabel 10150 3100 2    39   Input ~ 0
 V_CHG
 Text GLabel 10150 3200 2    39   Input ~ 0
 CHG_FAULT
-Text GLabel 10100 4200 2    39   Input ~ 0
-STM32_RX
-Text GLabel 10100 4300 2    39   Input ~ 0
-STM32_TX
 Text GLabel 10100 4400 2    39   Input ~ 0
 ~BMS_FAULT
 Text GLabel 10100 4500 2    39   Input ~ 0
@@ -3765,4 +3637,132 @@ Wire Wire Line
 Connection ~ 5550 2850
 Wire Wire Line
 	5550 2850 5700 2850
+$Comp
+L Connector:TestPoint TP106
+U 1 1 5FADB9E8
+P 9650 3550
+F 0 "TP106" H 9708 3668 50  0000 L CNN
+F 1 "BMS_UART_TX" H 9708 3577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9850 3550 50  0001 C CNN
+F 3 "" H 9850 3550 50  0001 C CNN
+F 4 "" H 9650 3550 50  0001 C CNN "Digikey"
+	1    9650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP107
+U 1 1 5FAE1932
+P 9750 3750
+F 0 "TP107" H 9808 3868 50  0000 L CNN
+F 1 "BMS_UART_RX" H 9808 3777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9950 3750 50  0001 C CNN
+F 3 "" H 9950 3750 50  0001 C CNN
+F 4 "" H 9750 3750 50  0001 C CNN "Digikey"
+	1    9750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP108
+U 1 1 5FAE22CC
+P 9900 3950
+F 0 "TP108" H 9958 4068 50  0000 L CNN
+F 1 "BMS_FAULT" H 9958 3977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10100 3950 50  0001 C CNN
+F 3 "" H 10100 3950 50  0001 C CNN
+F 4 "" H 9900 3950 50  0001 C CNN "Digikey"
+	1    9900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP109
+U 1 1 5FAE2A8F
+P 10000 4150
+F 0 "TP109" H 10058 4268 50  0000 L CNN
+F 1 "BMS_WAKEUP" H 10058 4177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10200 4150 50  0001 C CNN
+F 3 "" H 10200 4150 50  0001 C CNN
+F 4 "" H 10000 4150 50  0001 C CNN "Digikey"
+	1    10000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP110
+U 1 1 5FBF4771
+P 650 4200
+F 0 "TP110" H 708 4318 50  0000 L CNN
+F 1 "XTAL32" H 708 4227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 850 4200 50  0001 C CNN
+F 3 "" H 850 4200 50  0001 C CNN
+F 4 "" H 650 4200 50  0001 C CNN "Digikey"
+	1    650  4200
+	1    0    0    -1  
+$EndComp
+Text Label 1700 4300 2    39   ~ 0
+XTAL32_IN_N
+$Comp
+L Connector:TestPoint TP111
+U 1 1 5FBF6E18
+P 650 5000
+F 0 "TP111" H 708 5118 50  0000 L CNN
+F 1 "XTAL" H 708 5027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 850 5000 50  0001 C CNN
+F 3 "" H 850 5000 50  0001 C CNN
+F 4 "" H 650 5000 50  0001 C CNN "Digikey"
+	1    650  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP100
+U 1 1 5FC6A001
+P 1450 1000
+F 0 "TP100" H 1508 1118 50  0000 L CNN
+F 1 "BATT_RAIL" H 1508 1027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1650 1000 50  0001 C CNN
+F 3 "" H 1650 1000 50  0001 C CNN
+F 4 "" H 1450 1000 50  0001 C CNN "Digikey"
+	1    1450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP101
+U 1 1 5FC6ACB5
+P 3250 1000
+F 0 "TP101" H 3308 1118 50  0000 L CNN
+F 1 "3V3_RAIL" H 3308 1027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3450 1000 50  0001 C CNN
+F 3 "" H 3450 1000 50  0001 C CNN
+F 4 "" H 3250 1000 50  0001 C CNN "Digikey"
+	1    3250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1300 9750 1300
+Wire Wire Line
+	9150 1500 9450 1500
+Connection ~ 9750 1300
+Wire Wire Line
+	9750 1300 10450 1300
+Wire Wire Line
+	10050 750  10050 800 
+Wire Wire Line
+	9450 1200 9450 1500
+Connection ~ 9450 1500
+Wire Wire Line
+	9450 1500 10450 1500
+Wire Wire Line
+	9750 800  10050 800 
+Connection ~ 9750 800 
+Connection ~ 10050 800 
+Wire Wire Line
+	10050 800  10050 1400
+Text Label 750  5100 0    39   ~ 0
+XTAL_P
+Text Label 1650 5100 2    39   ~ 0
+XTAL_N
+Text Notes 8650 4100 0    39   ~ 0
+STM32_UART_P = STM32_RX\nSTM32_UART_N = STM32_TX
+Text GLabel 10100 4200 2    39   Input ~ 0
+STM32_UART_P
+Text GLabel 10100 4300 2    39   Input ~ 0
+STM32_UART_N
 $EndSCHEMATC
