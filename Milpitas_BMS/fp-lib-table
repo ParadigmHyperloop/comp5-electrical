@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Milpitas_BMS)(type KiCad)(uri ${KIPRJMOD}/Milpitas_BMS.pretty)(options "")(descr ""))
+  (lib (name Pics)(type KiCad)(uri ${KIPRJMOD}/Pics)(options "")(descr ""))
 )

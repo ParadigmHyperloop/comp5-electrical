@@ -492,24 +492,22 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0176
 U 1 1 611E66BC
-P 7200 1500
-F 0 "#PWR0176" H 7200 1250 50  0001 C CNN
-F 1 "GND" H 7205 1327 50  0000 C CNN
-F 2 "" H 7200 1500 50  0001 C CNN
-F 3 "" H 7200 1500 50  0001 C CNN
-	1    7200 1500
+P 7150 1400
+F 0 "#PWR0176" H 7150 1150 50  0001 C CNN
+F 1 "GND" H 7155 1227 50  0000 C CNN
+F 2 "" H 7150 1400 50  0001 C CNN
+F 3 "" H 7150 1400 50  0001 C CNN
+	1    7150 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 1500 7200 1350
+	7150 1400 7150 1250
 Wire Wire Line
 	8200 1150 8750 1150
 Wire Wire Line
 	8200 1250 8750 1250
 Wire Wire Line
 	8200 1350 8750 1350
-Wire Wire Line
-	7200 1250 7700 1250
 Wire Wire Line
 	7200 1350 7700 1350
 Text Label 8750 1150 2    39   ~ 0
@@ -534,21 +532,9 @@ Text Label 8750 1350 2    39   ~ 0
 JTAG_SWDIO\TMS
 Text Label 8750 1450 2    39   ~ 0
 JTAG_TDO
-Text Label 7200 1250 0    39   ~ 0
+Text Label 7200 1350 0    39   ~ 0
 JTAG_TDI
 NoConn ~ 7700 1450
-$Comp
-L Switch:SW_SPST SW101
-U 1 1 61200B19
-P 6450 5850
-F 0 "SW101" H 6450 6085 50  0000 C CNN
-F 1 "SW_SPST" H 6450 5994 50  0000 C CNN
-F 2 "Milpitas_BMS:KSR223GLFG" H 6450 5850 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KSR/documents/datasheet.pdf" H 6450 5850 50  0001 C CNN
-F 4 "401-1704-1-ND" H 6450 5850 50  0001 C CNN "Digikey"
-	1    6450 5850
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:R R121
 U 1 1 61200B1F
@@ -617,8 +603,6 @@ F 3 "" H 6850 6250 50  0001 C CNN
 $EndComp
 Text Label 5350 5850 0    39   ~ 0
 USR_BUTTON
-Text Label 750  4300 0    39   ~ 0
-XTAL32_IN_P
 Wire Wire Line
 	750  4300 1100 4300
 Wire Wire Line
@@ -628,9 +612,10 @@ L Device:Crystal Y2
 U 1 1 6122A8FF
 P 1250 5100
 F 0 "Y2" H 1250 5368 50  0000 C CNN
-F 1 "32MHz" H 1250 5277 50  0000 C CNN
-F 2 "Milpitas_BMS:NX5032GA" H 1250 5100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/NDK%20PDFs/NX5032GA.pdf" H 1250 5100 50  0001 C CNN
+F 1 "16MHz" H 1250 5277 50  0000 C CNN
+F 2 "Milpitas_BMS:NX3225GB" H 1250 5100 50  0001 C CNN
+F 3 "https://www.ndk.com/images/products/catalog/c_NX3225GB-STD-CRA-2_e.pdf" H 1250 5100 50  0001 C CNN
+F 4 "644-1233-1-ND" H 1250 5100 50  0001 C CNN "Digikey"
 	1    1250 5100
 	1    0    0    -1  
 $EndComp
@@ -765,36 +750,32 @@ $EndComp
 $Comp
 L Device:R R114
 U 1 1 6126B376
-P 7200 3500
-F 0 "R114" H 7270 3546 50  0000 L CNN
-F 1 "0" H 7270 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 3500 50  0001 C CNN
-F 3 "~" H 7200 3500 50  0001 C CNN
-	1    7200 3500
+P 7100 3500
+F 0 "R114" H 7170 3546 50  0000 L CNN
+F 1 "0" H 7170 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 3500 50  0001 C CNN
+F 3 "~" H 7100 3500 50  0001 C CNN
+	1    7100 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3350 7200 3250
-Wire Wire Line
-	7100 3050 7800 3050
-Wire Wire Line
-	7100 2950 7800 2950
-Text Label 7200 3250 0    39   ~ 0
+	7100 3350 7100 3250
+Text Label 7100 3250 0    39   ~ 0
 CAN_SH
 $Comp
 L power:GND #PWR0186
 U 1 1 61278D37
-P 7200 3650
-F 0 "#PWR0186" H 7200 3400 50  0001 C CNN
-F 1 "GND" H 7205 3477 50  0000 C CNN
-F 2 "" H 7200 3650 50  0001 C CNN
-F 3 "" H 7200 3650 50  0001 C CNN
-	1    7200 3650
+P 7100 3650
+F 0 "#PWR0186" H 7100 3400 50  0001 C CNN
+F 1 "GND" H 7105 3477 50  0000 C CNN
+F 2 "" H 7100 3650 50  0001 C CNN
+F 3 "" H 7100 3650 50  0001 C CNN
+	1    7100 3650
 	1    0    0    -1  
 $EndComp
-Text Label 9150 1300 0    39   ~ 0
-DIAGS_P
 Text Label 9150 1500 0    39   ~ 0
+DIAGS_P
+Text Label 9150 1300 0    39   ~ 0
 DIAGS_N
 $Comp
 L power:+3V3 #PWR0187
@@ -993,23 +974,23 @@ Connection ~ 3500 2600
 Wire Wire Line
 	3300 2600 3400 2600
 Text Label 2150 4250 0    39   ~ 0
-XTAL32_IN_N
+XTAL_N
 Text Label 2150 4150 0    39   ~ 0
-XTAL32_IN_P
+XTAL_P
 Wire Wire Line
 	2700 4250 2150 4250
 Wire Wire Line
 	2700 4150 2150 4150
 Text Label 5000 2950 0    39   ~ 0
-CAN_RX_N
+CAN_UART_N
 Text Label 5000 2850 0    39   ~ 0
-CAN_TX_P
+CAN_UART_P
 Wire Wire Line
 	6300 2850 6050 2850
 Text Label 2200 6150 0    39   ~ 0
-XTAL32_IN_N
+XTAL32_N
 Text Label 2200 6050 0    39   ~ 0
-XTAL32_IN_P
+XTAL32_P
 Wire Wire Line
 	2700 6150 2200 6150
 Wire Wire Line
@@ -1181,9 +1162,9 @@ U 1 1 6119464B
 P 1300 2950
 F 0 "SW100" H 1300 3185 50  0000 C CNN
 F 1 "SW_SPST" H 1300 3094 50  0000 C CNN
-F 2 "Milpitas_BMS:KSR223GLFG" H 1300 2950 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/KSR/documents/datasheet.pdf" H 1300 2950 50  0001 C CNN
-F 4 "401-1704-1-ND" H 1300 2950 50  0001 C CNN "Digikey"
+F 2 "Milpitas_BMS:B3U-1100P" H 1300 2950 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 1300 2950 50  0001 C CNN
+F 4 "SW1020CT-ND" H 1300 2950 50  0001 C CNN "Digikey"
 	1    1300 2950
 	-1   0    0    -1  
 $EndComp
@@ -1201,17 +1182,9 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 5050 2150 5050
-Wire Wire Line
-	2700 5150 2150 5150
-Wire Wire Line
 	4100 4150 4650 4150
 Wire Wire Line
 	4100 4050 4650 4050
-Text Label 4650 4150 2    39   ~ 0
-CAN_TX_N
-Text Label 4650 4050 2    39   ~ 0
-CAN_RX_P
 $Comp
 L Device:R R100
 U 1 1 622DD993
@@ -1386,9 +1359,9 @@ Wire Wire Line
 	10100 4300 9750 4300
 Wire Wire Line
 	10100 4400 9900 4400
-Text Label 8550 4500 0    39   ~ 0
+Text Label 8500 4500 0    39   ~ 0
 BMS_WAKEUP_J
-Text Label 8550 4400 0    39   ~ 0
+Text Label 8500 4400 0    39   ~ 0
 ~BMS_FAULT_J
 Text Label 8500 4300 0    39   ~ 0
 STM32_UART_J_N
@@ -1443,9 +1416,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 4300 8500 4300
 Wire Wire Line
-	8950 4400 8550 4400
+	8950 4400 8500 4400
 Wire Wire Line
-	8950 4500 8550 4500
+	8950 4500 8500 4500
 $Comp
 L Device:R R101
 U 1 1 6270F561
@@ -3161,18 +3134,6 @@ F 5 "MM3Z3V3BCT-ND" V 7050 5050 50  0001 C CNN "Digikey"
 	1    7050 5050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4100 5650 4650 5650
-Wire Wire Line
-	4100 5750 4650 5750
-Text Label 4650 5650 2    39   ~ 0
-DIAGS_P
-Text Label 4650 5750 2    39   ~ 0
-DIAGS_N
-Text Label 2150 5150 0    39   ~ 0
-STM32_UART_J_P
-Text Label 2150 5050 0    39   ~ 0
-STM32_UART_J_N
 $Comp
 L Device:R R9
 U 1 1 5E8A8245
@@ -3273,25 +3234,23 @@ Wire Wire Line
 Wire Wire Line
 	9750 800  9450 800 
 Wire Wire Line
-	7800 3150 7500 3150
+	8000 3150 7600 3150
 Wire Wire Line
-	7800 3550 7500 3550
-Text Label 7500 3150 0    39   ~ 0
+	8000 3550 7600 3550
+Text Label 7600 3150 0    39   ~ 0
 CAN_P
-Text Label 7500 3550 0    39   ~ 0
+Text Label 7600 3550 0    39   ~ 0
 CAN_N
-Wire Wire Line
-	7200 3250 7800 3250
 $Comp
 L Connector_Generic:Conn_01x09 J104
 U 1 1 5E96E267
-P 8000 3250
-F 0 "J104" H 8080 3292 50  0000 L CNN
-F 1 "CAN_CONN" H 8080 3201 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8000 3250 50  0001 C CNN
-F 3 "https://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/2301843-2/A132511-ND/7776544" H 8000 3250 50  0001 C CNN
-F 4 "A132511-ND" H 8000 3250 50  0001 C CNN "Digikey"
-	1    8000 3250
+P 8200 3250
+F 0 "J104" H 8280 3292 50  0000 L CNN
+F 1 "CAN_CONN" H 8280 3201 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8200 3250 50  0001 C CNN
+F 3 "https://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/2301843-2/A132511-ND/7776544" H 8200 3250 50  0001 C CNN
+F 4 "A132511-ND" H 8200 3250 50  0001 C CNN "Digikey"
+	1    8200 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3317,47 +3276,41 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR0239
 U 1 1 5EA8CEFE
-P 7250 2650
-F 0 "#PWR0239" H 7250 2500 50  0001 C CNN
-F 1 "+3V3" H 7265 2823 50  0000 C CNN
-F 2 "" H 7250 2650 50  0001 C CNN
-F 3 "" H 7250 2650 50  0001 C CNN
-	1    7250 2650
+P 7450 3500
+F 0 "#PWR0239" H 7450 3350 50  0001 C CNN
+F 1 "+3V3" H 7465 3673 50  0000 C CNN
+F 2 "" H 7450 3500 50  0001 C CNN
+F 3 "" H 7450 3500 50  0001 C CNN
+	1    7450 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 2650 7250 2850
+	7450 3500 7450 3650
 $Comp
 L Device:D_Small D3
 U 1 1 5EA8CF06
-P 7550 2850
-F 0 "D3" H 7550 2645 50  0000 C CNN
-F 1 "PMEG6002EJ" H 7550 2736 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323F" V 7550 2850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf" V 7550 2850 50  0001 C CNN
-F 4 "1727-5214-1-ND" H 7550 2850 50  0001 C CNN "Digikey"
-	1    7550 2850
+P 7550 3650
+F 0 "D3" H 7550 3445 50  0000 C CNN
+F 1 "PMEG6002EJ" H 7550 3750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323F" V 7550 3650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf" V 7550 3650 50  0001 C CNN
+F 4 "1727-5214-1-ND" H 7550 3650 50  0001 C CNN "Digikey"
+	1    7550 3650
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7450 2850 7250 2850
-Wire Wire Line
-	7650 2850 7800 2850
+	7650 3650 8000 3650
 $Comp
 L power:GND #PWR0240
 U 1 1 5EAD4F5C
-P 7600 3750
-F 0 "#PWR0240" H 7600 3500 50  0001 C CNN
-F 1 "GND" H 7605 3577 50  0000 C CNN
-F 2 "" H 7600 3750 50  0001 C CNN
-F 3 "" H 7600 3750 50  0001 C CNN
-	1    7600 3750
+P 7950 3700
+F 0 "#PWR0240" H 7950 3450 50  0001 C CNN
+F 1 "GND" H 7955 3527 50  0000 C CNN
+F 2 "" H 7950 3700 50  0001 C CNN
+F 3 "" H 7950 3700 50  0001 C CNN
+	1    7950 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 3650 7600 3650
-Wire Wire Line
-	7600 3650 7600 3750
 $Comp
 L Device:R R127
 U 1 1 5EB33308
@@ -3522,7 +3475,7 @@ Wire Wire Line
 Connection ~ 2700 2350
 Wire Wire Line
 	2100 2350 1950 2350
-Text Notes 1150 2550 0    39   ~ 0
+Text Notes 1200 2500 0    39   ~ 0
 E_cap = 1/2*C*V^2\nE_cap = 0.1815J\nP_RTC = 3.3 uW\nT_ON = E_cap/P_RTC\nT_ON = approx 15 hours
 $Comp
 L Device:D_Small D112
@@ -3621,10 +3574,6 @@ Text GLabel 10150 3100 2    39   Input ~ 0
 V_CHG
 Text GLabel 10150 3200 2    39   Input ~ 0
 CHG_FAULT
-Text GLabel 10100 4200 2    39   Input ~ 0
-STM32_RX
-Text GLabel 10100 4300 2    39   Input ~ 0
-STM32_TX
 Text GLabel 10100 4400 2    39   Input ~ 0
 ~BMS_FAULT
 Text GLabel 10100 4500 2    39   Input ~ 0
@@ -3701,8 +3650,6 @@ F 4 "" H 650 4200 50  0001 C CNN "Digikey"
 	1    650  4200
 	1    0    0    -1  
 $EndComp
-Text Label 1700 4300 2    39   ~ 0
-XTAL32_IN_N
 $Comp
 L Connector:TestPoint TP111
 U 1 1 5FBF6E18
@@ -3765,4 +3712,146 @@ Text Label 1650 5100 2    39   ~ 0
 XTAL_N
 Text Notes 8650 4100 0    39   ~ 0
 STM32_UART_P = STM32_RX\nSTM32_UART_N = STM32_TX
+Text GLabel 10100 4200 2    39   Input ~ 0
+STM32_UART_P
+Text GLabel 10100 4300 2    39   Input ~ 0
+STM32_UART_N
+Text Notes 4800 3100 0    39   ~ 0
+CAN_UART_P = CAN_UART_TX\nCAN_UART_N = CAN_UART_RX
+Text Label 4650 4150 2    39   ~ 0
+CAN_UART_P
+Text Label 4650 4050 2    39   ~ 0
+CAN_UART_N
+$Comp
+L Switch:SW_SPST SW101
+U 1 1 5E910F45
+P 6450 5850
+F 0 "SW101" H 6450 6085 50  0000 C CNN
+F 1 "SW_SPST" H 6450 5994 50  0000 C CNN
+F 2 "Milpitas_BMS:B3U-1100P" H 6450 5850 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 6450 5850 50  0001 C CNN
+F 4 "SW1020CT-ND" H 6450 5850 50  0001 C CNN "Digikey"
+	1    6450 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3050 7900 2950
+Wire Wire Line
+	7900 2950 8000 2950
+Wire Wire Line
+	7100 3050 7900 3050
+Wire Wire Line
+	7850 2950 7850 3450
+Wire Wire Line
+	7850 3450 8000 3450
+Wire Wire Line
+	7100 2950 7850 2950
+Wire Wire Line
+	7950 3700 7950 3350
+Wire Wire Line
+	7950 3350 8000 3350
+Wire Wire Line
+	7100 3250 8000 3250
+Wire Wire Line
+	2700 5150 2150 5150
+Text Label 2150 5150 0    39   ~ 0
+DIAGS_P
+Wire Wire Line
+	4100 5650 4650 5650
+Wire Wire Line
+	4100 5750 4650 5750
+Text Label 4650 5650 2    39   ~ 0
+STM32_UART_J_N
+Text Label 4650 5750 2    39   ~ 0
+STM32_UART_J_P
+Text Label 2150 5050 0    39   ~ 0
+DIAGS_N
+Wire Wire Line
+	2700 5050 2150 5050
+Text Label 750  4300 0    39   ~ 0
+XTAL32_P
+Text Label 1400 4300 0    39   ~ 0
+XTAL32_N
+Wire Wire Line
+	4100 2950 4450 2950
+Text Label 4450 2950 2    39   ~ 0
+I_DIS_J
+Text Label 4450 3050 2    39   ~ 0
+V_DIS_J
+Wire Wire Line
+	4100 3050 4450 3050
+Wire Wire Line
+	4100 3150 4450 3150
+Text Label 4450 3150 2    39   ~ 0
+I_BATT_J
+Wire Wire Line
+	4100 3250 4450 3250
+Text Label 4450 3250 2    39   ~ 0
+V_BATT_J
+Wire Wire Line
+	2700 4650 2150 4650
+Wire Wire Line
+	2700 4750 2150 4750
+Text Label 2150 4650 0    39   ~ 0
+I_CHG_J
+Text Label 2150 4750 0    39   ~ 0
+V_CHG_J
+Text Label 4650 5250 2    39   ~ 0
+CHG_FAULT
+Text Label 4650 5150 2    39   ~ 0
+CHG_ON_J
+Text Label 2150 5750 0    39   ~ 0
+BATT_FAULT
+Text Label 2150 5650 0    39   ~ 0
+BATT_ON_J
+Text Label 2150 4450 0    39   ~ 0
+DIS_FAULT
+Text Label 2150 5850 0    39   ~ 0
+DIS_ON_J
+Text Label 4650 4750 2    39   ~ 0
+BMS_WAKEUP_J
+Text Label 4650 4850 2    39   ~ 0
+~BMS_FAULT_J
+Text Label 2150 5550 0    39   ~ 0
+CHG_LED
+Text Label 4650 3750 2    39   ~ 0
+DIS_LED
+Text Label 2150 5450 0    39   ~ 0
+BATT_LED
+Text Label 4650 3950 2    39   ~ 0
+SM1
+Text Label 4650 3850 2    39   ~ 0
+SM0
+Wire Wire Line
+	4100 3950 4650 3950
+Wire Wire Line
+	4100 3850 4650 3850
+Wire Wire Line
+	4100 3750 4650 3750
+Wire Wire Line
+	2700 5550 2150 5550
+Wire Wire Line
+	2700 5450 2150 5450
+Wire Wire Line
+	2150 5650 2700 5650
+Wire Wire Line
+	2700 5750 2150 5750
+Wire Wire Line
+	2700 5850 2150 5850
+Wire Wire Line
+	2150 4450 2700 4450
+Wire Wire Line
+	4100 5150 4650 5150
+Wire Wire Line
+	4100 5250 4650 5250
+Wire Wire Line
+	4100 4850 4650 4850
+Wire Wire Line
+	4100 4750 4650 4750
+Wire Wire Line
+	7150 1250 7700 1250
+Wire Wire Line
+	4100 4650 4650 4650
+Text Label 4650 4650 2    39   ~ 0
+USR_BUTTON
 $EndSCHEMATC

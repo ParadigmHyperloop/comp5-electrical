@@ -3854,9 +3854,9 @@ F 3 "" H 7150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10550 5100 2    39   Input ~ 0
-STM32_RX
+STM32_UART_P
 Text GLabel 10550 5200 2    39   Input ~ 0
-STM32_TX
+STM32_UART_N
 Text GLabel 10550 5300 2    39   Input ~ 0
 ~BMS_FAULT
 Text GLabel 10550 5400 2    39   Input ~ 0

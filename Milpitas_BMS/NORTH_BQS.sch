@@ -946,21 +946,6 @@ Wire Wire Line
 Text Notes 1150 3550 0    50   ~ 0
 Fc = 1/(2*pi*R*C)\nFc = 1/(2*3.14*50*0.47*10^-6)\nFc = 6.77 kHz\n
 $Comp
-L power:+BATT #PWR?
-U 1 1 614FF868
-P 4750 3350
-AR Path="/614FF868" Ref="#PWR?"  Part="1" 
-AR Path="/5FBE719C/614FF868" Ref="#PWR?"  Part="1" 
-AR Path="/5FCA7CA4/614FF868" Ref="#PWR?"  Part="1" 
-AR Path="/614D0E92/614FF868" Ref="#PWR0204"  Part="1" 
-F 0 "#PWR0204" H 4750 3200 50  0001 C CNN
-F 1 "+BATT" H 4765 3523 50  0000 C CNN
-F 2 "" H 4750 3350 50  0001 C CNN
-F 3 "" H 4750 3350 50  0001 C CNN
-	1    4750 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 614FF86F
 P 5150 3550
@@ -2040,7 +2025,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 3600 10900 4050
 $Bitmap
-Pos 9400 6850
+Pos 9300 6850
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 BC 00 00 00 A6 08 02 00 00 00 B7 0A CB 
@@ -3855,13 +3840,13 @@ NORTH_CELL_6
 Text GLabel 9800 850  2    39   Input ~ 0
 NORTH_CELL_5
 Text GLabel 9800 950  2    39   Input ~ 0
-NORTH_CELL_5
+NORTH_CELL_4
 Text GLabel 9800 1050 2    39   Input ~ 0
 NORTH_CELL_3
 Text GLabel 9800 1150 2    39   Input ~ 0
 NORTH_CELL_2
 Text GLabel 9800 1250 2    39   Input ~ 0
-SOUTH_CELL_1
+NORTH_CELL_1
 Text GLabel 9800 1350 2    39   Input ~ 0
 NORTH_CELL_0
 Text GLabel 9800 1450 2    39   Input ~ 0
@@ -3950,4 +3935,8 @@ Wire Wire Line
 	7250 2400 8100 2400
 Wire Wire Line
 	4600 2400 5150 2400
+Text Label 4400 3350 0    39   ~ 0
+NORTH_CELL6
+Wire Wire Line
+	4750 3350 4400 3350
 $EndSCHEMATC

@@ -13,145 +13,145 @@ Comment2 "Francis Walsh 2019"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 3150 6100 2    39   ~ 0
+Text Label 3100 5400 2    39   ~ 0
 NORTH_THERM6_N
-Text Label 3150 6000 2    39   ~ 0
+Text Label 3100 4400 2    39   ~ 0
 NORTH_THERM6_P
 Wire Wire Line
-	2450 6100 3150 6100
+	2400 5400 3100 5400
 Wire Wire Line
-	2450 6000 3150 6000
-Text Label 3150 5900 2    39   ~ 0
+	2400 4400 3100 4400
+Text Label 3100 5300 2    39   ~ 0
 NORTH_THERM5_N
-Text Label 3150 5800 2    39   ~ 0
+Text Label 3100 4300 2    39   ~ 0
 NORTH_THERM5_P
 Wire Wire Line
-	2450 5900 3150 5900
+	2400 5300 3100 5300
 Wire Wire Line
-	2450 5800 3150 5800
-Text Label 3150 5700 2    39   ~ 0
+	2400 4300 3100 4300
+Text Label 3100 4100 2    39   ~ 0
 NORTH_THERM4_N
-Text Label 3150 5600 2    39   ~ 0
+Text Label 3100 4200 2    39   ~ 0
 NORTH_THERM4_P
 Wire Wire Line
-	2450 5700 3150 5700
+	2400 4100 3100 4100
 Wire Wire Line
-	2450 5600 3150 5600
-Text Label 3150 5500 2    39   ~ 0
+	2400 4200 3100 4200
+Text Label 3100 3900 2    39   ~ 0
 NORTH_THERM3_N
-Text Label 3150 5400 2    39   ~ 0
+Text Label 3100 4000 2    39   ~ 0
 NORTH_THERM3_P
 Wire Wire Line
-	2450 5500 3150 5500
+	2400 3900 3100 3900
 Wire Wire Line
-	2450 5400 3150 5400
-Text Label 3150 5300 2    39   ~ 0
+	2400 4000 3100 4000
+Text Label 3100 3700 2    39   ~ 0
 NORTH_THERM2_N
-Text Label 3150 5200 2    39   ~ 0
+Text Label 3100 3800 2    39   ~ 0
 NORTH_THERM2_P
 Wire Wire Line
-	2450 5300 3150 5300
+	2400 3700 3100 3700
 Wire Wire Line
-	2450 5200 3150 5200
-Text Label 3150 5100 2    39   ~ 0
+	2400 3800 3100 3800
+Text Label 3100 3500 2    39   ~ 0
 NORTH_THERM1_N
-Text Label 3150 5000 2    39   ~ 0
+Text Label 3100 3600 2    39   ~ 0
 NORTH_THERM1_P
 Wire Wire Line
-	2450 5100 3150 5100
+	2400 3500 3100 3500
 Wire Wire Line
-	2450 5000 3150 5000
+	2400 3600 3100 3600
 $Comp
 L Connector_Generic:Conn_01x20 J?
 U 1 1 6225C00E
-P 2250 5200
+P 2200 4400
 AR Path="/6225C00E" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/6225C00E" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/62249708/6225C00E" Ref="J501"  Part="1" 
-F 0 "J501" H 2200 6350 50  0000 L CNN
-F 1 "NORTH CELL CONN" H 1900 6250 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2250 5200 50  0001 C CNN
-F 3 "~" H 2250 5200 50  0001 C CNN
-F 4 "WM4726-ND" H 2250 5200 50  0001 C CNN "Digikey"
-	1    2250 5200
+F 0 "J501" H 2150 5550 50  0000 L CNN
+F 1 "NORTH CELL CONN" H 1850 5450 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2200 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+F 4 "WM4726-ND" H 2200 4400 50  0001 C CNN "Digikey"
+	1    2200 4400
 	-1   0    0    -1  
 $EndComp
-Text Label 3150 4300 2    39   ~ 0
+Text Label 3100 5200 2    39   ~ 0
 NORTH_CELL6
-Text Label 3150 4400 2    39   ~ 0
+Text Label 3100 5100 2    39   ~ 0
 NORTH_CELL5
-Text Label 3150 4500 2    39   ~ 0
+Text Label 3100 5000 2    39   ~ 0
 NORTH_CELL4
-Text Label 3150 4600 2    39   ~ 0
+Text Label 3100 4900 2    39   ~ 0
 NORTH_CELL3
-Text Label 3150 4700 2    39   ~ 0
+Text Label 3100 4800 2    39   ~ 0
 NORTH_CELL2
-Text Label 3150 4800 2    39   ~ 0
+Text Label 3100 4700 2    39   ~ 0
 NORTH_CELL1
-Text Label 3150 4900 2    39   ~ 0
+Text Label 3100 4600 2    39   ~ 0
 NORTH_CELL0
 Wire Wire Line
-	2450 4900 3150 4900
+	2400 4600 3100 4600
 Wire Wire Line
-	2450 4800 3150 4800
+	2400 4700 3100 4700
 Wire Wire Line
-	2450 4700 3150 4700
+	2400 4800 3100 4800
 Wire Wire Line
-	2450 4600 3150 4600
+	2400 4900 3100 4900
 Wire Wire Line
-	2450 4500 3150 4500
+	2400 5000 3100 5000
 Wire Wire Line
-	2450 4400 3150 4400
+	2400 5100 3100 5100
 Wire Wire Line
-	2450 4300 3150 4300
-Text Label 5100 2750 2    39   ~ 0
+	2400 5200 3100 5200
+Text Label 3100 3000 2    39   ~ 0
 SOUTH_THERM6_N
-Text Label 5100 2650 2    39   ~ 0
+Text Label 3100 2000 2    39   ~ 0
 SOUTH_THERM6_P
 Wire Wire Line
-	4400 2750 5100 2750
+	2400 3000 3100 3000
 Wire Wire Line
-	4400 2650 5100 2650
-Text Label 5100 2550 2    39   ~ 0
+	2400 2000 3100 2000
+Text Label 3100 2900 2    39   ~ 0
 SOUTH_THERM5_N
-Text Label 5100 2450 2    39   ~ 0
+Text Label 3100 1900 2    39   ~ 0
 SOUTH_THERM5_P
 Wire Wire Line
-	4400 2550 5100 2550
+	2400 2900 3100 2900
 Wire Wire Line
-	4400 2450 5100 2450
-Text Label 5100 2350 2    39   ~ 0
+	2400 1900 3100 1900
+Text Label 3100 1700 2    39   ~ 0
 SOUTH_THERM4_N
-Text Label 5100 2250 2    39   ~ 0
+Text Label 3100 1800 2    39   ~ 0
 SOUTH_THERM4_P
 Wire Wire Line
-	4400 2350 5100 2350
+	2400 1700 3100 1700
 Wire Wire Line
-	4400 2250 5100 2250
-Text Label 5100 2150 2    39   ~ 0
+	2400 1800 3100 1800
+Text Label 3100 1500 2    39   ~ 0
 SOUTH_THERM3_N
-Text Label 5100 2050 2    39   ~ 0
+Text Label 3100 1600 2    39   ~ 0
 SOUTH_THERM3_P
 Wire Wire Line
-	4400 2150 5100 2150
+	2400 1500 3100 1500
 Wire Wire Line
-	4400 2050 5100 2050
-Text Label 5100 1950 2    39   ~ 0
+	2400 1600 3100 1600
+Text Label 3100 1300 2    39   ~ 0
 SOUTH_THERM2_N
-Text Label 5100 1850 2    39   ~ 0
+Text Label 3100 1400 2    39   ~ 0
 SOUTH_THERM2_P
 Wire Wire Line
-	4400 1950 5100 1950
+	2400 1300 3100 1300
 Wire Wire Line
-	4400 1850 5100 1850
-Text Label 5100 1750 2    39   ~ 0
+	2400 1400 3100 1400
+Text Label 3100 1100 2    39   ~ 0
 SOUTH_THERM1_N
-Text Label 5100 1650 2    39   ~ 0
+Text Label 3100 1200 2    39   ~ 0
 SOUTH_THERM1_P
 Wire Wire Line
-	4400 1750 5100 1750
+	2400 1100 3100 1100
 Wire Wire Line
-	4400 1650 5100 1650
+	2400 1200 3100 1200
 $Comp
 L Connector_Generic:Conn_01x20 J?
 U 1 1 6225C04F
@@ -2006,66 +2006,66 @@ Text GLabel 3100 2300 2    39   Input ~ 0
 SOUTH_CELL_1
 Text GLabel 3100 2200 2    39   Input ~ 0
 SOUTH_CELL_0
-Text GLabel 5100 1650 2    39   Input ~ 0
+Text GLabel 3100 1200 2    39   Input ~ 0
 SOUTH_THERM1_P
-Text GLabel 5100 1750 2    39   Input ~ 0
+Text GLabel 3100 1100 2    39   Input ~ 0
 SOUTH_THERM1_N
-Text GLabel 5100 1850 2    39   Input ~ 0
+Text GLabel 3100 1400 2    39   Input ~ 0
 SOUTH_THERM2_P
-Text GLabel 5100 2050 2    39   Input ~ 0
+Text GLabel 3100 1600 2    39   Input ~ 0
 SOUTH_THERM3_P
-Text GLabel 5100 2150 2    39   Input ~ 0
+Text GLabel 3100 1500 2    39   Input ~ 0
 SOUTH_THERM3_N
-Text GLabel 5100 2250 2    39   Input ~ 0
+Text GLabel 3100 1800 2    39   Input ~ 0
 SOUTH_THERM4_P
-Text GLabel 5100 2350 2    39   Input ~ 0
+Text GLabel 3100 1700 2    39   Input ~ 0
 SOUTH_THERM4_N
-Text GLabel 5100 2450 2    39   Input ~ 0
+Text GLabel 3100 1900 2    39   Input ~ 0
 SOUTH_THERM5_P
-Text GLabel 5100 2550 2    39   Input ~ 0
+Text GLabel 3100 2900 2    39   Input ~ 0
 SOUTH_THERM5_N
-Text GLabel 5100 2650 2    39   Input ~ 0
+Text GLabel 3100 2000 2    39   Input ~ 0
 SOUTH_THERM6_P
-Text GLabel 5100 2750 2    39   Input ~ 0
+Text GLabel 3100 3000 2    39   Input ~ 0
 SOUTH_THERM6_N
-Text GLabel 5100 1950 2    39   Input ~ 0
+Text GLabel 3100 1300 2    39   Input ~ 0
 SOUTH_THERM2_N
-Text GLabel 3150 4300 2    39   Input ~ 0
+Text GLabel 3100 5200 2    39   Input ~ 0
 NORTH_CELL_6
-Text GLabel 3150 4400 2    39   Input ~ 0
+Text GLabel 3100 5100 2    39   Input ~ 0
 NORTH_CELL_5
-Text GLabel 3150 4500 2    39   Input ~ 0
-NORTH_CELL_5
-Text GLabel 3150 4600 2    39   Input ~ 0
+Text GLabel 3100 5000 2    39   Input ~ 0
+NORTH_CELL_4
+Text GLabel 3100 4900 2    39   Input ~ 0
 NORTH_CELL_3
-Text GLabel 3150 4700 2    39   Input ~ 0
+Text GLabel 3100 4800 2    39   Input ~ 0
 NORTH_CELL_2
-Text GLabel 3150 4800 2    39   Input ~ 0
-SOUTH_CELL_1
-Text GLabel 3150 4900 2    39   Input ~ 0
+Text GLabel 3100 4700 2    39   Input ~ 0
+NORTH_CELL_1
+Text GLabel 3100 4600 2    39   Input ~ 0
 NORTH_CELL_0
-Text GLabel 3150 5000 2    39   Input ~ 0
+Text GLabel 3100 3600 2    39   Input ~ 0
 NORTH_THERM1_P
-Text GLabel 3150 5100 2    39   Input ~ 0
+Text GLabel 3100 3500 2    39   Input ~ 0
 NORTH_THERM1_N
-Text GLabel 3150 5200 2    39   Input ~ 0
+Text GLabel 3100 3800 2    39   Input ~ 0
 NORTH_THERM2_P
-Text GLabel 3150 5400 2    39   Input ~ 0
+Text GLabel 3100 4000 2    39   Input ~ 0
 NORTH_THERM3_P
-Text GLabel 3150 5500 2    39   Input ~ 0
+Text GLabel 3100 3900 2    39   Input ~ 0
 NORTH_THERM3_N
-Text GLabel 3150 5600 2    39   Input ~ 0
+Text GLabel 3100 4200 2    39   Input ~ 0
 NORTH_THERM4_P
-Text GLabel 3150 5700 2    39   Input ~ 0
+Text GLabel 3100 4100 2    39   Input ~ 0
 NORTH_THERM4_N
-Text GLabel 3150 5800 2    39   Input ~ 0
+Text GLabel 3100 4300 2    39   Input ~ 0
 NORTH_THERM5_P
-Text GLabel 3150 5900 2    39   Input ~ 0
+Text GLabel 3100 5300 2    39   Input ~ 0
 NORTH_THERM5_N
-Text GLabel 3150 6000 2    39   Input ~ 0
+Text GLabel 3100 4400 2    39   Input ~ 0
 NORTH_THERM6_P
-Text GLabel 3150 6100 2    39   Input ~ 0
+Text GLabel 3100 5400 2    39   Input ~ 0
 NORTH_THERM6_N
-Text GLabel 3150 5300 2    39   Input ~ 0
+Text GLabel 3100 3700 2    39   Input ~ 0
 NORTH_THERM2_N
 $EndSCHEMATC
