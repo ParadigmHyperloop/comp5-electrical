@@ -13,188 +13,188 @@ Comment2 "Francis Walsh 2019"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 3100 5400 2    39   ~ 0
+Text Label 3300 6000 2    39   ~ 0
 NORTH_THERM6_N
-Text Label 3100 4400 2    39   ~ 0
+Text Label 3300 5000 2    39   ~ 0
 NORTH_THERM6_P
 Wire Wire Line
-	2400 5400 3100 5400
+	2600 6000 3300 6000
 Wire Wire Line
-	2400 4400 3100 4400
-Text Label 3100 5300 2    39   ~ 0
+	2600 5000 3300 5000
+Text Label 3300 5900 2    39   ~ 0
 NORTH_THERM5_N
-Text Label 3100 4300 2    39   ~ 0
+Text Label 3300 4900 2    39   ~ 0
 NORTH_THERM5_P
 Wire Wire Line
-	2400 5300 3100 5300
+	2600 5900 3300 5900
 Wire Wire Line
-	2400 4300 3100 4300
-Text Label 3100 4100 2    39   ~ 0
+	2600 4900 3300 4900
+Text Label 3300 4700 2    39   ~ 0
 NORTH_THERM4_N
-Text Label 3100 4200 2    39   ~ 0
+Text Label 3300 4800 2    39   ~ 0
 NORTH_THERM4_P
 Wire Wire Line
-	2400 4100 3100 4100
+	2600 4700 3300 4700
 Wire Wire Line
-	2400 4200 3100 4200
-Text Label 3100 3900 2    39   ~ 0
+	2600 4800 3300 4800
+Text Label 3300 4500 2    39   ~ 0
 NORTH_THERM3_N
-Text Label 3100 4000 2    39   ~ 0
+Text Label 3300 4600 2    39   ~ 0
 NORTH_THERM3_P
 Wire Wire Line
-	2400 3900 3100 3900
+	2600 4500 3300 4500
 Wire Wire Line
-	2400 4000 3100 4000
-Text Label 3100 3700 2    39   ~ 0
+	2600 4600 3300 4600
+Text Label 3300 4300 2    39   ~ 0
 NORTH_THERM2_N
-Text Label 3100 3800 2    39   ~ 0
+Text Label 3300 4400 2    39   ~ 0
 NORTH_THERM2_P
 Wire Wire Line
-	2400 3700 3100 3700
+	2600 4300 3300 4300
 Wire Wire Line
-	2400 3800 3100 3800
-Text Label 3100 3500 2    39   ~ 0
+	2600 4400 3300 4400
+Text Label 3300 4100 2    39   ~ 0
 NORTH_THERM1_N
-Text Label 3100 3600 2    39   ~ 0
+Text Label 3300 4200 2    39   ~ 0
 NORTH_THERM1_P
 Wire Wire Line
-	2400 3500 3100 3500
+	2600 4100 3300 4100
 Wire Wire Line
-	2400 3600 3100 3600
+	2600 4200 3300 4200
 $Comp
 L Connector_Generic:Conn_01x20 J?
 U 1 1 6225C00E
-P 2200 4400
+P 2400 5000
 AR Path="/6225C00E" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/6225C00E" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/62249708/6225C00E" Ref="J501"  Part="1" 
-F 0 "J501" H 2150 5550 50  0000 L CNN
-F 1 "NORTH CELL CONN" H 1850 5450 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2200 4400 50  0001 C CNN
-F 3 "~" H 2200 4400 50  0001 C CNN
-F 4 "WM4726-ND" H 2200 4400 50  0001 C CNN "Digikey"
-	1    2200 4400
+F 0 "J501" H 2350 6150 50  0000 L CNN
+F 1 "NORTH CELL CONN" H 2050 6050 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2400 5000 50  0001 C CNN
+F 3 "~" H 2400 5000 50  0001 C CNN
+F 4 "WM4726-ND" H 2400 5000 50  0001 C CNN "Digikey"
+	1    2400 5000
 	-1   0    0    -1  
 $EndComp
-Text Label 3100 5200 2    39   ~ 0
+Text Label 3300 5800 2    39   ~ 0
 NORTH_CELL6
-Text Label 3100 5100 2    39   ~ 0
+Text Label 3300 5700 2    39   ~ 0
 NORTH_CELL5
-Text Label 3100 5000 2    39   ~ 0
+Text Label 3300 5600 2    39   ~ 0
 NORTH_CELL4
-Text Label 3100 4900 2    39   ~ 0
+Text Label 3300 5500 2    39   ~ 0
 NORTH_CELL3
-Text Label 3100 4800 2    39   ~ 0
+Text Label 3300 5400 2    39   ~ 0
 NORTH_CELL2
-Text Label 3100 4700 2    39   ~ 0
+Text Label 3300 5300 2    39   ~ 0
 NORTH_CELL1
-Text Label 3100 4600 2    39   ~ 0
+Text Label 3300 5200 2    39   ~ 0
 NORTH_CELL0
 Wire Wire Line
-	2400 4600 3100 4600
+	2600 5200 3300 5200
 Wire Wire Line
-	2400 4700 3100 4700
+	2600 5300 3300 5300
 Wire Wire Line
-	2400 4800 3100 4800
+	2600 5400 3300 5400
 Wire Wire Line
-	2400 4900 3100 4900
+	2600 5500 3300 5500
 Wire Wire Line
-	2400 5000 3100 5000
+	2600 5600 3300 5600
 Wire Wire Line
-	2400 5100 3100 5100
+	2600 5700 3300 5700
 Wire Wire Line
-	2400 5200 3100 5200
-Text Label 3100 3000 2    39   ~ 0
+	2600 5800 3300 5800
+Text Label 3300 3600 2    39   ~ 0
 SOUTH_THERM6_N
-Text Label 3100 2000 2    39   ~ 0
+Text Label 3300 2600 2    39   ~ 0
 SOUTH_THERM6_P
 Wire Wire Line
-	2400 3000 3100 3000
+	2600 3600 3300 3600
 Wire Wire Line
-	2400 2000 3100 2000
-Text Label 3100 2900 2    39   ~ 0
+	2600 2600 3300 2600
+Text Label 3300 3500 2    39   ~ 0
 SOUTH_THERM5_N
-Text Label 3100 1900 2    39   ~ 0
+Text Label 3300 2500 2    39   ~ 0
 SOUTH_THERM5_P
 Wire Wire Line
-	2400 2900 3100 2900
+	2600 3500 3300 3500
 Wire Wire Line
-	2400 1900 3100 1900
-Text Label 3100 1700 2    39   ~ 0
+	2600 2500 3300 2500
+Text Label 3300 2300 2    39   ~ 0
 SOUTH_THERM4_N
-Text Label 3100 1800 2    39   ~ 0
+Text Label 3300 2400 2    39   ~ 0
 SOUTH_THERM4_P
 Wire Wire Line
-	2400 1700 3100 1700
+	2600 2300 3300 2300
 Wire Wire Line
-	2400 1800 3100 1800
-Text Label 3100 1500 2    39   ~ 0
+	2600 2400 3300 2400
+Text Label 3300 2100 2    39   ~ 0
 SOUTH_THERM3_N
-Text Label 3100 1600 2    39   ~ 0
+Text Label 3300 2200 2    39   ~ 0
 SOUTH_THERM3_P
 Wire Wire Line
-	2400 1500 3100 1500
+	2600 2100 3300 2100
 Wire Wire Line
-	2400 1600 3100 1600
-Text Label 3100 1300 2    39   ~ 0
+	2600 2200 3300 2200
+Text Label 3300 1900 2    39   ~ 0
 SOUTH_THERM2_N
-Text Label 3100 1400 2    39   ~ 0
+Text Label 3300 2000 2    39   ~ 0
 SOUTH_THERM2_P
 Wire Wire Line
-	2400 1300 3100 1300
+	2600 1900 3300 1900
 Wire Wire Line
-	2400 1400 3100 1400
-Text Label 3100 1100 2    39   ~ 0
+	2600 2000 3300 2000
+Text Label 3300 1700 2    39   ~ 0
 SOUTH_THERM1_N
-Text Label 3100 1200 2    39   ~ 0
+Text Label 3300 1800 2    39   ~ 0
 SOUTH_THERM1_P
 Wire Wire Line
-	2400 1100 3100 1100
+	2600 1700 3300 1700
 Wire Wire Line
-	2400 1200 3100 1200
+	2600 1800 3300 1800
 $Comp
 L Connector_Generic:Conn_01x20 J?
 U 1 1 6225C04F
-P 2200 2000
+P 2400 2600
 AR Path="/6225C04F" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/6225C04F" Ref="J?"  Part="1" 
 AR Path="/5FD4A06E/62249708/6225C04F" Ref="J500"  Part="1" 
-F 0 "J500" H 2150 3150 50  0000 L CNN
-F 1 "SOUTH CELL CONN" H 1850 3050 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2200 2000 50  0001 C CNN
-F 3 "~" H 2200 2000 50  0001 C CNN
-F 4 "WM4726-ND" H 2200 2000 50  0001 C CNN "Digikey"
-	1    2200 2000
+F 0 "J500" H 2350 3750 50  0000 L CNN
+F 1 "SOUTH CELL CONN" H 2050 3650 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal" H 2400 2600 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+F 4 "WM4726-ND" H 2400 2600 50  0001 C CNN "Digikey"
+	1    2400 2600
 	-1   0    0    -1  
 $EndComp
-Text Label 3100 2800 2    39   ~ 0
+Text Label 3300 3400 2    39   ~ 0
 SOUTH_CELL6
-Text Label 3100 2700 2    39   ~ 0
+Text Label 3300 3300 2    39   ~ 0
 SOUTH_CELL5
-Text Label 3100 2600 2    39   ~ 0
+Text Label 3300 3200 2    39   ~ 0
 SOUTH_CELL4
-Text Label 3100 2500 2    39   ~ 0
+Text Label 3300 3100 2    39   ~ 0
 SOUTH_CELL3
-Text Label 3100 2400 2    39   ~ 0
+Text Label 3300 3000 2    39   ~ 0
 SOUTH_CELL2
-Text Label 3100 2300 2    39   ~ 0
+Text Label 3300 2900 2    39   ~ 0
 SOUTH_CELL1
-Text Label 3100 2200 2    39   ~ 0
+Text Label 3300 2800 2    39   ~ 0
 SOUTH_CELL0
 Wire Wire Line
-	2400 2200 3100 2200
+	2600 2800 3300 2800
 Wire Wire Line
-	2400 2300 3100 2300
+	2600 2900 3300 2900
 Wire Wire Line
-	2400 2400 3100 2400
+	2600 3000 3300 3000
 Wire Wire Line
-	2400 2500 3100 2500
+	2600 3100 3300 3100
 Wire Wire Line
-	2400 2600 3100 2600
+	2600 3200 3300 3200
 Wire Wire Line
-	2400 2700 3100 2700
+	2600 3300 3300 3300
 Wire Wire Line
-	2400 2800 3100 2800
+	2600 3400 3300 3400
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 62266D05
@@ -460,10 +460,8 @@ Wire Wire Line
 	-700 7050 -700 3850
 Wire Wire Line
 	-700 3850 -600 3850
-Text Notes -4350 350  0    157  ~ 31
-WIRING DIAGRAM BY CELL BLOCK
-Text Notes 5900 3800 0    157  ~ 31
-PINOUT TBD UNTIL LAYOUT BEGINS
+Text Notes -3500 450  0    157  ~ 31
+Wiring Diagram
 $Comp
 L Device:Thermistor TH?
 U 1 1 6336C00C
@@ -1992,80 +1990,132 @@ Wire Wire Line
 	-3300 6650 -800 6650
 Wire Wire Line
 	-3300 7050 -700 7050
-Text GLabel 3100 2800 2    39   Input ~ 0
+Text GLabel 3300 3400 2    39   Input ~ 0
 SOUTH_CELL_6
-Text GLabel 3100 2700 2    39   Input ~ 0
+Text GLabel 3300 3300 2    39   Input ~ 0
 SOUTH_CELL_5
-Text GLabel 3100 2600 2    39   Input ~ 0
+Text GLabel 3300 3200 2    39   Input ~ 0
 SOUTH_CELL_4
-Text GLabel 3100 2500 2    39   Input ~ 0
+Text GLabel 3300 3100 2    39   Input ~ 0
 SOUTH_CELL_3
-Text GLabel 3100 2400 2    39   Input ~ 0
+Text GLabel 3300 3000 2    39   Input ~ 0
 SOUTH_CELL_2
-Text GLabel 3100 2300 2    39   Input ~ 0
+Text GLabel 3300 2900 2    39   Input ~ 0
 SOUTH_CELL_1
-Text GLabel 3100 2200 2    39   Input ~ 0
+Text GLabel 3300 2800 2    39   Input ~ 0
 SOUTH_CELL_0
-Text GLabel 3100 1200 2    39   Input ~ 0
+Text GLabel 3300 1800 2    39   Input ~ 0
 SOUTH_THERM1_P
-Text GLabel 3100 1100 2    39   Input ~ 0
+Text GLabel 3300 1700 2    39   Input ~ 0
 SOUTH_THERM1_N
-Text GLabel 3100 1400 2    39   Input ~ 0
+Text GLabel 3300 2000 2    39   Input ~ 0
 SOUTH_THERM2_P
-Text GLabel 3100 1600 2    39   Input ~ 0
+Text GLabel 3300 2200 2    39   Input ~ 0
 SOUTH_THERM3_P
-Text GLabel 3100 1500 2    39   Input ~ 0
+Text GLabel 3300 2100 2    39   Input ~ 0
 SOUTH_THERM3_N
-Text GLabel 3100 1800 2    39   Input ~ 0
+Text GLabel 3300 2400 2    39   Input ~ 0
 SOUTH_THERM4_P
-Text GLabel 3100 1700 2    39   Input ~ 0
+Text GLabel 3300 2300 2    39   Input ~ 0
 SOUTH_THERM4_N
-Text GLabel 3100 1900 2    39   Input ~ 0
+Text GLabel 3300 2500 2    39   Input ~ 0
 SOUTH_THERM5_P
-Text GLabel 3100 2900 2    39   Input ~ 0
+Text GLabel 3300 3500 2    39   Input ~ 0
 SOUTH_THERM5_N
-Text GLabel 3100 2000 2    39   Input ~ 0
+Text GLabel 3300 2600 2    39   Input ~ 0
 SOUTH_THERM6_P
-Text GLabel 3100 3000 2    39   Input ~ 0
+Text GLabel 3300 3600 2    39   Input ~ 0
 SOUTH_THERM6_N
-Text GLabel 3100 1300 2    39   Input ~ 0
+Text GLabel 3300 1900 2    39   Input ~ 0
 SOUTH_THERM2_N
-Text GLabel 3100 5200 2    39   Input ~ 0
+Text GLabel 3300 5800 2    39   Input ~ 0
 NORTH_CELL_6
-Text GLabel 3100 5100 2    39   Input ~ 0
+Text GLabel 3300 5700 2    39   Input ~ 0
 NORTH_CELL_5
-Text GLabel 3100 5000 2    39   Input ~ 0
+Text GLabel 3300 5600 2    39   Input ~ 0
 NORTH_CELL_4
-Text GLabel 3100 4900 2    39   Input ~ 0
+Text GLabel 3300 5500 2    39   Input ~ 0
 NORTH_CELL_3
-Text GLabel 3100 4800 2    39   Input ~ 0
+Text GLabel 3300 5400 2    39   Input ~ 0
 NORTH_CELL_2
-Text GLabel 3100 4700 2    39   Input ~ 0
+Text GLabel 3300 5300 2    39   Input ~ 0
 NORTH_CELL_1
-Text GLabel 3100 4600 2    39   Input ~ 0
+Text GLabel 3300 5200 2    39   Input ~ 0
 NORTH_CELL_0
-Text GLabel 3100 3600 2    39   Input ~ 0
+Text GLabel 3300 4200 2    39   Input ~ 0
 NORTH_THERM1_P
-Text GLabel 3100 3500 2    39   Input ~ 0
+Text GLabel 3300 4100 2    39   Input ~ 0
 NORTH_THERM1_N
-Text GLabel 3100 3800 2    39   Input ~ 0
+Text GLabel 3300 4400 2    39   Input ~ 0
 NORTH_THERM2_P
-Text GLabel 3100 4000 2    39   Input ~ 0
+Text GLabel 3300 4600 2    39   Input ~ 0
 NORTH_THERM3_P
-Text GLabel 3100 3900 2    39   Input ~ 0
+Text GLabel 3300 4500 2    39   Input ~ 0
 NORTH_THERM3_N
-Text GLabel 3100 4200 2    39   Input ~ 0
+Text GLabel 3300 4800 2    39   Input ~ 0
 NORTH_THERM4_P
-Text GLabel 3100 4100 2    39   Input ~ 0
+Text GLabel 3300 4700 2    39   Input ~ 0
 NORTH_THERM4_N
-Text GLabel 3100 4300 2    39   Input ~ 0
+Text GLabel 3300 4900 2    39   Input ~ 0
 NORTH_THERM5_P
-Text GLabel 3100 5300 2    39   Input ~ 0
+Text GLabel 3300 5900 2    39   Input ~ 0
 NORTH_THERM5_N
-Text GLabel 3100 4400 2    39   Input ~ 0
+Text GLabel 3300 5000 2    39   Input ~ 0
 NORTH_THERM6_P
-Text GLabel 3100 5400 2    39   Input ~ 0
+Text GLabel 3300 6000 2    39   Input ~ 0
 NORTH_THERM6_N
-Text GLabel 3100 3700 2    39   Input ~ 0
+Text GLabel 3300 4300 2    39   Input ~ 0
 NORTH_THERM2_N
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO3
+U 1 1 5EBD08D5
+P 8450 1500
+F 0 "#LOGO3" H 8450 1775 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8450 1275 50  0001 C CNN
+F 2 "" H 8450 1500 50  0001 C CNN
+F 3 "~" H 8450 1500 50  0001 C CNN
+F 4 "P/N for harness side connector" H 8450 1794 50  0000 C CNN "Note"
+F 5 "WM2492-ND" H 8450 1500 50  0001 C CNN "Digikey"
+	1    8450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO2
+U 1 1 5EBD0FBE
+P 8450 950
+F 0 "#LOGO2" H 8450 1225 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8450 725 50  0001 C CNN
+F 2 "" H 8450 950 50  0001 C CNN
+F 3 "~" H 8450 950 50  0001 C CNN
+F 4 "P/N for pre-crimped molex leads" H 8450 1244 50  0000 C CNN "Note"
+F 5 "WM12448-ND" H 8450 950 50  0001 C CNN "Digikey"
+	1    8450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO4
+U 1 1 5EBD1472
+P 9700 950
+F 0 "#LOGO4" H 9700 1225 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9700 725 50  0001 C CNN
+F 2 "" H 9700 950 50  0001 C CNN
+F 3 "~" H 9700 950 50  0001 C CNN
+F 4 "P/N for molex terminals" H 9700 1244 50  0000 C CNN "Note"
+F 5 "WM1837CT-ND" H 9700 950 50  0001 C CNN "Digikey"
+	1    9700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO5
+U 1 1 5EBD2745
+P 9700 1500
+F 0 "#LOGO5" H 9700 1775 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9700 1275 50  0001 C CNN
+F 2 "" H 9700 1500 50  0001 C CNN
+F 3 "~" H 9700 1500 50  0001 C CNN
+F 4 "P/N for XT30 Harness-side" H 9700 1794 50  0000 C CNN "Note"
+F 5 "1738-1436-ND" H 9700 1500 50  0001 C CNN "Digikey"
+	1    9700 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
