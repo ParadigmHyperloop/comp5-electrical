@@ -744,6 +744,7 @@ F 0 "C110" H 7492 2296 50  0000 L CNN
 F 1 "2200pF" H 7492 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 2250 50  0001 C CNN
 F 3 "~" H 7400 2250 50  0001 C CNN
+F 4 "399-7880-1-ND" H 7400 2250 50  0001 C CNN "Digikey"
 	1    7400 2250
 	1    0    0    -1  
 $EndComp
@@ -1200,6 +1201,7 @@ F 0 "U101" H 4000 2750 50  0000 C CNN
 F 1 "STM32F303RETx" H 4000 2650 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 2800 2850 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf" H 3400 4550 50  0001 C CNN
+F 4 "" H 3400 4550 50  0001 C CNN "Digikey"
 	1    3400 4550
 	1    0    0    -1  
 $EndComp

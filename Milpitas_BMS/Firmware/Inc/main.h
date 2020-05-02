@@ -29,6 +29,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f3xx_hal.h"
+#include "diagsUART.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -58,6 +59,52 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define I_CHG_Pin GPIO_PIN_0
+#define I_CHG_GPIO_Port GPIOC
+#define V_CHG_Pin GPIO_PIN_1
+#define V_CHG_GPIO_Port GPIOC
+#define I_DIS_Pin GPIO_PIN_0
+#define I_DIS_GPIO_Port GPIOA
+#define V_DIS_Pin GPIO_PIN_1
+#define V_DIS_GPIO_Port GPIOA
+#define I_BATT_Pin GPIO_PIN_2
+#define I_BATT_GPIO_Port GPIOA
+#define V_BATT_Pin GPIO_PIN_3
+#define V_BATT_GPIO_Port GPIOA
+#define DIAGS_P_Pin GPIO_PIN_4
+#define DIAGS_P_GPIO_Port GPIOC
+#define DIAGS_N_Pin GPIO_PIN_5
+#define DIAGS_N_GPIO_Port GPIOC
+#define USER_BUTTON_Pin GPIO_PIN_0
+#define USER_BUTTON_GPIO_Port GPIOB
+#define BMS_WAKE_N_Pin GPIO_PIN_1
+#define BMS_WAKE_N_GPIO_Port GPIOB
+#define BMS_UART_N_Pin GPIO_PIN_10
+#define BMS_UART_N_GPIO_Port GPIOB
+#define BMS_UART_P_Pin GPIO_PIN_11
+#define BMS_UART_P_GPIO_Port GPIOB
+#define BATT_LED_Pin GPIO_PIN_8
+#define BATT_LED_GPIO_Port GPIOC
+#define CHG_LED_Pin GPIO_PIN_9
+#define CHG_LED_GPIO_Port GPIOC
+#define DIS_LED_Pin GPIO_PIN_8
+#define DIS_LED_GPIO_Port GPIOA
+#define SM0_LED_Pin GPIO_PIN_9
+#define SM0_LED_GPIO_Port GPIOA
+#define SM1_OUTPUT_Pin GPIO_PIN_10
+#define SM1_OUTPUT_GPIO_Port GPIOA
+#define BATT_ON_Pin GPIO_PIN_10
+#define BATT_ON_GPIO_Port GPIOC
+#define BATT_FAULT_Pin GPIO_PIN_11
+#define BATT_FAULT_GPIO_Port GPIOC
+#define DIS_ON_Pin GPIO_PIN_12
+#define DIS_ON_GPIO_Port GPIOC
+#define DIS_FAULT_Pin GPIO_PIN_2
+#define DIS_FAULT_GPIO_Port GPIOD
+#define CHG_ON_Pin GPIO_PIN_5
+#define CHG_ON_GPIO_Port GPIOB
+#define CHG_FAULT_Pin GPIO_PIN_6
+#define CHG_FAULT_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

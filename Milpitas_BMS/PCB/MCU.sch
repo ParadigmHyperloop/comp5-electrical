@@ -4192,4 +4192,6 @@ EndData
 $EndBitmap
 Text Notes 13600 2750 0    39   ~ 0
 CAN Pinout
+Text Notes 4300 5950 0    39   ~ 0
+STM32_UART_P = STM32_RX\nSTM32_UART_N = STM32_TX
 $EndSCHEMATC
