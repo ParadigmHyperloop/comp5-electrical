@@ -3434,4 +3434,240 @@ Wire Wire Line
 	4200 7100 4200 7200
 Wire Wire Line
 	3700 7100 3700 7200
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5EC33C27
+P 3300 -1750
+F 0 "Q?" V 3549 -1750 50  0000 C CNN
+F 1 "Q_NMOS_DGS" V 3640 -1750 50  0000 C CNN
+F 2 "" H 3500 -1650 50  0001 C CNN
+F 3 "~" H 3300 -1750 50  0001 C CNN
+	1    3300 -1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC349C9
+P 2800 -2500
+F 0 "R?" H 2870 -2454 50  0000 L CNN
+F 1 "R" H 2870 -2545 50  0000 L CNN
+F 2 "" V 2730 -2500 50  0001 C CNN
+F 3 "~" H 2800 -2500 50  0001 C CNN
+	1    2800 -2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC34D90
+P 2800 -2000
+F 0 "R?" H 2870 -1954 50  0000 L CNN
+F 1 "R" H 2870 -2045 50  0000 L CNN
+F 2 "" V 2730 -2000 50  0001 C CNN
+F 3 "~" H 2800 -2000 50  0001 C CNN
+	1    2800 -2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 -2650 2800 -2750
+Wire Wire Line
+	2800 -1850 2800 -1650
+Wire Wire Line
+	2800 -1650 3100 -1650
+Connection ~ 2800 -1650
+Wire Wire Line
+	2800 -2350 2800 -2250
+Wire Wire Line
+	3300 -1950 3300 -2250
+Wire Wire Line
+	3300 -2250 2800 -2250
+Connection ~ 2800 -2250
+Wire Wire Line
+	2800 -2250 2800 -2150
+$Comp
+L Device:D D?
+U 1 1 5EC3B767
+P 1450 -1900
+F 0 "D?" V 1404 -1821 50  0000 L CNN
+F 1 "D" V 1495 -1821 50  0000 L CNN
+F 2 "" H 1450 -1900 50  0001 C CNN
+F 3 "~" H 1450 -1900 50  0001 C CNN
+	1    1450 -1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5EC3C3BC
+P 1950 -2400
+F 0 "D?" V 1904 -2321 50  0000 L CNN
+F 1 "D_Zener" V 1995 -2321 50  0000 L CNN
+F 2 "" H 1950 -2400 50  0001 C CNN
+F 3 "~" H 1950 -2400 50  0001 C CNN
+	1    1950 -2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC3CB0A
+P 1950 -2000
+F 0 "R?" H 2020 -1954 50  0000 L CNN
+F 1 "R" H 2020 -2045 50  0000 L CNN
+F 2 "" V 1880 -2000 50  0001 C CNN
+F 3 "~" H 1950 -2000 50  0001 C CNN
+	1    1950 -2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_SCR_AGK D?
+U 1 1 5EC404A9
+P 2400 -2300
+F 0 "D?" H 2488 -2254 50  0000 L CNN
+F 1 "Q_SCR" H 2488 -2345 50  0000 L CNN
+F 2 "" V 2400 -2300 50  0001 C CNN
+F 3 "~" V 2400 -2300 50  0001 C CNN
+	1    2400 -2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 -2450 2400 -2750
+Connection ~ 2400 -2750
+Wire Wire Line
+	2400 -2750 2800 -2750
+Wire Wire Line
+	2250 -2200 1950 -2200
+Wire Wire Line
+	1950 -2200 1950 -2250
+Wire Wire Line
+	1950 -2150 1950 -2200
+Connection ~ 1950 -2200
+Wire Wire Line
+	1950 -1650 1950 -1850
+Wire Wire Line
+	1950 -1650 2400 -1650
+Wire Wire Line
+	1950 -2550 1950 -2750
+Wire Wire Line
+	1950 -2750 2400 -2750
+Wire Wire Line
+	2400 -2150 2400 -1650
+Connection ~ 2400 -1650
+Wire Wire Line
+	2400 -1650 2800 -1650
+Connection ~ 1950 -1650
+Connection ~ 1950 -2750
+$Comp
+L Device:D_Zener D?
+U 1 1 5EC5ABA0
+P 7100 -4250
+F 0 "D?" V 7054 -4171 50  0000 L CNN
+F 1 "D_Zener" V 7145 -4171 50  0000 L CNN
+F 2 "" H 7100 -4250 50  0001 C CNN
+F 3 "~" H 7100 -4250 50  0001 C CNN
+	1    7100 -4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC5ABA6
+P 7100 -4650
+F 0 "R?" H 7170 -4604 50  0000 L CNN
+F 1 "R" H 7170 -4695 50  0000 L CNN
+F 2 "" V 7030 -4650 50  0001 C CNN
+F 3 "~" H 7100 -4650 50  0001 C CNN
+	1    7100 -4650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_SCR_AGK D?
+U 1 1 5EC5ABAC
+P 7550 -4350
+F 0 "D?" H 7638 -4304 50  0000 L CNN
+F 1 "Q_SCR" H 7638 -4395 50  0000 L CNN
+F 2 "" V 7550 -4350 50  0001 C CNN
+F 3 "~" V 7550 -4350 50  0001 C CNN
+	1    7550 -4350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7550 -4200 7550 -3900
+Wire Wire Line
+	7400 -4450 7100 -4450
+Wire Wire Line
+	7100 -4450 7100 -4400
+Wire Wire Line
+	7100 -4500 7100 -4450
+Connection ~ 7100 -4450
+Wire Wire Line
+	7100 -5000 7100 -4800
+Wire Wire Line
+	7100 -4100 7100 -3900
+Wire Wire Line
+	7550 -4500 7550 -5000
+Wire Wire Line
+	2800 -2750 3700 -2750
+Connection ~ 2800 -2750
+Wire Wire Line
+	3500 -1650 4050 -1650
+Connection ~ 1450 -2750
+Wire Wire Line
+	1450 -2750 1950 -2750
+Wire Wire Line
+	1450 -1650 1450 -1750
+Connection ~ 1450 -1650
+Wire Wire Line
+	1450 -1650 1950 -1650
+Wire Wire Line
+	1450 -2750 1450 -2500
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 5EC907DB
+P 1350 -2300
+F 0 "Q?" H 1554 -2254 50  0000 L CNN
+F 1 "Q_PMOS" H 1554 -2345 50  0000 L CNN
+F 2 "" H 1550 -2200 50  0001 C CNN
+F 3 "~" H 1350 -2300 50  0001 C CNN
+	1    1350 -2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 -2050 1450 -2100
+Wire Wire Line
+	1150 -2300 1000 -2300
+$Comp
+L Device:Fuse F?
+U 1 1 5ECA538B
+P 3850 -2750
+F 0 "F?" V 3653 -2750 50  0000 C CNN
+F 1 "Fuse" V 3744 -2750 50  0000 C CNN
+F 2 "" V 3780 -2750 50  0001 C CNN
+F 3 "~" H 3850 -2750 50  0001 C CNN
+	1    3850 -2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 -2750 4200 -2750
+Text Notes 4100 -2950 0    39   ~ 0
+to MCU ->
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5ECA9C4A
+P -350 -2300
+F 0 "J?" H -458 -2625 50  0000 C CNN
+F 1 "Conn_01x02_Female" H -458 -2534 50  0000 C CNN
+F 2 "" H -350 -2300 50  0001 C CNN
+F 3 "~" H -350 -2300 50  0001 C CNN
+	1    -350 -2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-50  -1650 -50  -2300
+Wire Wire Line
+	-50  -2300 -150 -2300
+Wire Wire Line
+	-50  -1650 1450 -1650
+Wire Wire Line
+	50   -2750 50   -2400
+Wire Wire Line
+	50   -2400 -150 -2400
+Wire Wire Line
+	50   -2750 1450 -2750
 $EndSCHEMATC

@@ -101,8 +101,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
   MX_ADC1_Init();
-  /* USER CODE BEGIN 2 */
 
+  /* USER CODE BEGIN 2 */
+  diagsUARTInit(&huart1);
 
   /* USER CODE END 2 */
  
@@ -112,9 +113,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
+    //HAL_GPIO_TogglePin(GPIOC, CHG_LED_Pin);
+    //HAL_GPIO_TogglePin(GPIOA, SM0_LED_Pin);
+    //HAL_GPIO_TogglePin(GPIOA, SM1_OUTPUT_Pin);
+	debugToggleLED(GPIOA, SM0_LED_Pin);
+	debugPrintLine("tiddies");
+    HAL_Delay(1400);
   }
   /* USER CODE END 3 */
 }
@@ -282,9 +286,9 @@ static void MX_USART1_UART_Init(void)
 
   /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 38400;
-  huart1.Init.WordLength = UART_WORDLENGTH_8B;
-  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.BaudRate = 250000;									// BQ requires 250k baud rate
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;						// BQ requires 8 data bits
+  huart1.Init.StopBits = UART_STOPBITS_1;							// BQ requires one stop bit
   huart1.Init.Parity = UART_PARITY_NONE;
   huart1.Init.Mode = UART_MODE_TX_RX;
   huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
@@ -317,7 +321,7 @@ static void MX_USART3_UART_Init(void)
 
   /* USER CODE END USART3_Init 1 */
   huart3.Instance = USART3;
-  huart3.Init.BaudRate = 38400;
+  huart3.Init.BaudRate = 9600;
   huart3.Init.WordLength = UART_WORDLENGTH_8B;
   huart3.Init.StopBits = UART_STOPBITS_1;
   huart3.Init.Parity = UART_PARITY_NONE;

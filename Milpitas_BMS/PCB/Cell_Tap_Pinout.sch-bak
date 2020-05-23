@@ -2069,53 +2069,53 @@ NORTH_THERM2_N
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO3
 U 1 1 5EBD08D5
-P 8450 1500
-F 0 "#LOGO3" H 8450 1775 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 8450 1275 50  0001 C CNN
-F 2 "" H 8450 1500 50  0001 C CNN
-F 3 "~" H 8450 1500 50  0001 C CNN
-F 4 "P/N for harness side connector" H 8450 1794 50  0000 C CNN "Note"
-F 5 "WM2492-ND" H 8450 1500 50  0001 C CNN "Digikey"
-	1    8450 1500
+P 7600 3650
+F 0 "#LOGO3" H 7600 3925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7600 3425 50  0001 C CNN
+F 2 "" H 7600 3650 50  0001 C CNN
+F 3 "~" H 7600 3650 50  0001 C CNN
+F 4 "P/N for harness side connector" H 7600 3944 50  0000 C CNN "Note"
+F 5 "WM2492-ND" H 7600 3650 50  0001 C CNN "Digikey"
+	1    7600 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO2
 U 1 1 5EBD0FBE
-P 8450 950
-F 0 "#LOGO2" H 8450 1225 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 8450 725 50  0001 C CNN
-F 2 "" H 8450 950 50  0001 C CNN
-F 3 "~" H 8450 950 50  0001 C CNN
-F 4 "P/N for pre-crimped molex leads" H 8450 1244 50  0000 C CNN "Note"
-F 5 "WM12448-ND" H 8450 950 50  0001 C CNN "Digikey"
-	1    8450 950 
+P 7600 3100
+F 0 "#LOGO2" H 7600 3375 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7600 2875 50  0001 C CNN
+F 2 "" H 7600 3100 50  0001 C CNN
+F 3 "~" H 7600 3100 50  0001 C CNN
+F 4 "P/N for pre-crimped molex leads" H 7600 3394 50  0000 C CNN "Note"
+F 5 "WM12448-ND" H 7600 3100 50  0001 C CNN "Digikey"
+	1    7600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO4
 U 1 1 5EBD1472
-P 9700 950
-F 0 "#LOGO4" H 9700 1225 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 9700 725 50  0001 C CNN
-F 2 "" H 9700 950 50  0001 C CNN
-F 3 "~" H 9700 950 50  0001 C CNN
-F 4 "P/N for molex terminals" H 9700 1244 50  0000 C CNN "Note"
-F 5 "WM1837CT-ND" H 9700 950 50  0001 C CNN "Digikey"
-	1    9700 950 
+P 8850 3100
+F 0 "#LOGO4" H 8850 3375 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8850 2875 50  0001 C CNN
+F 2 "" H 8850 3100 50  0001 C CNN
+F 3 "~" H 8850 3100 50  0001 C CNN
+F 4 "P/N for molex terminals" H 8850 3394 50  0000 C CNN "Note"
+F 5 "WM1837CT-ND" H 8850 3100 50  0001 C CNN "Digikey"
+	1    8850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO5
 U 1 1 5EBD2745
-P 9700 1500
-F 0 "#LOGO5" H 9700 1775 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 9700 1275 50  0001 C CNN
-F 2 "" H 9700 1500 50  0001 C CNN
-F 3 "~" H 9700 1500 50  0001 C CNN
-F 4 "P/N for XT30 Harness-side" H 9700 1794 50  0000 C CNN "Note"
-F 5 "1738-1436-ND" H 9700 1500 50  0001 C CNN "Digikey"
-	1    9700 1500
+P 8850 3650
+F 0 "#LOGO5" H 8850 3925 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8850 3425 50  0001 C CNN
+F 2 "" H 8850 3650 50  0001 C CNN
+F 3 "~" H 8850 3650 50  0001 C CNN
+F 4 "P/N for XT30 Harness-side" H 8850 3944 50  0000 C CNN "Note"
+F 5 "1738-1436-ND" H 8850 3650 50  0001 C CNN "Digikey"
+	1    8850 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

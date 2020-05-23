@@ -29,11 +29,11 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f3xx_hal.h"
-#include "diagsUART.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "diags_UART.h"
+#include "BQ79606A.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
