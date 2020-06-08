@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AP2114H-3.3TRG1
+#
+DEF AP2114H-3.3TRG1 U 0 40 Y Y 1 F N
+F0 "U" -200 -250 50 H V C CNN
+F1 "AP2114H-3.3TRG1" 0 150 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-3-3TRG1/AP2114H-3-3TRG1DICT-ND/4505142" 0 0 50 H I C CNN "Digikey"
+F5 "AP2114H-3.3TRG1" 0 0 50 H I C CNN "Part Number"
+DRAW
+S -200 -200 200 75 1 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
