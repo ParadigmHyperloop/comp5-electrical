@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PCB_Mojave-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -200,19 +199,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 900  4550 900 
 Connection ~ 4150 900 
-$Comp
-L PCB_Mojave_Lib:AP2114H-3.3TRG1 U?
-U 1 1 5ED4A91B
-P 5050 900
-F 0 "U?" H 5050 1142 50  0000 C CNN
-F 1 "AP2114H-3.3TRG1" H 5050 1051 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5050 900 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 5050 900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP2114H-3-3TRG1/AP2114H-3-3TRG1DICT-ND/4505142" H 5050 900 50  0001 C CNN "Digikey"
-F 5 "AP2114H-3.3TRG1" H 5050 900 50  0001 C CNN "Part Number"
-	1    5050 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5050 1300 5050 1200
 $Comp
@@ -735,6 +721,17 @@ F 1 "GND" H 2505 2977 50  0000 C CNN
 F 2 "" H 2500 3150 50  0001 C CNN
 F 3 "" H 2500 3150 50  0001 C CNN
 	1    2500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Hyperlib:AP2114H-3.3TRG1 U?
+U 1 1 5EDF2120
+P 5050 950
+F 0 "U?" H 5050 1265 50  0000 C CNN
+F 1 "AP2114H-3.3TRG1" H 5050 1174 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5000 1000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 5000 1000 50  0001 C CNN
+	1    5050 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

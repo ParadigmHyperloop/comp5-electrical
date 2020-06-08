@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name PCB_Mojave_Lib)(type Legacy)(uri ${KIPRJMOD}/PCB_Mojave_Lib.lib)(options "")(descr ""))
+  (lib (name Hyperlib)(type Legacy)(uri ${KIPRJMOD}/../../Hyperlib/Hyperlib.lib)(options "")(descr ""))
 )
