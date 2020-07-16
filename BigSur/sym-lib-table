@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BigSurLib)(type Legacy)(uri ${KIPRJMOD}/BigSurLib.lib)(options "")(descr ""))
+  (lib (name GeneralMCU-Example)(type Legacy)(uri ${KIPRJMOD}/GeneralMCU-Example.lib)(options "")(descr ""))
+  (lib (name BigSur-rescue)(type Legacy)(uri ${KIPRJMOD}/BigSur-rescue.lib)(options "")(descr ""))
+)

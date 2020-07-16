@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G00W5-7
+D SINGLE 2 INPUT POSITIVE NAND GATE
+F https://www.diodes.com/assets/Datasheets/74LVC1G00.pdf
+$ENDCMP
+#
+$CMP ACS70331EESATR-2P5U3
+D High Sensitivity, 1 MHz, GMR-Based Current Sensor IC in Space-Saving, Low Resistance QFN
+F https://www.allegromicro.com/~/media/Files/Datasheets/ACS70331-Datasheet.ashx
+$ENDCMP
+#
+$CMP DRV103H
+D PWM LOW-SIDE DRIVER (1.5A and 3A)
+F https://www.ti.com/lit/ds/symlink/drv103.pdf
+$ENDCMP
+#
+$CMP DRV8806
+D DRV8806 Quad Serial Interface Low-Side Driver IC
+F http://www.ti.com/lit/ds/symlink/drv8806.pdf
+$ENDCMP
+#
+$CMP G5LE-1A-VDDC12
+D Relay, SPST-NO, 10A, 12V coil,
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5le.pdf
+$ENDCMP
+#
+$CMP MCP6L02T-E_MS
+D 1 MHz, 85 µA Op Amps
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22140b.pdf
+$ENDCMP
+#
+#End Doc Library
