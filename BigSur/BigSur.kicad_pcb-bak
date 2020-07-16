@@ -338,7 +338,7 @@
   )
 
   (module Silkscreen:j_logo (layer F.Cu) (tedit 0) (tstamp 5DE1D5F8)
-    (at 237.5 77.75)
+    (at 234.25 77.75)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
